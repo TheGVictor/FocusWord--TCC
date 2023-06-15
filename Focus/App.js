@@ -7,7 +7,7 @@ export default function App() {
       <Text  style = {styles.txt}>Shape em desenvolvimento!!!!</Text>
       <Image
       style = {styles.img} 
-      source = {require('./assets/a.png')} />
+      source = {{uri: 'https://sportsblogit.com/wp-content/uploads/2023/03/Gym-Rat-Photo.png'}} />
       <Text style = {styles.txt}>Volte mais tarde!</Text>
       <StatusBar style="auto" />
     </View>
@@ -28,6 +28,6 @@ const styles = StyleSheet.create({
   txt: {
     textAlign: 'center',
     fontWeight: 'bold',
-    fontSize: 35
+    fontSize: 25
   }
 });
