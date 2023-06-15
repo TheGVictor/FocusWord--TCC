@@ -31,3 +31,5 @@ const styles = StyleSheet.create({
     fontSize: 25
   }
 });
+
+// Comentario por murilo Barros 
