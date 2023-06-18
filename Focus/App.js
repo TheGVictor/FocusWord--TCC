@@ -1,13 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Image } from 'react-native';
+import { StyleSheet, Text, View, Image, ActivityIndicator } from 'react-native';
+import { styled } from 'styled-components'; // instalar no projeto local o styled-components: "npm install styled-components@latest"
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text  style = {styles.txt}>Shape em desenvolvimento!!!!</Text>
+      <Text  style = {styles.txt}>Desenvolvendo...</Text>
+      <ActivityIndicator size='large' style = {styles.loading}/>
       <Image
       style = {styles.img} 
-      source = {{uri: 'https://sportsblogit.com/wp-content/uploads/2023/03/Gym-Rat-Photo.png'}} />
+      source = {require('./src/assets/logoFocusWord.jpeg')} />
       <Text style = {styles.txt}>Volte mais tarde!</Text>
       <StatusBar style="auto" />
     </View>
@@ -17,7 +19,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#000',
+    backgroundColor: '#FCA001',
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -28,9 +30,15 @@ const styles = StyleSheet.create({
   txt: {
     textAlign: 'center',
     fontWeight: 'bold',
-    color:"#fff",
-    fontSize: 25
+    color:"#000",
+    fontSize: 25,
+    marginBottom: 10,
+    marginTop: 10
+  },
+  loading: {
+    marginBottom: 10,
   }
+
 });
 
 // Comentario por murilo Barros 
