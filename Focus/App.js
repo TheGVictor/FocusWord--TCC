@@ -1,11 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image, ActivityIndicator } from 'react-native';
-import { styled } from 'styled-components'; // instalar no projeto local o styled-components: "npm install styled-components@latest"
+import { styled } from 'styled-components';
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Text  style = {styles.txt}>Desenvolvendo...</Text>
+      <Subtitle>Testando!!</Subtitle>
       <ActivityIndicator size='large' style = {styles.loading}/>
       <Image
       style = {styles.img} 
@@ -41,4 +42,7 @@ const styles = StyleSheet.create({
 
 });
 
-// Comentario por murilo Barros 
+const Subtitle = styled.text``
+
+
+// Comentario por murilo Barros :)
