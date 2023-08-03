@@ -1,15 +1,19 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Image, ActivityIndicator } from 'react-native';
+import React from 'react';
+import { StyleSheet, Text, View, Image, ActivityIndicator, Animated } from 'react-native';
+import { Easing, Keyframe, RotateInDownLeft } from 'react-native-reanimated';
+import { keyframes, styled } from 'styled-components';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <ActivityIndicator size='large' style = {styles.loading}/>
 
       <Image
       style = {styles.logo} 
       source = {require('./src/images/Tela_carregamento/logoLoading.png')} />
-      <StatusBar style="auto" />
+      
+    <Image
+    style = {styles.circle}
+    source={require('./src/images/Tela_carregamento/circleLoading.png')}/>
 
       <Image
       style = {styles.logoAuth}
@@ -37,8 +41,13 @@ const styles = StyleSheet.create({
     height: 45,
     bottom: 10,
     position: 'absolute'
+  },
+
+  circle: {
+    width: 300,
+    height: 300,
+    position: 'absolute',
   }
 
-  
-});
 
+});
