@@ -1,6 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image, ActivityIndicator } from 'react-native';
-import { styled } from 'styled-components';
 
 export default function App() {
   return (
@@ -16,6 +15,7 @@ export default function App() {
       style = {styles.logoAuth}
       source = {require('./src/images/Tela_carregamento/logoAuth.png')}
       />
+
     </View>
   );
 }
