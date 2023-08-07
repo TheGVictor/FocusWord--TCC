@@ -8,15 +8,15 @@ export default function LoadingScreen() {
 
 <Image
       style = {styles.logo} 
-      source = {require('../images/Tela_carregamento/logoLoading.png')} />
+      source = {require('../../images/Tela_carregamento/logoLoading.png')} />
       
     <Image
     style = {styles.circle}
-    source={require('../images/Tela_carregamento/circleLoading.png')}/>
+    source={require('../../images/Tela_carregamento/circleLoading.png')}/>
 
       <Image
       style = {styles.logoAuth}
-      source = {require('../images/Tela_carregamento/logoAuth.png')}
+      source = {require('../../images/Tela_carregamento/logoAuth.png')}
       />
 
     </View>
