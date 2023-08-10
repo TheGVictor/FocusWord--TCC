@@ -6,8 +6,19 @@ export default function WordScreen() {
     return(
     <View style={styles.container}>
         <SafeAreaView style={styles.header}>
-            <Text style= {styles.textHeader}></Text>
+            <View style = {styles.headerContent}>
+            <Text style= {styles.textHeader}>03 <br/>Profissões</Text>
+        <View style={styles.textHeaderWords}>
+            07/07
+        </View>
+        <TouchableOpacity style = {styles.buttonConfigIcon}
+                        activeOpacity={0.5}>
+                           <Image
+                           style = {styles.configIcon}
+                           source = {require('../../images/TelaDoCacaPalavras/config.png')}/>
+                    </TouchableOpacity>
 
+        </View>
         </SafeAreaView>
     </View>
     )
