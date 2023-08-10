@@ -6,6 +6,17 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: '#FF6B00',
     },
+    mainContainer: {
+        flexDirection: 'row'
+    },
+
+    firstContainer: {
+
+    },
+    secondContainer: {
+        marginTop: 50,
+        marginLeft: 50
+    },
     header: {
         width: '100%',
         backgroundColor: '#6045e9',
@@ -39,7 +50,9 @@ rewardsArea: {
     // area de cada recompensa por setor
     rewardArea: {
         paddingTop: 15,
-        paddingLeft: 20
+        flexDirection: 'row',
+        width: '100%',
+        justifyContent: 'space-around',
     },
 
     rewardAreaText: {
@@ -65,6 +78,19 @@ rewardsArea: {
         shadowColor: '#000',
         shadowRadius: 10,
     },
+    rewardUnlocked: {
+        backgroundColor: '',
+        width: 'fit-content',
+        alignItems: 'center',
+        justifyContent: 'center',
+        paddingTop: 10,
+        paddingBottom: 10,
+        paddingLeft: 15,
+        paddingRight: 15,
+        borderRadius: 25,
+        shadowColor: '#000',
+      
+    },
 
     rewardText: {
         color: '#6045e9',
@@ -73,14 +99,19 @@ rewardsArea: {
     },
 
     clothLocked: {
-        width: 63,
-        height: 58,
+        width: 60,
+        height: 55,
         marginBottom: 10
     },
     clothUnlocked: {
-        width: 63,
-        height: 58,
-        marginBottom: 10
+        width: 67,
+        height: 63,
+        marginBottom: 10,
+    },
+    
+    seta: {
+        width: 100,
+        height: 100
     },
 
     secondBackground: {
