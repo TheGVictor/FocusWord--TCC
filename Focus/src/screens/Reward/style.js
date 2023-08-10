@@ -8,8 +8,8 @@ const styles = StyleSheet.create({
     },
     header: {
         width: '100%',
-        backgroundColor: '#8C21A7',
-        height: 50,
+        backgroundColor: '#6045e9',
+        height: 60,
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'center'
@@ -47,7 +47,8 @@ rewardsArea: {
         color: '#FFF',
         fontWeight: '600',
         letterSpacing: 1,
-        marginTop: 20
+        marginTop: 20,
+        fontFamily: "Ultra', serif;"
     },
 
     // cada objeto individual
@@ -62,18 +63,23 @@ rewardsArea: {
         paddingRight: 15,
         borderRadius: 25,
         shadowColor: '#000',
-        shadowRadius: 15,
+        shadowRadius: 10,
     },
 
     rewardText: {
-        color: '#0000FF',
+        color: '#6045e9',
         fontWeight: 'bold',
         fontSize: 15
     },
 
-    clothes: {
-        width: 70,
-        height: 65,
+    clothLocked: {
+        width: 63,
+        height: 58,
+        marginBottom: 10
+    },
+    clothUnlocked: {
+        width: 63,
+        height: 58,
         marginBottom: 10
     },
 
