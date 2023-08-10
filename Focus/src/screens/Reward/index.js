@@ -25,7 +25,7 @@ export default function RewardScreen() {
                 <TouchableOpacity style = {styles.reward}>
                     <Image
                     source = {require('../../images/Tela de recompensas/camisas/nivel01.png')}
-                    style = {styles.camisa}/>
+                    style = {styles.clothes}/>
                     <Text style = {styles.rewardText}>Moletom</Text>
                 </TouchableOpacity>
                 </View>
@@ -38,7 +38,7 @@ export default function RewardScreen() {
                 <TouchableOpacity style = {styles.reward}>
                     <Image
                     source = {require('../../images/Tela de recompensas/camisas/nivel01.png')}
-                    style = {styles.camisa}/>
+                    style = {styles.clothes}/>
                     <Text style = {styles.rewardText}>Moletom</Text>
                 </TouchableOpacity>
                 </View>
@@ -51,7 +51,7 @@ export default function RewardScreen() {
                 <TouchableOpacity style = {styles.reward}>
                     <Image
                     source = {require('../../images/Tela de recompensas/camisas/nivel01.png')}
-                    style = {styles.camisa}/>
+                    style = {styles.clothes}/>
                     <Text style = {styles.rewardText}>Moletom</Text>
                 </TouchableOpacity>
                 </View>
@@ -64,7 +64,7 @@ export default function RewardScreen() {
                 <TouchableOpacity style = {styles.reward}>
                     <Image
                     source = {require('../../images/Tela de recompensas/camisas/nivel01.png')}
-                    style = {styles.camisa}/>
+                    style = {styles.clothes}/>
                     <Text style = {styles.rewardText}>Moletom</Text>
                 </TouchableOpacity>
                 </View>

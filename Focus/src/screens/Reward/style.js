@@ -68,7 +68,7 @@ const styles = StyleSheet.create({
         fontSize: 15
     },
 
-    camisa: {
+    clothes: {
         width: 70,
         height: 65,
         marginBottom: 10
