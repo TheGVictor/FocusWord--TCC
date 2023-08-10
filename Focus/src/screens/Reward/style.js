@@ -29,12 +29,14 @@ const styles = StyleSheet.create({
         width: 40,
     },
 
-    rewardsArea: {
+    // area total das recompensas
+rewardsArea: {  
         height: 'auto',
         width: '80%',
         alignSelf: 'center'
     },
 
+    // area de cada recompensa por setor
     rewardArea: {
         paddingTop: 15,
         paddingLeft: 20
@@ -48,6 +50,7 @@ const styles = StyleSheet.create({
         marginTop: 20
     },
 
+    // cada objeto individual
     reward: {
         backgroundColor: '#DAC398',
         width: 'fit-content',
