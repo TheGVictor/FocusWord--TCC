@@ -55,7 +55,8 @@ rewardsArea: {
         fontWeight: '600',
         letterSpacing: 1,
         marginTop: 20,
-        fontFamily: "Ultra', serif;"
+        fontFamily: "Ultra', serif;",
+        marginLeft: 80
     },
 
     // cada objeto individual

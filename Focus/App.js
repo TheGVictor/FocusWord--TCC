@@ -7,7 +7,7 @@ import WordScreen from './src/screens/WordSearch/index.js';
 
 export default function App(){
   return (
-    <WordScreen/>
+    <RewardScreen/>
 
   )
 }
