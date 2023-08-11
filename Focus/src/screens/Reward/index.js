@@ -23,9 +23,11 @@ export default function RewardScreen() {
 
                         <View style = {styles.rewardArea}>
 
+                        <TouchableOpacity style = {styles.rightArrow}>
                         <Image
                             source = {require('../../images/Tela de recompensas/clothes/seta_esquerda.png')}
-                            style = {styles.seta}/>  
+                            style = {styles.arrow}/>  
+                        </TouchableOpacity> 
 
                         <View style = {styles.secondBackground}>
                         <TouchableOpacity style = {styles.reward}>
@@ -36,8 +38,6 @@ export default function RewardScreen() {
                         </TouchableOpacity>
                         </View>
 
-
-
                         <View style = {styles.secondBackground}>
                         <TouchableOpacity style = {styles.reward}>
                             <Image
@@ -47,10 +47,12 @@ export default function RewardScreen() {
                         </TouchableOpacity>
                         </View>
 
-
+                        <TouchableOpacity style = {styles.rightArrow}>
                         <Image
                             source = {require('../../images/Tela de recompensas/clothes/seta_direita.png')}
-                            style = {styles.seta}/>  
+                            style = {styles.arrow}/>  
+                        </TouchableOpacity>
+
                         </View>
 
 
@@ -58,6 +60,11 @@ export default function RewardScreen() {
                         <Text style = {styles.rewardAreaText}>Calças</Text>
                         <View style = {styles.rewardArea}>
 
+                        <TouchableOpacity style = {styles.rightArrow}>
+                        <Image
+                            source = {require('../../images/Tela de recompensas/clothes/seta_esquerda.png')}
+                            style = {styles.arrow}/>  
+                        </TouchableOpacity> 
                         
                             <View style = {styles.secondBackground}>
                         <TouchableOpacity style = {styles.rewardUnlocked}>
@@ -77,11 +84,23 @@ export default function RewardScreen() {
                         </TouchableOpacity>
                         </View>
 
+                        <TouchableOpacity style = {styles.rightArrow}>
+                        <Image
+                            source = {require('../../images/Tela de recompensas/clothes/seta_direita.png')}
+                            style = {styles.arrow}/>  
+                        </TouchableOpacity> 
+
                         </View>
                     {/* Tenis */}
                         <Text style = {styles.rewardAreaText}>Tênis</Text>
                         <View style = {styles.rewardArea}>
 
+                        <TouchableOpacity style = {styles.rightArrow}>
+                        <Image
+                            source = {require('../../images/Tela de recompensas/clothes/seta_esquerda.png')}
+                            style = {styles.arrow}/>  
+                        </TouchableOpacity> 
+
                         <View style = {styles.secondBackground}>
                         <TouchableOpacity style = {styles.rewardUnlocked}>
                             <Image
@@ -100,12 +119,24 @@ export default function RewardScreen() {
                             <Text style = {styles.rewardText}>Nível 03</Text>
                         </TouchableOpacity>
                         </View>
+
+                        <TouchableOpacity style = {styles.rightArrow}>
+                        <Image
+                            source = {require('../../images/Tela de recompensas/clothes/seta_direita.png')}
+                            style = {styles.arrow}/>  
+                        </TouchableOpacity> 
 
                         </View>
                     {/* Especial */}
                         <Text style = {styles.rewardAreaText}>Especial</Text>
                         <View style = {styles.rewardArea}>
 
+                        <TouchableOpacity style = {styles.rightArrow}>
+                        <Image
+                            source = {require('../../images/Tela de recompensas/clothes/seta_esquerda.png')}
+                            style = {styles.arrow}/>  
+                        </TouchableOpacity> 
+
                         <View style = {styles.secondBackground}>
                         <TouchableOpacity style = {styles.rewardUnlocked}>
                             <Image
@@ -123,6 +154,13 @@ export default function RewardScreen() {
                             <Text style = {styles.rewardText}>Nível 06</Text>
                         </TouchableOpacity>
                         </View>
+
+                        <TouchableOpacity style = {styles.rightArrow}>
+                        <Image
+                            source = {require('../../images/Tela de recompensas/clothes/seta_direita.png')}
+                            style = {styles.arrow}/>  
+                        </TouchableOpacity> 
+
                 </View>
                 
               

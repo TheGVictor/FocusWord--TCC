@@ -43,17 +43,11 @@ const styles = StyleSheet.create({
     // area total das recompensas
 rewardsArea: {  
         height: 'auto',
-        width: '80%',
+        width: '85%',
         alignSelf: 'center'
     },
 
     // area de cada recompensa por setor
-    rewardArea: {
-        paddingTop: 15,
-        flexDirection: 'row',
-        width: '100%',
-        justifyContent: 'space-around',
-    },
 
     rewardAreaText: {
         fontSize: 20,
@@ -78,6 +72,16 @@ rewardsArea: {
         shadowColor: '#000',
         shadowRadius: 10,
     },
+
+    rewardArea: {
+        paddingTop: 15,
+        flexDirection: 'row',
+        width: '100%',
+        justifyContent: 'space-between',
+        alignItems: "center"
+    },
+
+
     rewardUnlocked: {
         backgroundColor: '',
         width: 'fit-content',
@@ -109,9 +113,9 @@ rewardsArea: {
         marginBottom: 10,
     },
     
-    seta: {
-        width: 100,
-        height: 100
+    arrow: {
+        width: 60,
+        height: 60
     },
 
     secondBackground: {
