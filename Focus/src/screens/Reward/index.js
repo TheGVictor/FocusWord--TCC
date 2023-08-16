@@ -11,7 +11,7 @@ export default function RewardScreen() {
                         activeOpacity={0.5}>
                            <Image
                            style = {styles.menuIcon}
-                           source = {require('../../images/Tela de recompensas/menu.png')}/>
+                           source = {require('../../images/Tela de recompensas/config.png')}/>
                     </TouchableOpacity>
             </SafeAreaView>
 
