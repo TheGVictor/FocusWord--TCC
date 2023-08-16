@@ -48,9 +48,34 @@ const styles = StyleSheet.create({
         fontFamily: 'sans-serif',
         borderRadius: 13,
         color:  '#FFF',
-    }
+    },
 
+    main:{
+        backgroundColor: 'white',
+        width: 390,
+        height: 612,
+        alignItems: 'center',
+        justifyContent: 'center',
+        borderRadius: 20,
+        marginTop: 50,
+        shadowRadius: 7,
+    },
+
+    Caption:{
+        marginTop:50,
+        backgroundColor: 'white',
+        padding: 5,
+        width: '50%',
+        borderRadius: 20,
+    },
+
+    textCaption:{
+        textAlign: 'center',
+        fontWeight:'bold',
+        
+    }
     
+
     
 })
 

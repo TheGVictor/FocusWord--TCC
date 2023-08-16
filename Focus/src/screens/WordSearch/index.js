@@ -2,6 +2,8 @@ import { SafeAreaView, View, Image, Text } from "react-native";
 import styles from "./style";
 import { TouchableOpacity } from "react-native-gesture-handler";
 
+
+
 export default function WordScreen() {
     return(
     <View style={styles.container}>
@@ -17,9 +19,20 @@ export default function WordScreen() {
                            style = {styles.configIcon}
                            source = {require('../../images/TelaDoCacaPalavras/config.png')}/>
                     </TouchableOpacity>
-
         </View>
         </SafeAreaView>
+        <SafeAreaView style={styles.main}> 
+         <View></View>
+        </SafeAreaView>
+
+        <View style={styles.Caption}>
+            <Text style={styles.textCaption}>Texto Texto Texto</Text>
+        </View>
     </View>
     )
     }
+
+
+
+
+    
