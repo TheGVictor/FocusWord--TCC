@@ -125,6 +125,10 @@ rewardsArea: {
         padding: 13,
         borderRadius: 25,
         borderBottomColor: '#000',
+    },
+
+    TabBar: {
+    height: '100%'
     }
 })
 

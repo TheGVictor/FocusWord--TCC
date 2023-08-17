@@ -1,10 +1,13 @@
 import { SafeAreaView, View, Image, Text } from "react-native";
 import styles from "./style";
 import { TouchableOpacity } from "react-native-gesture-handler";
-
+import { useNavigation } from "@react-navigation/native";
 
 
 export default function WordScreen() {
+
+    const navigation = useNavigation()
+    
     return(
     <View style={styles.container}>
         <SafeAreaView style={styles.header}>

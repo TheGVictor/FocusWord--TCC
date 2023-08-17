@@ -4,66 +4,13 @@ import { TouchableOpacity } from "react-native-gesture-handler";
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import PauseScreen from "../Pause";
+import WordScreen from "../WordSearch";
+import { useNavigation } from "@react-navigation/native";
 
-
-
-
-function HomeScreen({ navigation }) {
-  return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-
-    </View>
-  );
-}
-
-function SettingsScreen({ navigation }) {
-  return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-    </View>
-  );
-}
-
-function TestScreen({ navigation }) {
-    return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      </View>
-    );
-  }
-
-const HomeStack = createStackNavigator();
-
-function StackScreenOne() {
-  return (
-    <HomeStack.Navigator>
-      <HomeStack.Screen name="Home" component={HomeScreen} />
-    </HomeStack.Navigator>
-  );
-}
-
-const SettingsStack = createStackNavigator();
-
-function StackScreenTwo() {
-  return (
-    <SettingsStack.Navigator>
-      <SettingsStack.Screen name="Settings" component={SettingsScreen} />
-    </SettingsStack.Navigator>
-  );
-}
-
-const TestStack = createStackNavigator();
-
-function StackScreenThree() {
-  return (
-    <TestStack.Navigator>
-      <TestStack.Screen name="Test" component={TestScreen} />
-    </TestStack.Navigator>
-  );
-}
-
-
-const Tab = createBottomTabNavigator();
 
 export default function RewardScreen() {
+
     return(
 
         <View style = {styles.container}>
@@ -226,16 +173,10 @@ export default function RewardScreen() {
                         </TouchableOpacity> 
 
                 </View>
-            </SafeAreaView>
 
-            <NavigationContainer>
-                <Tab.Navigator screenOptions={{ headerShown: false }}>
-                    <Tab.Screen name="Home" component={StackScreenOne} />
-                     <Tab.Screen name="Settings" component={StackScreenTwo} />
-                     <Tab.Screen name="Test" component={StackScreenThree} />
-                </Tab.Navigator>
-            </NavigationContainer>
-            
+
+
+            </SafeAreaView>
         </View>
 
         
