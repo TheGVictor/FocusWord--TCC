@@ -1,12 +1,15 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Image, ActivityIndicator } from 'react-native';
-import { styled } from 'styled-components';
+import React from 'react';
+import { StyleSheet, Text, View, Image, ActivityIndicator, Animated } from 'react-native';
+import LoadingScreen from './src/screens/Loading/index.js';
+import PauseScreen from './src/screens/Pause/index.js';
+import RewardScreen from './src/screens/Reward/index.js';
+import WordScreen from './src/screens/WordSearch/index.js';
 
-export default function App() {
+export default function App(){
   return (
-    <View style={styles.container}>
-      <ActivityIndicator size='large' style = {styles.loading}/>
+    <WordScreen/>
 
+<<<<<<< HEAD
       <Image
       style = {styles.img} 
       source = {require('./src/images/Tela_carregamento/original_sem_fundo.png')} />
@@ -57,3 +60,7 @@ const styles = StyleSheet.create({
 });
 
 const Subtitle = styled.text``
+=======
+  )
+}
+>>>>>>> 02d9fa1e1c71b4ab6a78bab3d54ed5ad1a2cb49a
