@@ -11,7 +11,7 @@ export default function App() {
       style = {styles.img} 
       source = {require('./src/images/Tela_carregamento/original_sem_fundo.png')} />
       <StatusBar style="auto" />
-    </View>
+    </View> 
   );
 }
 
