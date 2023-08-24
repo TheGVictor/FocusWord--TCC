@@ -25,7 +25,7 @@ export default function WordScreen() {
         </SafeAreaView>
 
         <View style={styles.Caption}>
-            <Text style={styles.textCaption}>Texto Texto Texto</Text>
+            <Text style={styles.textCaption}>Questão </Text>
         </View>
     </View>
     )
