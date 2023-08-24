@@ -1,13 +1,15 @@
 import React from 'react';
-import { StyleSheet, Text, View, Image, ActivityIndicator, Animated } from 'react-native';
-import LoadingScreen from './src/screens/Loading/index.js';
-import PauseScreen from './src/screens/Pause/index.js';
-import RewardScreen from './src/screens/Reward/index.js';
-import WordScreen from './src/screens/WordSearch/index.js';
+import { StyleSheet, Text, View, Image, ActivityIndicator, Animated } from 'react-native'
+import MainTab from './src/screens/stack/MainTab';
+import { NavigationContainer } from '@react-navigation/native';
+
 
 export default function App(){
   return (
-    <WordScreen/>
+  
+<NavigationContainer>
+  <MainTab/>
+</NavigationContainer>
 
 <<<<<<< HEAD
       <Image

@@ -4,7 +4,7 @@ import { StyleSheet } from "react-native"
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#FF6B00',
+        backgroundColor: '#008F8C',
     },
     mainContainer: {
         flexDirection: 'row'
@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
     },
     header: {
         width: '100%',
-        backgroundColor: '#6045e9',
+        backgroundColor: '#0FC2C0',
         height: 60,
         flexDirection: 'row',
         alignItems: 'center',
@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
     },
 
     // area total das recompensas
-rewardsArea: {  
+    rewardsArea: {  
         height: 'auto',
         width: '85%',
         alignSelf: 'center'
@@ -61,7 +61,7 @@ rewardsArea: {
 
     // cada objeto individual
     reward: {
-        backgroundColor: '#DAC398',
+        backgroundColor: '#008F8C',
         width: 'fit-content',
         alignItems: 'center',
         justifyContent: 'center',
@@ -84,7 +84,7 @@ rewardsArea: {
 
 
     rewardUnlocked: {
-        backgroundColor: '',
+        backgroundColor: '#',
         width: 'fit-content',
         alignItems: 'center',
         justifyContent: 'center',
@@ -98,7 +98,7 @@ rewardsArea: {
     },
 
     rewardText: {
-        color: '#6045e9',
+        color: '#0019FF',
         fontWeight: 'bold',
         fontSize: 15
     },
@@ -120,11 +120,15 @@ rewardsArea: {
     },
 
     secondBackground: {
-        backgroundColor: '#DEAA44',
+        backgroundColor: '#015958',
         width: 'fit-content',
         padding: 13,
         borderRadius: 25,
         borderBottomColor: '#000',
+    },
+
+    TabBar: {
+    height: '100%'
     }
 })
 
