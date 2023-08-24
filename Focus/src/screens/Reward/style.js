@@ -73,6 +73,7 @@ const styles = StyleSheet.create({
         borderRadius: 25,
         shadowColor: '#000',
         shadowRadius: 10,
+        
     },
 
     rewardArea: {
@@ -80,7 +81,7 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         width: '100%',
         justifyContent: 'space-between',
-        alignItems: "center"
+        alignItems: "center",
     },
 
 

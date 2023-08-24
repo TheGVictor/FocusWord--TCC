@@ -31,7 +31,7 @@ export default function MainTab() {
                 return <Image source = {require('../../images/tabBarIcons/maxIcon.png')} style = {{width: 50, height: 50}}/>
             
         }}} />    
-        <Tab.Screen name="Mapa" component={RewardScreen} options={{headerShown: false,
+        <Tab.Screen name="Mapa" component={WordScreen} options={{headerShown: false,
                  tabBarIcon: ({focused}) => {
                     if(focused) {
                         return <Image source = {require('../../images/tabBarIcons/mapIcon.png')} style = {{width: 65, height: 65, marginBottom: 20,}}/>
@@ -40,7 +40,7 @@ export default function MainTab() {
                 
                 
                 }}}/>    
-        <Tab.Screen name="Loja" component={WordScreen} options={{headerShown: false,
+        <Tab.Screen name="Loja" component={RewardScreen} options={{headerShown: false,
             tabBarIcon: ({focused}) => {
                 if(focused) {
                     return <Image source = {require('../../images/tabBarIcons/storeIcon.png')} style = {{width: 65, height: 65, marginBottom: 20,}}/>
