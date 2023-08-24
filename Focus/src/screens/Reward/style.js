@@ -44,7 +44,8 @@ const styles = StyleSheet.create({
     rewardsArea: {  
         height: 'auto',
         width: '85%',
-        alignSelf: 'center'
+        alignSelf: 'center',
+        paddingBottom: '20%',
     },
 
     // area de cada recompensa por setor

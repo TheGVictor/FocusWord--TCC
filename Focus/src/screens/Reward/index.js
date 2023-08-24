@@ -1,4 +1,4 @@
-import { SafeAreaView, View, Image, Text } from "react-native";
+import { SafeAreaView, View, Image, Text, ScrollView } from "react-native";
 import styles from "./style";
 import { TouchableOpacity } from "react-native-gesture-handler";
 
@@ -19,7 +19,7 @@ export default function RewardScreen() {
                     </TouchableOpacity>
             </SafeAreaView>
 
-            <SafeAreaView style = {styles.rewardsArea}>
+            <ScrollView style = {styles.rewardsArea}>
 
                     {/* Camisas */}
                         
@@ -169,7 +169,7 @@ export default function RewardScreen() {
 
 
 
-            </SafeAreaView>
+            </ScrollView>
         </View>
 
 
