@@ -1,6 +1,7 @@
 import React from "react"
 import { Image } from "react-native"
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs"
+import {CardStyleInterpolators} from '@react-navigation/stack'
 import RewardScreen from "../Reward"
 import PauseScreen from "../Pause"
 import WordScreen from "../WordSearch"
@@ -20,7 +21,8 @@ export default function MainTab() {
                 fontWeight: '700',
                 fontSize: '30',
                 color: '#000'
-            }
+            },
+
         
             }}>
         <Tab.Screen name="Max" component={PauseScreen} options={{headerShown: false, 

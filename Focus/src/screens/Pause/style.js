@@ -4,18 +4,30 @@ import { StyleSheet } from "react-native"
 const styles = StyleSheet.create({
     container: {
         backgroundColor: '#008F8C',
-        flex: 1
+        flex: 1, 
+        alignItems: 'center',
+        justifyContent: 'center'
     },
+
+    borderArea: {
+        position: 'absolute',
+        width: '95%',
+        height: '95%',
+        borderWidth: 4,
+        borderColor: '#FFF',
+        borderRadius: 20
+    },
+
     maxImg: {
         width: '70%',
-        height: '40%',
+        height: '50%',
         alignSelf: "center",
-        marginTop: 100
+        marginTop: 10
     },
 
     buttonArea: {
         width: '80%',
-        marginTop: 90,
+        marginTop: 50,
         textAlign: "center",
         fontSize: 30,
         textTransform: "capitalize",
@@ -32,34 +44,33 @@ const styles = StyleSheet.create({
         flexDirection: "row"
     },
     backGame: {
-        height: 100,
-        width: '100%',
-        backgroundColor: '#766969',
+        height: 70,
+        width: '90%',
+        backgroundColor: '#015958',
         borderRadius: 30,
         alignItems: "center",
         justifyContent: 'center',
         flexDirection: "row"        
     },
-    buttonPause: {
-        width: 60,
-        height: 60,
-    },
+
     exitGame: {
         width: '45%',
-        height: 100,
-        backgroundColor: '#766969',
+        height: 70,
+        backgroundColor: '#015958',
         borderRadius: 30,
         marginTop: 20,
+        borderTopRightRadius: 0,
         justifyContent: "center",
         alignItems: "center",
-        marginRight: '10%'
+        marginRight: '1%'
         
     },
     login: {
         width: '45%',
-        height: 100,
-        backgroundColor: '#766969',
+        height: 70,
+        backgroundColor: '#015958',
         borderRadius: 30,
+        borderTopLeftRadius: 0,
         marginTop: 20,
         justifyContent: "center",
         alignItems: "center",

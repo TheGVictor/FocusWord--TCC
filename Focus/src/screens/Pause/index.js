@@ -10,6 +10,7 @@ export default function PauseScreen() {
     return(
         <View style = {styles.container}>
             
+            <View style = {styles.borderArea}>
         <Image
         source = {require('../../images/Tela_saída/pauseImage.png')}
         style = {styles.maxImg}
@@ -18,7 +19,6 @@ export default function PauseScreen() {
         <View style = {styles.buttonArea}>
         <TouchableOpacity style = {styles.backGame}>
             Voltar ao jogo
-            <Image source = {require('../../images/Tela_saída/buttonPause.png')} style = {styles.buttonPause}/>
         </TouchableOpacity>
         <TouchableOpacity style = {styles.exitGame}>
             Sair
@@ -26,6 +26,7 @@ export default function PauseScreen() {
         <TouchableOpacity style = {styles.login}>
             Login
         </TouchableOpacity>
+        </View>
         </View>
         </View>
     )

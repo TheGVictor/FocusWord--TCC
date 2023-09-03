@@ -19,7 +19,7 @@ export default function RewardScreen() {
                     </TouchableOpacity>
             </SafeAreaView>
 
-            <ScrollView style = {styles.rewardsArea}>
+            <ScrollView style = {styles.rewardsArea} showsVerticalScrollIndicator = {false}>
 
                     {/* Camisas */}
                         
