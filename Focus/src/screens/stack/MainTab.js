@@ -4,13 +4,13 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs"
 import {CardStyleInterpolators} from '@react-navigation/stack'
 import RewardScreen from "../Reward"
 import PauseScreen from "../Pause"
-import WordScreen from "../WordSearch"
+import MapScreen from "../Map"
 
 const Tab = createBottomTabNavigator()
 
 export default function MainTab() {
     return(
-    <Tab.Navigator screenOptions={{
+    <Tab.Navigator initialRouteName="Mapa" screenOptions={{
         tabBarStyle: {
             borderTopLeftRadius: 30,
             borderTopRightRadius: 30,
@@ -33,7 +33,7 @@ export default function MainTab() {
                 return <Image source = {require('../../images/tabBarIcons/maxIcon.png')} style = {{width: 50, height: 50}}/>
             
         }}} />    
-        <Tab.Screen name="Mapa" component={WordScreen} options={{headerShown: false,
+        <Tab.Screen name="Mapa" component={MapScreen} options={{headerShown: false,
                  tabBarIcon: ({focused}) => {
                     if(focused) {
                         return <Image source = {require('../../images/tabBarIcons/mapIcon.png')} style = {{width: 65, height: 65, marginBottom: 20,}}/>
