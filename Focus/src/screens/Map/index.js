@@ -32,12 +32,12 @@ export default function MapScreen() {
         </TouchableOpacity>
 
         <TouchableOpacity style = {styles.specialBottom1}>
-            <Image source={require('../../images/tela_mapa/specialLevel.png')} style = {styles.SpecialBottom}/>
+            <Image source={require('../../images/tela_mapa/specialLevel.png')} style = {styles.specialBottom}/>
         </TouchableOpacity>
         
 {/* Segunda parte */}
 
-        {/*<TouchableOpacity style = {styles.levelBottom6}>
+        <TouchableOpacity style = {styles.levelBottom6}>
             <Image source={require('../../images/tela_mapa/bottomIncomplete.png')} style = {styles.levelBottom}/>
         </TouchableOpacity>
 
@@ -49,7 +49,7 @@ export default function MapScreen() {
             <Image source={require('../../images/tela_mapa/bottomIncomplete.png')} style = {styles.levelBottom}/>
         </TouchableOpacity>
 
-        <TouchableOpacity style = {styles.levelBottom9}>
+        {/*<TouchableOpacity style = {styles.levelBottom9}>
             <Image source={require('../../images/tela_mapa/bottomIncomplete.png')} style = {styles.levelBottom}/>
         </TouchableOpacity>
 

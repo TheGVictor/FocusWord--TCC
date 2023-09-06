@@ -24,13 +24,13 @@ const styles = StyleSheet.create({
         borderRadius: 30,
     },
 
-    SpecialBottom: {
-        width: 55,
-        height: 55,
+    specialBottom: {
+        width: 60,
+        height: 60,
         borderColor: '#FFF',
         borderWidth: 1,
         backgroundColor: '#888',
-        borderRadius: 30,
+        borderRadius: 30,    
     },
 
     levelBottom1: {
@@ -54,26 +54,46 @@ const styles = StyleSheet.create({
     },
 
     levelBottom4: {
-        marginTop: 235,
-        marginLeft: -87,
+        marginTop: 240,
+        marginLeft: -75,
         position: 'absolute'
         
     },
 
     levelBottom5: {
-        marginTop: 174,
-        marginLeft: -105,
+        marginTop: 190,
+        marginLeft: -115,
         position: 'absolute'
         
     },
 
     specialBottom1: {
-        marginTop: 82,
-        marginLeft: -60,
+        marginTop: 125,
+        marginLeft: -85,
+        position: 'absolute',
+        
+    },
+
+    levelBottom6: {
+        marginTop: 55,
+        marginLeft: -90,
         position: 'absolute'
         
     },
-    
+
+    levelBottom7: {
+        marginTop: 5,
+        marginLeft: -145,
+        position: 'absolute'
+        
+    },
+
+    levelBottom8: {
+        marginTop: -55,
+        marginLeft: -175,
+        position: 'absolute'
+        
+    },
     }
 )
 
