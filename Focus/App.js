@@ -7,7 +7,7 @@ export default function App(){
   return (
   
 <NavigationContainer>
-  <MainStack/>
+  <MapScreen/>
 </NavigationContainer>
 
   )
