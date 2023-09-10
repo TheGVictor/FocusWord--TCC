@@ -20,6 +20,7 @@ export default function LevelScreen() {
         <View style = {styles.levelInfo}>
             <Image style = {styles.backgroundInfoImage} source={require('../../images/tela_mapa/backgroundLevelInfo.png')}/>
             <Text style = {styles.titleLevelInfo}>Objetivo</Text>
+            <Image style = {styles.iconLevelInfo} source={require('../../images/tela_mapa/iconTest.png')}/>
             <View style = {styles.textAreaLevelInfo}>
             <Text style = {styles.subtitleLevelInfo}>Números de 1 a 10</Text>
             <Text style = {styles.obsLevelInfo}>Obs: são a base da matemática<br/>Exemplo: Cinco</Text>

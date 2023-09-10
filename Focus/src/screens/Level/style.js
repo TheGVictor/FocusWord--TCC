@@ -67,6 +67,15 @@ const styles = StyleSheet.create({
         fontSize: 20
     },
 
+    iconLevelInfo: {
+        width: 70,
+        height: 70,
+        position: 'absolute',
+        alignSelf: 'flex-start',
+        top: 60,
+        left: 10
+    },  
+
     textAreaLevelInfo: {
         alignSelf: 'flex-end',
         right: 20,
