@@ -18,8 +18,17 @@ const styles = StyleSheet.create({
         top: -30,
         position: 'absolute',
         alignItems: 'center',
-        
+        justifyContent: 'center',
+        flexDirection: 'row'
     },
+
+    btExit: {
+        position: 'absolute',
+        width: 35,
+        height: 35,
+        top: -15,
+        left: 25
+    },  
 
     levelContainer: {
         backgroundColor: '#DAC398',
