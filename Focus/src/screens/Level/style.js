@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
     },
 
     levelInfo: {
-        width: '100%',
+        width: '85%',
         height: '100%',
         alignItems: 'center',
         top: 40,
@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
     },
 
     backgroundInfoImage: {
-        width: '85%',
+        width: '100%',
         height: '35%'        
     },
 
@@ -65,6 +65,24 @@ const styles = StyleSheet.create({
         position: 'absolute',
         top: 15, 
         fontSize: 20
+    },
+
+    textAreaLevelInfo: {
+        alignSelf: 'flex-end',
+        right: 20,
+        position: 'absolute',
+        top: 60
+    },  
+
+    subtitleLevelInfo: {
+        fontFamily: 'Cherry Bomb One',
+        fontSize: 20,
+        marginBottom: 10
+    },
+
+    obsLevelInfo: {
+        fontFamily: 'Cherry Bomb One',
+        color: '#777'
     }
       
 })
