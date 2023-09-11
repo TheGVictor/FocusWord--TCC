@@ -26,7 +26,7 @@ const handlePlay = () => {
           <Image source = {require('../../images/Tela_inicio/focusWord.png')} style = {styles.focusImg}/>
           <TouchableOpacity style = {styles.playButton} onPress = {handlePlay}>Jogar</TouchableOpacity>
 
-          <Image source = {require('../../images/Tela_inicio/auth.png')} style = {styles.authImg}/>
+          <Image source = {require('../../images/Tela_inicio/rodapé.png')} style = {styles.authImg}/>
 
     </View>
 

@@ -4,7 +4,7 @@ import { StyleSheet } from "react-native"
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#008F8C',
+        backgroundColor: '#F7DFBC',
     },
     mainContainer: {
         flexDirection: 'row'
@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
 
     // cada objeto individual
     reward: {
-        backgroundColor: '#008F8C',
+        backgroundColor: '#E39621',
         width: 'fit-content',
         alignItems: 'center',
         justifyContent: 'center',
@@ -122,11 +122,13 @@ const styles = StyleSheet.create({
     },
 
     secondBackground: {
-        backgroundColor: '#015958',
+        backgroundColor: '#E39621',
         width: 'fit-content',
         padding: 13,
         borderRadius: 25,
         borderBottomColor: '#000',
+        shadowColor: '#000',
+        shadowRadius: 10,
     },
 
     TabBar: {

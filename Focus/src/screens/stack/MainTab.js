@@ -16,7 +16,7 @@ export default function MainTab() {
             borderTopRightRadius: 30,
             position: 'absolute',
             height: 60,
-            backgroundColor: '#0FC2C0'},
+            backgroundColor: '#015958'},
             tabBarLabelStyle: {
                 fontWeight: '700',
                 fontSize: '30',

@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
 
     playButton: {
         marginTop: 200,
-        backgroundColor: '#008F8C',
+        backgroundColor: '#015958',
         width: 200,
         height: 50,
         textAlign: 'center',
