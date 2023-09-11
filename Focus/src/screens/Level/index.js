@@ -19,8 +19,6 @@ export default function LevelScreen() {
             <TouchableOpacity>
         <Image  style = {styles.btExit}source={require('../../images/tela_mapa/btExit.png')}/>
         </TouchableOpacity>
-  
-
         </View>
 
 
@@ -33,6 +31,15 @@ export default function LevelScreen() {
             <Text style = {styles.obsLevelInfo}>Obs: são a base da matemática<br/>Exemplo: Cinco</Text>
             </View>
         </View>
+
+        <View style = {styles.rewardArea}>
+            <Text style = {{fontFamily: 'Oleo Script', fontSize: 25, }}>Recompensa</Text>
+        </View>
+
+        <TouchableOpacity style = {styles.btStart}>
+            <Text style = {{fontFamily: 'Oleo Script', fontSize: 30}}>Jogar!</Text>
+        </TouchableOpacity>
+
       </View>
 
     </View>

@@ -101,6 +101,24 @@ const styles = StyleSheet.create({
     obsLevelInfo: {
         fontFamily: 'Cherry Bomb One',
         color: '#777'
+    },
+
+    rewardArea: {
+        position: 'absolute',
+        backgroundColor: '#FFF',
+        width: '85%',
+        textAlign: 'center',
+        borderWidth: 1,
+        borderRadius: 15
+    },
+
+    btStart: {
+        
+        paddingHorizontal: 30,
+        paddingVertical: 5,
+        borderRadius: 30,
+        backgroundColor: '#FF5E53',
+        marginTop: 250
     }
       
 })
