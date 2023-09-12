@@ -12,7 +12,7 @@ export default function LoadingScreen() {
       
     <Image
     style = {styles.circle}
-    source={require('../../images/Tela_carregamento/circleLoading.png')}/>
+    source={require('../../images/Tela_carregamento/circulos.png')}/>
 
       <Image
       style = {styles.logoAuth}

@@ -10,7 +10,7 @@ export default function App(){
   return (
   
 <NavigationContainer>
-  <LevelScreen/>
+  <MainTab/>
 </NavigationContainer>
 
   )

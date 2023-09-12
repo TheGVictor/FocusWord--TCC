@@ -12,10 +12,10 @@ export default function MainTab() {
     return(
     <Tab.Navigator initialRouteName="Mapa" screenOptions={{
         tabBarStyle: {
-            borderTopLeftRadius: 30,
-            borderTopRightRadius: 30,
-            position: 'absolute',
+            borderTopLeftRadius: 20,
+            borderTopRightRadius: 20,            
             height: 60,
+            position: "absolute",
             backgroundColor: '#015958'},
             tabBarLabelStyle: {
                 fontWeight: '700',

@@ -7,6 +7,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#015958',
         alignItems: 'center',
         justifyContent: 'center',
+        
       },
       logo: {
         width: 250,
