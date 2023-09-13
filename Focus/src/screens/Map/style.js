@@ -97,15 +97,22 @@ const styles = StyleSheet.create({
     },
     levelBottom9:{ 
         marginTop: -120,
-        marginLeft: -140,
+        marginLeft: -150,
         position: 'absolute'
     },
 
     levelBottom10:{ 
-        marginTop: -145,
-        marginLeft: -80,
+        marginTop: -155,
+        marginLeft: -100,
         position: "absolute",
     },
+
+    
+     
+    levelBottom11:{
+        marginTop: -170,
+        position: "absolute",
+    }
     
     }
 )
