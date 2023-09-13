@@ -63,7 +63,7 @@ export default function MapScreen() {
         </TouchableOpacity> 
 
         <TouchableOpacity style = {styles.specialBottom2} onPress={() => navigation.navigate("")}>
-            <Image source={require('../../images/tela_mapa/speciallevel.png')} style = {styles.levelBottom}/>
+            <Image source={require('../../images/tela_mapa/speciallevel.png')} style = {styles.specialBottom}/>
         </TouchableOpacity> 
         </View>
     </View>

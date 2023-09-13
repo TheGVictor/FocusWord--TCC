@@ -31,7 +31,8 @@ const styles = StyleSheet.create({
         borderColor: '#FFF',
         borderWidth: 1,
         backgroundColor: '#888',
-        borderRadius: 30,    
+        borderRadius: 30,  
+        position: "absolute",  
     },
 
     levelBottom1: {
@@ -109,8 +110,9 @@ const styles = StyleSheet.create({
 
     
      
-    levelBottom11:{
-        marginTop: -170,
+    specialBottom2:{
+        marginTop: -185,
+        marginLeft: -45,
         position: "absolute",
     }
     
