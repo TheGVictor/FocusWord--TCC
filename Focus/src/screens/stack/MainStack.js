@@ -5,6 +5,7 @@ import WordScreen from '../WordSearch';
 import RewardScreen from '../Reward';
 import MainTab from './MainTab';
 import PauseScreen from '../Pause';
+import LevelScreen from '../Level';
 
 
 const Stack = createStackNavigator();
@@ -24,6 +25,7 @@ export default () => (
       <Stack.Screen name="Map" component={WordScreen}/>
       <Stack.Screen name="Reward" component={RewardScreen}/>
       <Stack.Screen name="Max" component={PauseScreen}/>
+      <Stack.Screen name = "Level" component={LevelScreen}/>
   </Stack.Navigator>
 )
 

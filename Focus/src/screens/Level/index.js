@@ -2,9 +2,17 @@ import React from 'react';
 import { Text, View, Image, ActivityIndicator, Animated } from 'react-native';
 import styles from './style';
 import { TouchableOpacity } from 'react-native-gesture-handler';
+import { useNavigation } from '@react-navigation/native';
 
 export default function LevelScreen() {
+
+  const navigation = useNavigation()
+  const handleBack = () => {
+    navigation.goBack()
+  }
+
   return (
+
     <View style={styles.container}>
 
 <Image
@@ -16,7 +24,7 @@ export default function LevelScreen() {
             <Image style = {styles.levelIndicator}
             source = {require('../../images/tela_mapa/levelIndicator.png')}/>
             <Text style = {styles.textLevel}>Nível 00</Text>
-            <TouchableOpacity>
+            <TouchableOpacity onPress={handleBack}>
         <Image  style = {styles.btExit}source={require('../../images/tela_mapa/btExit.png')}/>
         </TouchableOpacity>
         </View>

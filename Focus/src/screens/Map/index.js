@@ -2,8 +2,17 @@ import React from 'react';
 import { Text, View, Image, ActivityIndicator, Animated } from 'react-native';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 import styles from './style';
+import { useNavigation } from '@react-navigation/native';
 
 export default function MapScreen() {
+
+
+    const navigation = useNavigation();
+
+    const handleLevelInfo = () => {
+        navigation.navigate("Level")
+    }
+
   return (
     <View style={styles.container}>
         <Image source={require('../../images/tela_mapa/bg.png')} style = {styles.container}/>
@@ -11,7 +20,7 @@ export default function MapScreen() {
 
 {/* Primeira parte */}
     <View style = {styles.bottomArea}>
-        <TouchableOpacity style = {styles.levelBottom1}>
+        <TouchableOpacity style = {styles.levelBottom1} onPress={handleLevelInfo}>
             <Image source={require('../../images/tela_mapa/bottomIncomplete.png')} style = {styles.levelBottom}/>
         </TouchableOpacity>
 
