@@ -4,15 +4,23 @@ import { StyleSheet } from "react-native"
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#BF0AFF',
-        flexDirection: 'column',
-        alignItems:'center',
-
-
+        width: '100%',
+        height: '100%',
+        alignItems: 'center',        
+        backgroundColor: '#222'
     },
+
+    bg: {
+        flex: 1,
+        width: '100%',
+        height: '100%',
+        position: 'absolute',
+        opacity: 0.2
+    },
+
     header:{
         width: '98%',
-        backgroundColor: '#C99BE4',
+        backgroundColor: '#E39621',
         marginTop: 10,
         borderRadius:15,
     },
@@ -21,8 +29,8 @@ const styles = StyleSheet.create({
         flexDirection: "row",
         alignItems: 'center',
         justifyContent: 'space-between',
-        paddingLeft: 13,
-        paddingRight: 13,
+        paddingLeft: 12,
+        paddingRight: 12,
         paddingTop: 5,
         paddingBottom:5
     },
@@ -39,7 +47,7 @@ const styles = StyleSheet.create({
     },
 
     textHeaderWords: {
-        backgroundColor: '#9574A8',
+        backgroundColor:'#b57514',
         padding: 15,
         width: 200,
         textAlign: 'center',
@@ -63,7 +71,7 @@ const styles = StyleSheet.create({
 
     Caption:{
         marginTop:50,
-        backgroundColor: 'white',
+        backgroundColor: '#F7DFBC',
         padding: 5,
         width: '50%',
         borderRadius: 20,
