@@ -2,19 +2,28 @@ import { SafeAreaView, View, Image, Text } from "react-native";
 import styles from "./style";
 import { TouchableOpacity } from "react-native-gesture-handler";
 import { useNavigation } from "@react-navigation/native";
+import WordSearchGame from "./Game";
+
 
 export default function WordScreen() {
     
     const navigation = useNavigation()
 
     return(
+
     <View style={styles.container}>
+        <Image source={require('../../images/TelaDoCacaPalavras/bg/matbg.png')} style = {styles.bg}/>
+       
         <SafeAreaView style={styles.header}>
             <View style = {styles.headerContent}>
+                <View style = {styles.leftSideHeader}>
             <Text style= {styles.textHeader}>03 <br/>Profissões</Text>
-        <View style={styles.textHeaderWords}>
-            07/07
-        </View>
+            
+                <View style={styles.textHeaderWords}>
+                  07/07
+            </View>
+            </View>
+
         <TouchableOpacity style = {styles.buttonConfigIcon}
                         activeOpacity={0.5} onPress={() => navigation.navigate("Pause")}>
                            <Image
@@ -24,11 +33,13 @@ export default function WordScreen() {
         </View>
         </SafeAreaView>
         <SafeAreaView style={styles.main}> 
-         <View></View>
+         <View style={styles.WordSearchGame}>
+             <WordSearchGame/>
+         </View>
         </SafeAreaView>
 
         <View style={styles.Caption}>
-            <Text style={styles.textCaption}>Texto Texto Texto</Text>
+            <Text style={styles.textCaption}>Dica</Text>
         </View>
     </View>
     )
