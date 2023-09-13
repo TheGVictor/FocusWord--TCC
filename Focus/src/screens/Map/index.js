@@ -6,12 +6,8 @@ import { useNavigation } from '@react-navigation/native';
 
 export default function MapScreen() {
 
-
-    const navigation = useNavigation();
-
-    const handleLevelInfo = () => {
-        navigation.navigate("Level")
-    }
+    const navigation = useNavigation()
+        
 
   return (
     <View style={styles.container}>
@@ -20,53 +16,53 @@ export default function MapScreen() {
 
 {/* Primeira parte */}
     <View style = {styles.bottomArea}>
-        <TouchableOpacity style = {styles.levelBottom1} onPress={handleLevelInfo}>
+        <TouchableOpacity style = {styles.levelBottom1} onPress={() => navigation.navigate("Level")}>
             <Image source={require('../../images/tela_mapa/bottomIncomplete.png')} style = {styles.levelBottom}/>
         </TouchableOpacity>
 
-        <TouchableOpacity style = {styles.levelBottom2}>
+        <TouchableOpacity style = {styles.levelBottom2} onPress={() => navigation.navigate("")}>
             <Image source={require('../../images/tela_mapa/bottomIncomplete.png')} style = {styles.levelBottom}/>
         </TouchableOpacity>
 
-         <TouchableOpacity style = {styles.levelBottom3}>
+         <TouchableOpacity style = {styles.levelBottom3} onPress={() => navigation.navigate("")}>
             <Image source={require('../../images/tela_mapa/bottomIncomplete.png')} style = {styles.levelBottom}/>
         </TouchableOpacity>
 
-        <TouchableOpacity style = {styles.levelBottom4}>
+        <TouchableOpacity style = {styles.levelBottom4} onPress={() => navigation.navigate("")}>
             <Image source={require('../../images/tela_mapa/bottomIncomplete.png')} style = {styles.levelBottom}/>
         </TouchableOpacity>
 
-        <TouchableOpacity style = {styles.levelBottom5}>
+        <TouchableOpacity style = {styles.levelBottom5} onPress={() => navigation.navigate("")}>
             <Image source={require('../../images/tela_mapa/bottomIncomplete.png')} style = {styles.levelBottom}/>
         </TouchableOpacity>
 
-        <TouchableOpacity style = {styles.specialBottom1}>
+        <TouchableOpacity style = {styles.specialBottom1} onPress={() => navigation.navigate("")}>
             <Image source={require('../../images/tela_mapa/specialLevel.png')} style = {styles.specialBottom}/>
         </TouchableOpacity>
         
 {/* Segunda parte */}
 
-        <TouchableOpacity style = {styles.levelBottom6}>
+        <TouchableOpacity style = {styles.levelBottom6} onPress={() => navigation.navigate("")}>
             <Image source={require('../../images/tela_mapa/bottomIncomplete.png')} style = {styles.levelBottom}/>
         </TouchableOpacity>
 
-        <TouchableOpacity style = {styles.levelBottom7}>
+        <TouchableOpacity style = {styles.levelBottom7} onPress={() => navigation.navigate("")}>
             <Image source={require('../../images/tela_mapa/bottomIncomplete.png')} style = {styles.levelBottom}/>
         </TouchableOpacity>
 
-        <TouchableOpacity style = {styles.levelBottom8}>
+        <TouchableOpacity style = {styles.levelBottom8} onPress={() => navigation.navigate("")}>
             <Image source={require('../../images/tela_mapa/bottomIncomplete.png')} style = {styles.levelBottom}/>
         </TouchableOpacity>
 
-        <TouchableOpacity style = {styles.levelBottom9}>
+        <TouchableOpacity style = {styles.levelBottom9} onPress={() => navigation.navigate("")}>
             <Image source={require('../../images/tela_mapa/bottomIncomplete.png')} style = {styles.levelBottom}/>
         </TouchableOpacity>
 
-         <TouchableOpacity style = {styles.levelBottom10}>
+         <TouchableOpacity style = {styles.levelBottom10} onPress={() => navigation.navigate("")}>
             <Image source={require('../../images/tela_mapa/bottomIncomplete.png')} style = {styles.levelBottom}/>
         </TouchableOpacity> 
 
-        <TouchableOpacity style = {styles.levelBottom11}>
+        <TouchableOpacity style = {styles.levelBottom11} onPress={() => navigation.navigate("")}>
             <Image source={require('../../images/tela_mapa/bottomIncomplete.png')} style = {styles.levelBottom}/>
         </TouchableOpacity> 
         </View>

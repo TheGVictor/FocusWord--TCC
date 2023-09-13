@@ -7,9 +7,7 @@ import { useNavigation } from '@react-navigation/native';
 export default function LevelScreen() {
 
   const navigation = useNavigation()
-  const handleBack = () => {
-    navigation.goBack()
-  }
+
 
   return (
 
@@ -24,7 +22,7 @@ export default function LevelScreen() {
             <Image style = {styles.levelIndicator}
             source = {require('../../images/tela_mapa/levelIndicator.png')}/>
             <Text style = {styles.textLevel}>Nível 00</Text>
-            <TouchableOpacity onPress={handleBack}>
+            <TouchableOpacity onPress={navigation.goBack}>
         <Image  style = {styles.btExit}source={require('../../images/tela_mapa/btExit.png')}/>
         </TouchableOpacity>
         </View>
@@ -44,7 +42,7 @@ export default function LevelScreen() {
             <Text style = {{fontFamily: 'Oleo Script', fontSize: 25, }}>Recompensa</Text>
         </View>
 
-        <TouchableOpacity style = {styles.btStart}>
+        <TouchableOpacity style = {styles.btStart} onPress={() => navigation.navigate("Game1")}>
             <Text style = {{fontFamily: 'Oleo Script', fontSize: 30}}>Jogar!</Text>
         </TouchableOpacity>
 

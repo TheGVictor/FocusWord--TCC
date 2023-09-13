@@ -1,9 +1,12 @@
 import { SafeAreaView, View, Image, Text } from "react-native";
 import styles from "./style";
 import { TouchableOpacity } from "react-native-gesture-handler";
+import { useNavigation } from "@react-navigation/native";
 
 export default function WordScreen() {
     
+    const navigation = useNavigation()
+
     return(
     <View style={styles.container}>
         <SafeAreaView style={styles.header}>
@@ -13,7 +16,7 @@ export default function WordScreen() {
             07/07
         </View>
         <TouchableOpacity style = {styles.buttonConfigIcon}
-                        activeOpacity={0.5}>
+                        activeOpacity={0.5} onPress={() => navigation.navigate("Pause")}>
                            <Image
                            style = {styles.configIcon}
                            source = {require('../../images/TelaDoCacaPalavras/config.png')}/>

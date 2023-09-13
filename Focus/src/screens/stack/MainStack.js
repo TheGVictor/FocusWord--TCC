@@ -24,8 +24,9 @@ export default () => (
       <Stack.Screen name="MainTab" component={MainTab}/>
       <Stack.Screen name="Map" component={WordScreen}/>
       <Stack.Screen name="Reward" component={RewardScreen}/>
-      <Stack.Screen name="Max" component={PauseScreen}/>
+      <Stack.Screen name="Pause" component={PauseScreen}/>
       <Stack.Screen name = "Level" component={LevelScreen}/>
+      <Stack.Screen name = "Game1" component={WordScreen}/>
   </Stack.Navigator>
 )
 

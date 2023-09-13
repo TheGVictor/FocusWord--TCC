@@ -5,7 +5,7 @@ import { useNavigation } from "@react-navigation/native";
 
 export default function PauseScreen() {
 
-
+    const navigation = useNavigation()
 
     return(
         <View style = {styles.container}>
@@ -17,10 +17,10 @@ export default function PauseScreen() {
         />
 
         <View style = {styles.buttonArea}>
-        <TouchableOpacity style = {styles.backGame}>
+        <TouchableOpacity style = {styles.backGame} onPress={() => navigation.goBack()}>
             Voltar ao jogo
         </TouchableOpacity>
-        <TouchableOpacity style = {styles.exitGame}>
+        <TouchableOpacity style = {styles.exitGame} onPress={() => navigation.navigate("MainTab")}>
             Sair
         </TouchableOpacity>
         <TouchableOpacity style = {styles.login}>
