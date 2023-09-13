@@ -9,6 +9,30 @@ const styles = StyleSheet.create({
         alignItems: 'center',        
         backgroundColor: '#222'
     },
+    
+        grid: {
+          flexDirection: 'column',
+        },
+        row: {
+          flexDirection: 'row',
+        },
+        cell: {
+          width: 30,
+          height: 30,
+          justifyContent: 'center',
+          alignItems: 'center',
+          borderWidth: 1,
+        },
+        foundCell: {
+          backgroundColor: 'green',
+        },
+        wordList: {
+          marginTop: 20,
+        },
+        foundWord: {
+          textDecorationLine: 'line-through',
+          color: 'green',
+        },
 
     bg: {
         flex: 1,

@@ -1,8 +1,9 @@
-import { SafeAreaView, View, Image, Text } from "react-native";
+import { SafeAreaView, View, Image, Text, Alert } from "react-native";
 import styles from "./style";
 import { TouchableOpacity } from "react-native-gesture-handler";
 import { useNavigation } from "@react-navigation/native";
-import WordSearchGame from "./Game";
+import WordSearchGame from "./game";
+
 
 
 export default function WordScreen() {
@@ -32,11 +33,14 @@ export default function WordScreen() {
                     </TouchableOpacity>
         </View>
         </SafeAreaView>
-        <SafeAreaView style={styles.main}> 
-         <View style={styles.WordSearchGame}>
-             <WordSearchGame/>
-         </View>
-        </SafeAreaView>
+        
+         
+        <View style={styles.main}>
+            
+          </View>
+
+         
+        
 
         <View style={styles.Caption}>
             <Text style={styles.textCaption}>Dica</Text>
@@ -46,6 +50,9 @@ export default function WordScreen() {
     }
 
 
+    import React, { Component } from 'react';
+
+      
 
 
     
