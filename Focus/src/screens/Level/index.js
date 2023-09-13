@@ -13,7 +13,7 @@ export default function LevelScreen() {
 
     <View style={styles.container}>
 
-<Image
+    <Image
       style = {styles.backgroundImage} 
       source = {require('../../images/tela_mapa/mathBg.png')} />
 

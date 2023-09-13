@@ -12,8 +12,6 @@ export default function App(){
   
 <NavigationContainer>
 
-  <MainStack/>
-
   <WordScreen/>
 
 </NavigationContainer>

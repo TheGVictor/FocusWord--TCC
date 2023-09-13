@@ -39,6 +39,7 @@ const styles = StyleSheet.create({
     color: '#FFF',
     fontSize: 20,
     fontWeight: 400,
+    padding: 10
     },
 
     configIcon: {
@@ -46,7 +47,14 @@ const styles = StyleSheet.create({
         width: 30
     },
 
+    leftSideHeader: {
+        flexDirection: 'row',
+        backgroundColor: '',
+        
+    },
+
     textHeaderWords: {
+        justifyContent: 'center',
         backgroundColor:'#b57514',
         padding: 15,
         width: 200,
@@ -68,7 +76,11 @@ const styles = StyleSheet.create({
         marginTop: 50,
         shadowRadius: 7,
     },
-
+    WordSearchGame:{
+        flex: 1,
+        
+    },
+    
     Caption:{
         marginTop:50,
         backgroundColor: '#F7DFBC',
