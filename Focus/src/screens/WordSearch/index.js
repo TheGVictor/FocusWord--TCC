@@ -8,10 +8,15 @@ export default function WordScreen() {
     const navigation = useNavigation()
 
     return(
+
     <View style={styles.container}>
+        <Image source={require('../../images/TelaDoCacaPalavras/bg/matbg.png')} style = {styles.bg}/>
+       
         <SafeAreaView style={styles.header}>
             <View style = {styles.headerContent}>
+                <View style = {styles.leftSideHeader}>
             <Text style= {styles.textHeader}>03 <br/>Profissões</Text>
+            </View>
         <View style={styles.textHeaderWords}>
             07/07
         </View>
@@ -28,7 +33,7 @@ export default function WordScreen() {
         </SafeAreaView>
 
         <View style={styles.Caption}>
-            <Text style={styles.textCaption}>Texto Texto Texto</Text>
+            <Text style={styles.textCaption}>Dica</Text>
         </View>
     </View>
     )
