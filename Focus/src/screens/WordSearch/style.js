@@ -7,39 +7,50 @@ const styles = StyleSheet.create({
         width: '100%',
         height: '100%',
         alignItems: 'center',        
-        backgroundColor: '#222'
+        backgroundColor: '#222',
     },
-    
-        grid: {
-          flexDirection: 'column',
-        },
-        row: {
-          flexDirection: 'row',
-        },
-        cell: {
-          width: 30,
-          height: 30,
-          justifyContent: 'center',
-          alignItems: 'center',
-          borderWidth: 1,
-        },
-        foundCell: {
-          backgroundColor: 'green',
-        },
-        wordList: {
-          marginTop: 20,
-        },
-        foundWord: {
-          textDecorationLine: 'line-through',
-          color: 'green',
-        },
+
+    main: {
+        backgroundColor: '#FFF',
+        alignItems: 'center',
+        justifyContent: 'center',
+        borderRadius: 20,
+        marginTop: 50,
+        shadowRadius: 7,
+        
+    },
+
+    grid: {
+        flexDirection: 'column',
+      },
+
+      row: {
+        flexDirection: 'row',
+        
+      },
+      cell: {
+        width: 30,
+        height: 30,
+        justifyContent: 'center',
+        alignItems: 'center',
+        borderWidth: 1
+        
+      },
+      foundCell: {
+        backgroundColor: 'green',
+      },
+
+      foundWord: {
+        textDecorationLine: 'line-through',
+        color: 'green',
+      },
 
     bg: {
         flex: 1,
         width: '100%',
         height: '100%',
         position: 'absolute',
-        opacity: 0.2
+        opacity: 0.2,
     },
 
     header:{
@@ -56,25 +67,23 @@ const styles = StyleSheet.create({
         paddingLeft: 12,
         paddingRight: 12,
         paddingTop: 5,
-        paddingBottom:5
+        paddingBottom:5,
     },
 
     textHeader:{
     color: '#FFF',
     fontSize: 20,
     fontWeight: 400,
-    padding: 10
+    padding: 10,
     },
 
     configIcon: {
         height: 30,
-        width: 30
+        width: 30,
     },
 
     leftSideHeader: {
         flexDirection: 'row',
-        backgroundColor: '',
-        
     },
 
     textHeaderWords: {
@@ -90,22 +99,7 @@ const styles = StyleSheet.create({
         color:  '#FFF',
     },
 
-    main:{
-        backgroundColor: 'white',
-        width: 390,
-        height: 612,
-        alignItems: 'center',
-        justifyContent: 'center',
-        borderRadius: 20,
-        marginTop: 50,
-        shadowRadius: 7,
-    },
-    WordSearchGame:{
-        flex: 1,
-        
-    },
-    
-    Caption:{
+    caption:{
         marginTop:50,
         backgroundColor: '#F7DFBC',
         padding: 5,
@@ -117,10 +111,10 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         fontWeight:'bold',
         
-    }
+    },
     
 
-    
-})
+      });
+        
 
 export default styles

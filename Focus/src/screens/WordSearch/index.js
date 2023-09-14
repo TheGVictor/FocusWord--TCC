@@ -5,13 +5,10 @@ import { useNavigation } from "@react-navigation/native";
 import WordSearchGame from "./game";
 
 
-
 export default function WordScreen() {
     
     const navigation = useNavigation()
-
     return(
-
     <View style={styles.container}>
         <Image source={require('../../images/TelaDoCacaPalavras/bg/matbg.png')} style = {styles.bg}/>
        
@@ -24,7 +21,6 @@ export default function WordScreen() {
                   07/07
             </View>
             </View>
-
         <TouchableOpacity style = {styles.buttonConfigIcon}
                         activeOpacity={0.5} onPress={() => navigation.navigate("Pause")}>
                            <Image
@@ -33,26 +29,18 @@ export default function WordScreen() {
                     </TouchableOpacity>
         </View>
         </SafeAreaView>
-        
+        <View> 
          
-        <View style={styles.main}>
-            
-          </View>
+            <WordSearchGame/>   
 
-         
-        
+        </View>
 
-        <View style={styles.Caption}>
+        <View style={styles.caption}>
             <Text style={styles.textCaption}>Dica</Text>
         </View>
     </View>
     )
     }
-
-
-    import React, { Component } from 'react';
-
-      
 
 
     
