@@ -9,7 +9,7 @@ class WordSearchGame extends Component {
       gridLetras: this.gerarGridAleatorio(),
       listaPalavras: ['HISTÓRIA', 'CIÊNCIA', 'MATEMÁTICA', 'INGLÊS', 'PORTUGUÊS'],
       palavrasEncontradas: [],
-        
+      
     };
   }
 
@@ -17,7 +17,7 @@ class WordSearchGame extends Component {
       const gridSizeX = 17; // Tamanho do grid horizontal
       const gridSizeY = 12; // Tamanho do grid vertical
       const grid = [];
-      const randomLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+      const randomLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
   
       for (let i = 0; i < gridSizeX; i++) {
         const row = [];
