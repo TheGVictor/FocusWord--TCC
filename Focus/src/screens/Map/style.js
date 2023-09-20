@@ -107,15 +107,50 @@ const styles = StyleSheet.create({
         marginLeft: -100,
         position: "absolute",
     },
-
-    
-     
+ 
     specialBottom2:{
         marginTop: -185,
         marginLeft: -45,
         position: "absolute",
-    }
+    },
     
+    levelBottom11:{
+        marginTop: -225,
+        marginLeft: 4,
+        position: "absolute"
+    },
+
+    levelBottom12:{
+        marginTop: -265,
+        marginLeft: 50,
+        position: "absolute",
+    },
+
+    levelBottom13:{ 
+        marginTop: -320,
+        marginLeft: 70,
+        position: "absolute",
+
+    },
+
+    levelBottom14:{
+        marginTop: -370,
+        marginLeft: 40,
+        position:"absolute",
+    },
+
+    levelBottom15:{
+        marginTop: -370,
+        marginLeft: -20,
+        position:"absolute",
+    },
+
+    specialBottom3:{ 
+        marginTop: -370,
+        marginLeft: -100,
+        position: 'absolute',
+    },
+
     }
 )
 

@@ -63,8 +63,38 @@ export default function MapScreen() {
         </TouchableOpacity> 
 
         <TouchableOpacity style = {styles.specialBottom2} onPress={() => navigation.navigate("")}>
-            <Image source={require('../../images/tela_mapa/speciallevel.png')} style = {styles.specialBottom}/>
+            <Image source={require('../../images/tela_mapa/specialLevel.png')} style = {styles.specialBottom}/>
         </TouchableOpacity> 
+
+{/* Terceira parte */} 
+
+            <TouchableOpacity style = {styles.levelBottom11} onPress={() => navigation.navigate("")}>
+            <Image source={require('../../images/tela_mapa/bottomIncomplete.png')} style = {styles.levelBottom}/>
+        </TouchableOpacity>
+        
+        <TouchableOpacity style = {styles.levelBottom12} onPress={() => navigation.navigate("")}>
+            <Image source={require('../../images/tela_mapa/bottomIncomplete.png')} style = {styles.levelBottom}/>
+        </TouchableOpacity>
+
+        <TouchableOpacity style = {styles.levelBottom13} onPress={() => navigation.navigate("")}>
+            <Image source={require('../../images/tela_mapa/bottomIncomplete.png')} style = {styles.levelBottom}/>
+        </TouchableOpacity>
+
+        <TouchableOpacity style = {styles.levelBottom14} onPress={() => navigation.navigate("")}>
+            <Image source={require('../../images/tela_mapa/bottomIncomplete.png')} style = {styles.levelBottom}/>
+        </TouchableOpacity>
+
+        <TouchableOpacity style = {styles.levelBottom15} onPress={() => navigation.navigate("")}>
+            <Image source={require('../../images/tela_mapa/bottomIncomplete.png')} style = {styles.levelBottom}/>
+        </TouchableOpacity>
+
+        <TouchableOpacity style = {styles.specialBottom3} onPress={() => navigation.navigate("")}>
+            <Image source={require('../../images/tela_mapa/specialLevel.png')} style = {styles.specialBottom}/>
+        </TouchableOpacity> 
+
+
+
+  
         </View>
     </View>
   );
