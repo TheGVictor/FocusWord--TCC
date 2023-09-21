@@ -4,7 +4,7 @@ import styles from './style';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 import { useNavigation } from '@react-navigation/native';
 
-export default function LevelScreenOne() {
+export default function LevelScreenTwelve() {
 
   const navigation = useNavigation()
 
