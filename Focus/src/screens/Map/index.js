@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, View, Image, ActivityIndicator, Animated } from 'react-native';
+import { View, Image,} from 'react-native';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 import styles from './style';
 import { useNavigation } from '@react-navigation/native';

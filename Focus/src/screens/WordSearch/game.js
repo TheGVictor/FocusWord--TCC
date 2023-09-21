@@ -17,11 +17,12 @@ class WordSearchGame extends Component {
       const gridSizeX = 17; // Tamanho do grid horizontal
       const gridSizeY = 12; // Tamanho do grid vertical
       const grid = [];
-      const randomLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+      const letrasPossiveis = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
   
       for (let i = 0; i < gridSizeX; i++) {
         const row = [];
         for (let j = 0; j < gridSizeY; j++) {
+          
           row.push('');
         }
         grid.push(row);
