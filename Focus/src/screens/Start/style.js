@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
         width: '100%',
         height: '100%',
         position: 'absolute',
-        alignItems: 'center'
+        alignItems: 'center',
     },
 
     focusImg: {
@@ -34,12 +34,19 @@ const styles = StyleSheet.create({
         textShadowRadius: 5,
     },
 
-    authImg: {
-        width: 100,
-        height: 50,
+    footer: {
+        width: '100%',
+        alignItems: 'center',
+        justifyContent: 'center',
         position: 'absolute',
-        bottom: 5,
+        bottom: 0,
+        }, 
+
+    authImg: {
+        minWidth: 200,
+        minHeight: 55
     },
+
 
     configImg: {
         width: 40,

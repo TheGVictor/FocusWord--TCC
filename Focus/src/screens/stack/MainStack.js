@@ -5,7 +5,7 @@ import WordScreen from '../WordSearch';
 import RewardScreen from '../Reward';
 import MainTab from './MainTab';
 import PauseScreen from '../Pause';
-import LevelScreen from '../Level';
+import LevelScreen from '../Levels/LevelOne';
 
 
 const Stack = createStackNavigator();
