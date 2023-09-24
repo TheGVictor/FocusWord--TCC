@@ -18,7 +18,7 @@ const handlePlay = () => {
         <Image source = {require('../../images/Tela_inicio/bg.png')} style = {styles.container}/>
 
         <View style = {styles.header}>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate('Pause')}>
             <Image source = {require('../../images/Tela_inicio/config.png')}style = {styles.configImg} />
           </TouchableOpacity>
           </View>

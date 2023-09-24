@@ -58,6 +58,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#E39621',
         marginTop: 10,
         borderRadius:15,
+        justifyContent: 'space-around'
     },
 
     headerContent : {
@@ -73,7 +74,7 @@ const styles = StyleSheet.create({
     textHeader:{
     color: '#FFF',
     fontSize: 20,
-    fontWeight: 400,
+    fontWeight: 900,
     padding: 10,
     },
 
@@ -88,15 +89,17 @@ const styles = StyleSheet.create({
 
     textHeaderWords: {
         justifyContent: 'center',
-        backgroundColor:'#b57514',
-        padding: 15,
-        width: 200,
+       paddingHorizontal: 40,
+       paddingVertical: 10,
         textAlign: 'center',
         fontSize: 25,
-        fontWeight: 600,
+        fontWeight: 900,
         fontFamily: 'sans-serif',
         borderRadius: 13,
         color:  '#FFF',
+        borderWidth: 1,
+        borderColor: '#FFF',
+        marginLeft: -70
     },
 
     caption:{

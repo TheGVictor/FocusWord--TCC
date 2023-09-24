@@ -6,6 +6,7 @@ import MainTab from './src/screens/stack/MainTab';
 import LevelScreen from './src/screens/Levels/LevelOne';
 import LoadingScreen from './src/screens/Loading';
 import WordScreen from './src/screens/WordSearch';
+import WordSearchGame from './src/screens/WordSearch/game';
 
 
 export default function App(){

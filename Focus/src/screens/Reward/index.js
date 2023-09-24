@@ -1,8 +1,11 @@
 import { SafeAreaView, View, Image, Text, ScrollView } from "react-native";
 import styles from "./style";
 import { TouchableOpacity } from "react-native-gesture-handler";
+import { useNavigation } from "@react-navigation/native";
 
 export default function RewardScreen() {
+
+    const navigation = useNavigation()
 
     return(
 
@@ -12,7 +15,7 @@ export default function RewardScreen() {
             <SafeAreaView style = {styles.header}> 
                     <Text style = {styles.headerText}>Recompensas</Text>
                       <TouchableOpacity style = {styles.buttonMenuIcon}
-                        activeOpacity={0.5}>
+                        activeOpacity={0.5} onPress={() => navigation.navigate('Pause')}>
                            <Image
                            style = {styles.menuIcon}
                            source = {require('../../images/Tela de recompensas/config.png')}/>

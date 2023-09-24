@@ -14,12 +14,10 @@ export default function WordScreen() {
        
         <SafeAreaView style={styles.header}>
             <View style = {styles.headerContent}>
-                <View style = {styles.leftSideHeader}>
             <Text style= {styles.textHeader}>03 <br/>Profissões</Text>
             
                 <View style={styles.textHeaderWords}>
                   07/07
-            </View>
             </View>
         <TouchableOpacity style = {styles.buttonConfigIcon}
                         activeOpacity={0.5} onPress={() => navigation.navigate("Pause")}>
