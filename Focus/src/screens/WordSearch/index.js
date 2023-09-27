@@ -1,8 +1,8 @@
 import { SafeAreaView, View, Image, Text, Alert } from "react-native";
-import styles from "./style";
+import styles from "../Levels/LevelOne/game01/style";
 import { TouchableOpacity } from "react-native-gesture-handler";
 import { useNavigation } from "@react-navigation/native";
-import WordSearchGame from "./game";
+import WordSearchGame from "../Levels/LevelOne/game01";
 
 
 export default function WordScreen() {
