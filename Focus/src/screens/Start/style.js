@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         position: 'absolute',
         bottom: 0,
-        }, 
+    },
 
     authImg: {
         minWidth: 200,
@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
 
 
 
-    }
+}
 )
 
 export default styles

@@ -9,27 +9,27 @@ class WordSearchGame extends Component {
       gridLetras: this.gerarGridAleatorio(),
       listaPalavras: ['HISTÓRIA', 'CIÊNCIA', 'MATEMÁTICA', 'INGLÊS', 'PORTUGUÊS'],
       palavrasEncontradas: [],
-      
+
     };
   }
 
   gerarGridAleatorio = () => {
-      const gridSizeX = 17; // Tamanho do grid horizontal
-      const gridSizeY = 12; // Tamanho do grid vertical
-      const grid = [];
-      const letrasPossiveis = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-  
-      for (let i = 0; i < gridSizeX; i++) {
-        const row = [];
-        for (let j = 0; j < gridSizeY; j++) {
-          
-          row.push('');
-        }
-        grid.push(row);
+    const gridSizeX = 17; // Tamanho do grid horizontal
+    const gridSizeY = 12; // Tamanho do grid vertical
+    const grid = [];
+    const letrasPossiveis = 'ABCDEFGHIFJKLMNOPQRSTUVWXYZ';
+
+    for (let i = 0; i < gridSizeX; i++) {
+      const row = [];
+      for (let j = 0; j < gridSizeY; j++) {
+
+        row.push('');
       }
-  
-      return grid;
-    };
+      grid.push(row);
+    }
+
+    return grid;
+  };
 
   adicionarPalavraAoGrid = (palavra) => {
     const { gridLetras } = this.state;

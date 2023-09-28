@@ -45,53 +45,53 @@ import WordScreenFifteen from '../Levels/LevelFifteen/game15';
 const Stack = createStackNavigator();
 
 export default () => (
-    
-  <Stack.Navigator 
-      initialRouteName='Start'
-      screenOptions={{
-          headerShown: false,
-          gestureEnabled: true,
-          gestureDirection: "vertical",
-          cardStyleInterpolator:CardStyleInterpolators.forFadeFromBottomAndroid
-  }}>
-      <Stack.Screen name="Start" component={StartScreen}/>
-      <Stack.Screen name="MainTab" component={MainTab}/>
-      <Stack.Screen name="Map" component={WordScreen}/>
-      <Stack.Screen name="Reward" component={RewardScreen}/>
-      <Stack.Screen name="Pause" component={PauseScreen}/>
-      <Stack.Screen name = "LevelOne" component={LevelScreenOne}/>
-          <Stack.Screen name = "GameOne" component={WordScreenOne}/>
-      <Stack.Screen name = "LevelTwo" component={LevelScreenTwo}/>
-          <Stack.Screen name = "GameTwo" component={WordScreenTwo}/>
-      <Stack.Screen name = "LevelThree" component={LevelScreenThree}/>
-         <Stack.Screen name = "GameThree" component={WordScreenThree}/>
-      <Stack.Screen name = "LevelFour" component={LevelScreenFour}/>
-          <Stack.Screen name = "GameFour" component={WordScreenFour}/>
-      <Stack.Screen name = "LevelFive" component={LevelScreenFive}/>
-          <Stack.Screen name = "GameFive" component={WordScreenFive}/>
+
+    <Stack.Navigator
+        initialRouteName='Start'
+        screenOptions={{
+            headerShown: false,
+            gestureEnabled: true,
+            gestureDirection: "vertical",
+            cardStyleInterpolator: CardStyleInterpolators.forFadeFromBottomAndroid
+        }}>
+        <Stack.Screen name="Start" component={StartScreen} />
+        <Stack.Screen name="MainTab" component={MainTab} />
+        <Stack.Screen name="Map" component={WordScreen} />
+        <Stack.Screen name="Reward" component={RewardScreen} />
+        <Stack.Screen name="Pause" component={PauseScreen} />
+        <Stack.Screen name="LevelOne" component={LevelScreenOne} />
+        <Stack.Screen name="GameOne" component={WordScreenOne} />
+        <Stack.Screen name="LevelTwo" component={LevelScreenTwo} />
+        <Stack.Screen name="GameTwo" component={WordScreenTwo} />
+        <Stack.Screen name="LevelThree" component={LevelScreenThree} />
+        <Stack.Screen name="GameThree" component={WordScreenThree} />
+        <Stack.Screen name="LevelFour" component={LevelScreenFour} />
+        <Stack.Screen name="GameFour" component={WordScreenFour} />
+        <Stack.Screen name="LevelFive" component={LevelScreenFive} />
+        <Stack.Screen name="GameFive" component={WordScreenFive} />
         {/* <Stack.Screen name = "SpecialLevelOne" component={LevelScreen}/> */}
-      <Stack.Screen name = "LevelSix" component={LevelScreenSix}/>
-          <Stack.Screen name = "GameSix" component={WordScreenSix}/>
-      <Stack.Screen name = "LevelSeven" component={LevelScreenSeven}/>
-          <Stack.Screen name = "GameSeven" component={WordScreenSeven}/>
-      <Stack.Screen name = "LevelEight" component={LevelScreenEight}/>
-          <Stack.Screen name = "GameEight" component={WordScreenEight}/>
-      <Stack.Screen name = "LevelNine" component={LevelScreenNine}/>
-          <Stack.Screen name = "GameNine" component={WordScreenNine}/>
-      <Stack.Screen name = "LevelTen" component={LevelScreenTen}/>
-          <Stack.Screen name = "GameTen" component={WordScreenTen}/>
+        <Stack.Screen name="LevelSix" component={LevelScreenSix} />
+        <Stack.Screen name="GameSix" component={WordScreenSix} />
+        <Stack.Screen name="LevelSeven" component={LevelScreenSeven} />
+        <Stack.Screen name="GameSeven" component={WordScreenSeven} />
+        <Stack.Screen name="LevelEight" component={LevelScreenEight} />
+        <Stack.Screen name="GameEight" component={WordScreenEight} />
+        <Stack.Screen name="LevelNine" component={LevelScreenNine} />
+        <Stack.Screen name="GameNine" component={WordScreenNine} />
+        <Stack.Screen name="LevelTen" component={LevelScreenTen} />
+        <Stack.Screen name="GameTen" component={WordScreenTen} />
         {/* <Stack.Screen name = "SpecialLevelTwo" component={LevelScreen}/> */}
-      <Stack.Screen name = "LevelEleven" component={LevelScreenEleven}/>
-          <Stack.Screen name = "GameEleven" component={WordScreenEleven}/>
-      <Stack.Screen name = "LevelTwelve" component={LevelScreenTwelve}/>
-          <Stack.Screen name = "GameTwelve" component={WordScreenTwelve}/>
-      <Stack.Screen name = "LevelThirteen" component={LevelScreenThirteen}/>
-          <Stack.Screen name = "GameThirteen" component={WordScreenThirteen}/>
-      <Stack.Screen name = "LevelFourteen" component={LevelScreenFourteen}/>
-          <Stack.Screen name = "GameFourteen" component={WordScreenFourteen}/>
-      <Stack.Screen name = "LevelFifteen" component={LevelScreenFifteen}/>
-          <Stack.Screen name = "GameFifteen" component={WordScreenFifteen}/>
+        <Stack.Screen name="LevelEleven" component={LevelScreenEleven} />
+        <Stack.Screen name="GameEleven" component={WordScreenEleven} />
+        <Stack.Screen name="LevelTwelve" component={LevelScreenTwelve} />
+        <Stack.Screen name="GameTwelve" component={WordScreenTwelve} />
+        <Stack.Screen name="LevelThirteen" component={LevelScreenThirteen} />
+        <Stack.Screen name="GameThirteen" component={WordScreenThirteen} />
+        <Stack.Screen name="LevelFourteen" component={LevelScreenFourteen} />
+        <Stack.Screen name="GameFourteen" component={WordScreenFourteen} />
+        <Stack.Screen name="LevelFifteen" component={LevelScreenFifteen} />
+        <Stack.Screen name="GameFifteen" component={WordScreenFifteen} />
         {/* <Stack.Screen name = "SpecialLevelThree" component={LevelScreen}/> */}
-  </Stack.Navigator>
+    </Stack.Navigator>
 )
 

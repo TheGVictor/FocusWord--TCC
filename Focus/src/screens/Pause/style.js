@@ -4,7 +4,7 @@ import { StyleSheet } from "react-native"
 const styles = StyleSheet.create({
     container: {
         backgroundColor: '#008F8C',
-        flex: 1, 
+        flex: 1,
         alignItems: 'center',
         justifyContent: 'center'
     },
@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
         borderRadius: 30,
         alignItems: "center",
         justifyContent: 'center',
-        flexDirection: "row"        
+        flexDirection: "row"
     },
 
     exitGame: {
@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
         justifyContent: "center",
         alignItems: "center",
         marginRight: '1%'
-        
+
     },
     login: {
         width: '45%',

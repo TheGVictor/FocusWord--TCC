@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
     },
 
     // area total das recompensas
-    rewardsArea: {  
+    rewardsArea: {
         height: 'auto',
         width: '85%',
         alignSelf: 'center',
@@ -73,7 +73,7 @@ const styles = StyleSheet.create({
         borderRadius: 25,
         shadowColor: '#000',
         shadowRadius: 10,
-        
+
     },
 
     rewardArea: {
@@ -96,7 +96,7 @@ const styles = StyleSheet.create({
         paddingRight: 15,
         borderRadius: 25,
         shadowColor: '#000',
-      
+
     },
 
     rewardText: {
@@ -115,7 +115,7 @@ const styles = StyleSheet.create({
         height: 63,
         marginBottom: 10,
     },
-    
+
     arrow: {
         width: 60,
         height: 60
@@ -132,7 +132,7 @@ const styles = StyleSheet.create({
     },
 
     TabBar: {
-    height: '100%'
+        height: '100%'
     }
 })
 

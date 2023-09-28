@@ -10,14 +10,14 @@ import WordSearchGame from './src/screens/WordSearch/game';
 import LevelScreenOne from './src/screens/Levels/LevelOne';
 
 
-export default function App(){
+export default function App() {
   return (
-  
-<NavigationContainer>
 
-  <MainStack/>
+    <NavigationContainer>
 
-</NavigationContainer>
+      <MainStack />
+
+    </NavigationContainer>
 
   )
 }

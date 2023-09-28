@@ -7,166 +7,165 @@ export default function RewardScreen() {
 
     const navigation = useNavigation()
 
-    return(
+    return (
 
-        <View style = {styles.container}>
+        <View style={styles.container}>
 
 
-            <SafeAreaView style = {styles.header}> 
-                    <Text style = {styles.headerText}>Recompensas</Text>
-                      <TouchableOpacity style = {styles.buttonMenuIcon}
-                        activeOpacity={0.5} onPress={() => navigation.navigate('Pause')}>
-                           <Image
-                           style = {styles.menuIcon}
-                           source = {require('../../images/Tela de recompensas/config.png')}/>
-                    </TouchableOpacity>
+            <SafeAreaView style={styles.header}>
+                <Text style={styles.headerText}>Recompensas</Text>
+                <TouchableOpacity style={styles.buttonMenuIcon}
+                    activeOpacity={0.5} onPress={() => navigation.navigate('Pause')}>
+                    <Image
+                        style={styles.menuIcon}
+                        source={require('../../images/Tela de recompensas/config.png')} />
+                </TouchableOpacity>
             </SafeAreaView>
 
-            <ScrollView style = {styles.rewardsArea} showsVerticalScrollIndicator = {false}>
+            <ScrollView style={styles.rewardsArea} showsVerticalScrollIndicator={false}>
 
-                    {/* Camisas */}
-                        
-                        <Text style = {styles.rewardAreaText}>Camisas</Text>
+                {/* Camisas */}
 
-                        <View style = {styles.rewardArea}>
+                <Text style={styles.rewardAreaText}>Camisas</Text>
 
-                        <TouchableOpacity style = {styles.rightArrow}>
+                <View style={styles.rewardArea}>
+
+                    <TouchableOpacity style={styles.rightArrow}>
                         <Image
-                            source = {require('../../images/Tela de recompensas/clothes/seta_esquerda.png')}
-                            style = {styles.arrow}/>  
-                        </TouchableOpacity> 
+                            source={require('../../images/Tela de recompensas/clothes/seta_esquerda.png')}
+                            style={styles.arrow} />
+                    </TouchableOpacity>
 
-                        <View style = {styles.secondBackground}>
-                        <TouchableOpacity style = {styles.reward}>
+                    <View style={styles.secondBackground}>
+                        <TouchableOpacity style={styles.reward}>
                             <Image
-                            source = {require('../../images/Tela de recompensas/clothes/nivel01.png')}
-                            style = {styles.clothLocked}/>
-                            <Text style = {styles.rewardText}>Moletom</Text>
+                                source={require('../../images/Tela de recompensas/clothes/nivel01.png')}
+                                style={styles.clothLocked} />
+                            <Text style={styles.rewardText}>Moletom</Text>
                         </TouchableOpacity>
-                        </View>
+                    </View>
 
-                        <View style = {styles.secondBackground}>
-                        <TouchableOpacity style = {styles.reward}>
+                    <View style={styles.secondBackground}>
+                        <TouchableOpacity style={styles.reward}>
                             <Image
-                            source = {require('../../images/Tela de recompensas/clothes/nivel01.png')}
-                            style = {styles.clothLocked}/>
-                            <Text style = {styles.rewardText}>Moletom</Text>
+                                source={require('../../images/Tela de recompensas/clothes/nivel01.png')}
+                                style={styles.clothLocked} />
+                            <Text style={styles.rewardText}>Moletom</Text>
                         </TouchableOpacity>
-                        </View>
+                    </View>
 
-                        <TouchableOpacity style = {styles.rightArrow}>
+                    <TouchableOpacity style={styles.rightArrow}>
                         <Image
-                            source = {require('../../images/Tela de recompensas/clothes/seta_direita.png')}
-                            style = {styles.arrow}/>  
-                        </TouchableOpacity>
+                            source={require('../../images/Tela de recompensas/clothes/seta_direita.png')}
+                            style={styles.arrow} />
+                    </TouchableOpacity>
+                </View>
 
-                        </View>
 
+                {/* Calças */}
+                <Text style={styles.rewardAreaText}>Calças</Text>
+                <View style={styles.rewardArea}>
 
-                    {/* Calças */}
-                        <Text style = {styles.rewardAreaText}>Calças</Text>
-                        <View style = {styles.rewardArea}>
-
-                        <TouchableOpacity style = {styles.rightArrow}>
+                    <TouchableOpacity style={styles.rightArrow}>
                         <Image
-                            source = {require('../../images/Tela de recompensas/clothes/seta_esquerda.png')}
-                            style = {styles.arrow}/>  
-                        </TouchableOpacity> 
-                        
-                            <View style = {styles.secondBackground}>
-                        <TouchableOpacity style = {styles.rewardUnlocked}>
-                            <Image
-                            source = {require('../../images/Tela de recompensas/clothes/esboço_calca.png')}
-                            style = {styles.clothUnlocked}/>
-                            <Text style = {styles.rewardText}>Nível 02</Text>
-                        </TouchableOpacity>
-                        </View>
+                            source={require('../../images/Tela de recompensas/clothes/seta_esquerda.png')}
+                            style={styles.arrow} />
+                    </TouchableOpacity>
 
-                        <View style = {styles.secondBackground}>
-                        <TouchableOpacity style = {styles.rewardUnlocked}>
+                    <View style={styles.secondBackground}>
+                        <TouchableOpacity style={styles.rewardUnlocked}>
                             <Image
-                            source = {require('../../images/Tela de recompensas/clothes/esboço_calca.png')}
-                            style = {styles.clothUnlocked}/>
-                            <Text style = {styles.rewardText}>Nível 02</Text>
+                                source={require('../../images/Tela de recompensas/clothes/esboço_calca.png')}
+                                style={styles.clothUnlocked} />
+                            <Text style={styles.rewardText}>Nível 02</Text>
                         </TouchableOpacity>
-                        </View>
+                    </View>
 
-                        <TouchableOpacity style = {styles.rightArrow}>
+                    <View style={styles.secondBackground}>
+                        <TouchableOpacity style={styles.rewardUnlocked}>
+                            <Image
+                                source={require('../../images/Tela de recompensas/clothes/esboço_calca.png')}
+                                style={styles.clothUnlocked} />
+                            <Text style={styles.rewardText}>Nível 02</Text>
+                        </TouchableOpacity>
+                    </View>
+
+                    <TouchableOpacity style={styles.rightArrow}>
                         <Image
-                            source = {require('../../images/Tela de recompensas/clothes/seta_direita.png')}
-                            style = {styles.arrow}/>  
-                        </TouchableOpacity> 
+                            source={require('../../images/Tela de recompensas/clothes/seta_direita.png')}
+                            style={styles.arrow} />
+                    </TouchableOpacity>
 
-                        </View>
-                    {/* Tenis */}
-                        <Text style = {styles.rewardAreaText}>Tênis</Text>
-                        <View style = {styles.rewardArea}>
+                </View>
+                {/* Tenis */}
+                <Text style={styles.rewardAreaText}>Tênis</Text>
+                <View style={styles.rewardArea}>
 
-                        <TouchableOpacity style = {styles.rightArrow}>
+                    <TouchableOpacity style={styles.rightArrow}>
                         <Image
-                            source = {require('../../images/Tela de recompensas/clothes/seta_esquerda.png')}
-                            style = {styles.arrow}/>  
-                        </TouchableOpacity> 
+                            source={require('../../images/Tela de recompensas/clothes/seta_esquerda.png')}
+                            style={styles.arrow} />
+                    </TouchableOpacity>
 
-                        <View style = {styles.secondBackground}>
-                        <TouchableOpacity style = {styles.rewardUnlocked}>
+                    <View style={styles.secondBackground}>
+                        <TouchableOpacity style={styles.rewardUnlocked}>
                             <Image
-                            source = {require('../../images/Tela de recompensas/clothes/esboço_tenis.png')}
-                            style = {styles.clothUnlocked}/>
-                            <Text style = {styles.rewardText}>Nível 03</Text>
+                                source={require('../../images/Tela de recompensas/clothes/esboço_tenis.png')}
+                                style={styles.clothUnlocked} />
+                            <Text style={styles.rewardText}>Nível 03</Text>
                         </TouchableOpacity>
-                        </View>
+                    </View>
 
 
-                        <View style = {styles.secondBackground}>
-                        <TouchableOpacity style = {styles.rewardUnlocked}>
+                    <View style={styles.secondBackground}>
+                        <TouchableOpacity style={styles.rewardUnlocked}>
                             <Image
-                            source = {require('../../images/Tela de recompensas/clothes/esboço_tenis.png')}
-                            style = {styles.clothUnlocked}/>
-                            <Text style = {styles.rewardText}>Nível 03</Text>
+                                source={require('../../images/Tela de recompensas/clothes/esboço_tenis.png')}
+                                style={styles.clothUnlocked} />
+                            <Text style={styles.rewardText}>Nível 03</Text>
                         </TouchableOpacity>
-                        </View>
+                    </View>
 
-                        <TouchableOpacity style = {styles.rightArrow}>
+                    <TouchableOpacity style={styles.rightArrow}>
                         <Image
-                            source = {require('../../images/Tela de recompensas/clothes/seta_direita.png')}
-                            style = {styles.arrow}/>  
-                        </TouchableOpacity> 
+                            source={require('../../images/Tela de recompensas/clothes/seta_direita.png')}
+                            style={styles.arrow} />
+                    </TouchableOpacity>
 
-                        </View>
-                    {/* Especial */}
-                        <Text style = {styles.rewardAreaText}>Especial</Text>
-                        <View style = {styles.rewardArea}>
+                </View>
+                {/* Especial */}
+                <Text style={styles.rewardAreaText}>Especial</Text>
+                <View style={styles.rewardArea}>
 
-                        <TouchableOpacity style = {styles.rightArrow}>
+                    <TouchableOpacity style={styles.rightArrow}>
                         <Image
-                            source = {require('../../images/Tela de recompensas/clothes/seta_esquerda.png')}
-                            style = {styles.arrow}/>  
-                        </TouchableOpacity> 
+                            source={require('../../images/Tela de recompensas/clothes/seta_esquerda.png')}
+                            style={styles.arrow} />
+                    </TouchableOpacity>
 
-                        <View style = {styles.secondBackground}>
-                        <TouchableOpacity style = {styles.rewardUnlocked}>
+                    <View style={styles.secondBackground}>
+                        <TouchableOpacity style={styles.rewardUnlocked}>
                             <Image
-                            source = {require('../../images/Tela de recompensas/clothes/nivel01.png')}
-                            style = {styles.clothUnlocked}/>
-                            <Text style = {styles.rewardText}>Nível 06</Text>
+                                source={require('../../images/Tela de recompensas/clothes/nivel01.png')}
+                                style={styles.clothUnlocked} />
+                            <Text style={styles.rewardText}>Nível 06</Text>
                         </TouchableOpacity>
-                        </View>
+                    </View>
 
-                        <View style = {styles.secondBackground}>
-                        <TouchableOpacity style = {styles.rewardUnlocked}>
+                    <View style={styles.secondBackground}>
+                        <TouchableOpacity style={styles.rewardUnlocked}>
                             <Image
-                            source = {require('../../images/Tela de recompensas/clothes/nivel01.png')}
-                            style = {styles.clothUnlocked}/>
-                            <Text style = {styles.rewardText}>Nível 06</Text>
+                                source={require('../../images/Tela de recompensas/clothes/nivel01.png')}
+                                style={styles.clothUnlocked} />
+                            <Text style={styles.rewardText}>Nível 06</Text>
                         </TouchableOpacity>
-                        </View>
+                    </View>
 
-                        <TouchableOpacity style = {styles.rightArrow}>
+                    <TouchableOpacity style={styles.rightArrow}>
                         <Image
-                            source = {require('../../images/Tela de recompensas/clothes/seta_direita.png')}
-                            style = {styles.arrow}/>  
-                        </TouchableOpacity> 
+                            source={require('../../images/Tela de recompensas/clothes/seta_direita.png')}
+                            style={styles.arrow} />
+                    </TouchableOpacity>
 
                 </View>
 
@@ -178,5 +177,5 @@ export default function RewardScreen() {
 
     )
 
-    }
+}
 

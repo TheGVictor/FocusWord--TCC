@@ -13,37 +13,37 @@ export default function LevelScreenThirteen() {
 
     <View style={styles.container}>
 
-    <Image
-      style = {styles.backgroundImage} 
-      source = {require('../../../images/tela_mapa/mathBg.png')} />
+      <Image
+        style={styles.backgroundImage}
+        source={require('../../../images/tela_mapa/mathBg.png')} />
 
-      <View style = {styles.levelContainer}>
-        <View style = {styles.header}>            
-            <Image style = {styles.levelIndicator}
-            source = {require('../../../images/tela_mapa/levelIndicator.png')}/>
-            <Text style = {styles.textLevel}>Nível 13</Text>
-            <TouchableOpacity onPress={navigation.goBack}>
-        <Image  style = {styles.btExit}source={require('../../../images/tela_mapa/btExit.png')}/>
-        </TouchableOpacity>
+      <View style={styles.levelContainer}>
+        <View style={styles.header}>
+          <Image style={styles.levelIndicator}
+            source={require('../../../images/tela_mapa/levelIndicator.png')} />
+          <Text style={styles.textLevel}>Nível 13</Text>
+          <TouchableOpacity onPress={navigation.goBack}>
+            <Image style={styles.btExit} source={require('../../../images/tela_mapa/btExit.png')} />
+          </TouchableOpacity>
         </View>
 
 
-        <View style = {styles.levelInfo}>
-            <Image style = {styles.backgroundInfoImage} source={require('../../../images/tela_mapa/backgroundLevelInfo.png')}/>
-            <Text style = {styles.titleLevelInfo}>Objetivo</Text>
-            <Image style = {styles.iconLevelInfo} source={require('../../../images/tela_mapa/iconTest.png')}/>
-            <View style = {styles.textAreaLevelInfo}>
-            <Text style = {styles.subtitleLevelInfo}>Números de 1 a 10</Text>
-            <Text style = {styles.obsLevelInfo}>Obs: são a base da matemática<br/>Exemplo: Cinco</Text>
-            </View>
+        <View style={styles.levelInfo}>
+          <Image style={styles.backgroundInfoImage} source={require('../../../images/tela_mapa/backgroundLevelInfo.png')} />
+          <Text style={styles.titleLevelInfo}>Objetivo</Text>
+          <Image style={styles.iconLevelInfo} source={require('../../../images/tela_mapa/iconTest.png')} />
+          <View style={styles.textAreaLevelInfo}>
+            <Text style={styles.subtitleLevelInfo}>Números de 1 a 10</Text>
+            <Text style={styles.obsLevelInfo}>Obs: são a base da matemática<br />Exemplo: Cinco</Text>
+          </View>
         </View>
 
-        <View style = {styles.rewardArea}>
-            <Text style = {{fontFamily: 'Oleo Script', fontSize: 25, }}>Recompensa</Text>
+        <View style={styles.rewardArea}>
+          <Text style={{ fontFamily: 'Oleo Script', fontSize: 25, }}>Recompensa</Text>
         </View>
 
-        <TouchableOpacity style = {styles.btStart} onPress={() => navigation.navigate("GameThirteen")}>
-            <Text style = {{fontFamily: 'Oleo Script', fontSize: 30}}>Jogar!</Text>
+        <TouchableOpacity style={styles.btStart} onPress={() => navigation.navigate("GameThirteen")}>
+          <Text style={{ fontFamily: 'Oleo Script', fontSize: 30 }}>Jogar!</Text>
         </TouchableOpacity>
 
       </View>

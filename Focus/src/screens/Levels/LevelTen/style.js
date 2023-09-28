@@ -4,13 +4,13 @@ import { StyleSheet } from "react-native"
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: 'rgba(2, 2, 2, 0.9)'        
+        backgroundColor: 'rgba(2, 2, 2, 0.9)'
     },
-    
+
     backgroundImage: {
         flex: 1,
         opacity: '0.2',
-    
+
     },
 
     header: {
@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
         height: 35,
         top: -15,
         left: 25
-    },  
+    },
 
     levelContainer: {
         backgroundColor: '#DAC398',
@@ -44,15 +44,15 @@ const styles = StyleSheet.create({
         borderRadius: 20
     },
 
-    levelIndicator: {       
-        width: '80%', 
+    levelIndicator: {
+        width: '80%',
         height: 50,
     },
 
     textLevel: {
         fontFamily: 'Oleo Script',
         position: 'absolute',
-        fontSize: 35,  
+        fontSize: 35,
     },
 
     levelInfo: {
@@ -65,14 +65,14 @@ const styles = StyleSheet.create({
 
     backgroundInfoImage: {
         width: '100%',
-        height: '35%'        
+        height: '35%'
     },
 
     titleLevelInfo: {
-        fontFamily: 'Oleo Script', 
+        fontFamily: 'Oleo Script',
         textTransform: 'uppercase',
         position: 'absolute',
-        top: 15, 
+        top: 15,
         fontSize: 20
     },
 
@@ -83,14 +83,14 @@ const styles = StyleSheet.create({
         alignSelf: 'flex-start',
         top: 60,
         left: 10
-    },  
+    },
 
     textAreaLevelInfo: {
         alignSelf: 'flex-end',
         right: 20,
         position: 'absolute',
         top: 60
-    },  
+    },
 
     subtitleLevelInfo: {
         fontFamily: 'Cherry Bomb One',
@@ -113,14 +113,14 @@ const styles = StyleSheet.create({
     },
 
     btStart: {
-        
+
         paddingHorizontal: 30,
         paddingVertical: 5,
         borderRadius: 30,
         backgroundColor: '#FF5E53',
         marginTop: 250
     }
-      
+
 })
 
 export default styles
