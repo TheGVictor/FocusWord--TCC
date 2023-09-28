@@ -21,7 +21,7 @@ export default function LevelScreenTen() {
         <View style = {styles.header}>            
             <Image style = {styles.levelIndicator}
             source = {require('../../../images/tela_mapa/levelIndicator.png')}/>
-            <Text style = {styles.textLevel}>Nível 00</Text>
+            <Text style = {styles.textLevel}>Nível 10</Text>
             <TouchableOpacity onPress={navigation.goBack}>
         <Image  style = {styles.btExit}source={require('../../../images/tela_mapa/btExit.png')}/>
         </TouchableOpacity>
@@ -42,7 +42,7 @@ export default function LevelScreenTen() {
             <Text style = {{fontFamily: 'Oleo Script', fontSize: 25, }}>Recompensa</Text>
         </View>
 
-        <TouchableOpacity style = {styles.btStart} onPress={() => navigation.navigate("Game1")}>
+        <TouchableOpacity style = {styles.btStart} onPress={() => navigation.navigate("GameTen")}>
             <Text style = {{fontFamily: 'Oleo Script', fontSize: 30}}>Jogar!</Text>
         </TouchableOpacity>
 
