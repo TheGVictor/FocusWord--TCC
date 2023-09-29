@@ -13,13 +13,12 @@ export default function WordScreenEight() {
 
             <SafeAreaView style={styles.header}>
                 <View style={styles.headerContent}>
-                    <Text style={styles.textHeader}>03 <br />Profissões</Text>
+                    <Text style={styles.textHeader}>08 <br />Profissões</Text>
 
-                    <View style={styles.textHeaderWords}>
-                        <Text>
-                            07/07
-                        </Text>
-                    </View>
+                    <Text style={styles.textHeaderWords}>
+                        07/07
+                    </Text>
+
                     <TouchableOpacity style={styles.buttonConfigIcon}
                         activeOpacity={0.5} onPress={() => navigation.navigate("Pause")}>
                         <Image

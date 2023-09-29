@@ -12,6 +12,7 @@ export default function MapScreen() {
     return (
         <View style={styles.container}>
             <Image source={require('../../images/tela_mapa/bg.png')} style={styles.container} />
+            <Image source = {require('../../images/tela_mapa/ceu.png')} style = {styles.skyImage}/>
 
 
             {/* Primeira parte */}

@@ -8,6 +8,12 @@ const styles = StyleSheet.create({
 
     },
 
+    skyImage: {
+        position: 'absolute',
+        width: '100%',
+        height: '45%'
+    },
+
     bottomArea: {
         width: '100%',
         height: '100%',
