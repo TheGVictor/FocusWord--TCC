@@ -9,8 +9,8 @@ export default function WordScreenThirteen() {
     const navigation = useNavigation()
     return (
         <View style={styles.container}>
-            <Image source={require('../../../../images/TelaDoCacaPalavras/bg/matbg.png')} style={styles.bg} />
-
+            <Image source={require('../../../../images/TelaDoCacaPalavras/bg/cienbg.png')} style={styles.bg} />
+            
             <SafeAreaView style={styles.header}>
                 <View style={styles.headerContent}>
                     <Text style={styles.textHeader}>13 <br />Profissões</Text>

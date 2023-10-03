@@ -52,8 +52,8 @@ const styles = StyleSheet.create({
 
     rewardAreaText: {
         fontSize: 20,
-        color: '#FFF',
-        fontWeight: '600',
+        color: '#000',
+        fontWeight: '800',
         letterSpacing: 1,
         marginTop: 20,
         fontFamily: "Ultra', serif;",

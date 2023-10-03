@@ -15,7 +15,7 @@ export default function LevelScreenOne() {
 
       <Image
         style={styles.backgroundImage}
-        source={require('../../../images/tela_mapa/mathBg.png')} />
+        source={require('../../../images/TelaDoCacaPalavras/bg/portbg.png')} />
 
       <View style={styles.levelContainer}>
         <View style={styles.header}>

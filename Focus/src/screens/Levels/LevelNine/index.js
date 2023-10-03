@@ -15,7 +15,7 @@ export default function LevelScreenNine() {
 
       <Image
         style={styles.backgroundImage}
-        source={require('../../../images/tela_mapa/mathBg.png')} />
+        source={require('../../../images/TelaDoCacaPalavras/bg/mathbg.png')} />
 
       <View style={styles.levelContainer}>
         <View style={styles.header}>
