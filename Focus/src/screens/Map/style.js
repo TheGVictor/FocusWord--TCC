@@ -4,6 +4,8 @@ import { StyleSheet } from "react-native"
 const styles = StyleSheet.create({
     container: {
         flex: 1,
+        width: '100%',
+        height: '100%',
         backgroundColor: '#FFF',
 
     },
@@ -23,7 +25,7 @@ const styles = StyleSheet.create({
     },
 
     levelBottom: {
-        width: 50,
+        width: 500,
         height: 50,
         borderColor: '#FFF',
         borderWidth: 1,
