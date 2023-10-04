@@ -73,7 +73,7 @@ const styles = StyleSheet.create({
     },
 
     iconLevelInfo: {
-        width: 70,
+        width: 90,
         height: 70,
         position: 'absolute',
         alignSelf: 'flex-start',

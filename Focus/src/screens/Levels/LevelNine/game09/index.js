@@ -13,7 +13,7 @@ export default function WordScreenNine() {
 
             <SafeAreaView style={styles.header}>
                 <View style={styles.headerContent}>
-                    <Text style={styles.textHeader}>09 <br />Profissões</Text>
+                    <Text style={styles.textHeader}>09 Profissões</Text>
 
                     <Text style={styles.textHeaderWords}>
                         07/07
