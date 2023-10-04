@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
     },
 
     levelBottom: {
-        width: 500,
+        width: 50,
         height: 50,
         borderColor: '#FFF',
         borderWidth: 1,
@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
     levelBottom1: {
         marginTop: 345,
         marginLeft: 30,
-        position: 'absolute'
+        
     },
 
     levelBottom2: {

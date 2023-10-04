@@ -5,6 +5,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: '#F7DFBC',
+        paddingTop: 20
     },
     mainContainer: {
         flexDirection: 'row'
@@ -23,7 +24,8 @@ const styles = StyleSheet.create({
         height: 60,
         flexDirection: 'row',
         alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        paddingTop: 20
     },
     headerText: {
         fontSize: 25,

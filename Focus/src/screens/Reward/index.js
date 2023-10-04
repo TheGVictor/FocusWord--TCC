@@ -9,7 +9,7 @@ export default function RewardScreen() {
 
     return (
 
-        <View style={styles.container}>
+        <SafeAreaView style={styles.container}>
 
 
             <SafeAreaView style={styles.header}>
@@ -172,7 +172,7 @@ export default function RewardScreen() {
 
 
             </ScrollView>
-        </View>
+        </SafeAreaView>
 
 
     )

@@ -14,11 +14,7 @@ export default function App() {
 
     <NavigationContainer>
 
-<<<<<<< HEAD
-      <WordScreenFifteen />
-=======
       <MainStack/>
->>>>>>> d79e9f1027b0d7f4ad13de12776791f79587a3b6
 
     </NavigationContainer>
 
