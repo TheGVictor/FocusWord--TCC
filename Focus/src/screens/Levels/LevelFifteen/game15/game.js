@@ -37,7 +37,7 @@ class WordSearchGame extends Component {
   
     preencherGridComLetrasAleatorias = () => {
       const { gridLetras } = this.state;
-      const alphabet = "i"; // Letras possíveis
+      const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; // Letras possíveis
   
       for (let i = 0; i < gridLetras.length; i++) {
         for (let j = 0; j < gridLetras[i].length; j++) {
@@ -176,10 +176,11 @@ class WordSearchGame extends Component {
                       styles.cell,
                       this.state.palavrasEncontradas.includes(cell) &&
                         styles.foundCell,
+                        { borderWidth: 0 },
                     ]}
                     onPress={() => this.handleCellClick(columnIndex, rowIndex)}
                   >
-                    <Text>{cell}</Text>
+                     <Text style={{ fontSize: 20 }}>{cell}</Text>
                   </TouchableOpacity>
                 ))}
               </View>

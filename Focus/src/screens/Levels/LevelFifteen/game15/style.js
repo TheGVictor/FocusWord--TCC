@@ -22,8 +22,7 @@ const styles = StyleSheet.create({
 
   grid: {
     flexDirection: 'column',
-    borderWidth: 0, 
-    borderColor: 'transparent'
+    margin: 15
   },
 
   row: {
