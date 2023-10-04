@@ -8,9 +8,7 @@ const styles = StyleSheet.create({
     },
 
     backgroundImage: {
-        flex: 1,
-        opacity: '0.2',
-
+        flex: 1,        
     },
 
     header: {
