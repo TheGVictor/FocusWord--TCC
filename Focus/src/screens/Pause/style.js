@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
         borderRadius: 30,
         alignItems: "center",
         justifyContent: 'center',
-        flexDirection: "row"
+        flexDirection: "row",
     },
 
     exitGame: {
@@ -73,6 +73,9 @@ const styles = StyleSheet.create({
         marginTop: 20,
         justifyContent: "center",
         alignItems: "center",
+    },
+    textButton:{
+        fontSize: 30,
     }
 })
 

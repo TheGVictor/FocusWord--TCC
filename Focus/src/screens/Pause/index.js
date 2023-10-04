@@ -18,13 +18,13 @@ export default function PauseScreen() {
 
                 <View style={styles.buttonArea}>
                     <TouchableOpacity style={styles.backGame} onPress={() => navigation.goBack()}>
-                        <Text>Voltar ao jogo</Text>
+                        <Text  style={styles.textButton} >Voltar ao jogo</Text>
                     </TouchableOpacity>
                     <TouchableOpacity style={styles.exitGame} onPress={() => navigation.navigate("MainTab")}>
-                        <Text>Sair</Text>
+                        <Text  style={styles.textButton}>Sair</Text>
                     </TouchableOpacity>
                     <TouchableOpacity style={styles.login}>
-                        <Text>Login</Text>
+                        <Text  style={styles.textButton}>Login</Text>
                     </TouchableOpacity>
                 </View>
             </View>
