@@ -1,7 +1,6 @@
 import React from 'react'
 import { createStackNavigator, CardStyleInterpolators } from '@react-navigation/stack';
 import StartScreen from '../Start';
-import WordScreen from '../WordSearch';
 import RewardScreen from '../Reward';
 import MainTab from './MainTab';
 import PauseScreen from '../Pause';
