@@ -15,7 +15,9 @@ export default function App() {
 
     <NavigationContainer>
 
-      <WordScreenFifteen />
+
+      <MapScreen/>
+
 
     </NavigationContainer>
 
