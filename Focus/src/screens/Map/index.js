@@ -16,7 +16,7 @@ export default function MapScreen() {
 
 
             {/* Primeira parte */}
-            <View style={styles.bottomArea}>
+            
                 <TouchableOpacity style={styles.levelBottom1} onPress={() => navigation.navigate("LevelOne")}>
                     <Image source={require('../../images/tela_mapa/bottomIncomplete.png')} style={styles.levelBottom} />
                 </TouchableOpacity>
@@ -94,6 +94,6 @@ export default function MapScreen() {
                 </TouchableOpacity>
 
             </View>
-        </View>
+        
     );
 }
