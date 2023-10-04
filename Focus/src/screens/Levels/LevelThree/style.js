@@ -9,10 +9,6 @@ const styles = StyleSheet.create({
 
     backgroundImage: {
         flex: 1,
-<<<<<<< HEAD
-
-=======
->>>>>>> 5b042ad273b3253263d1adc5066ee82dcb207878
     },
 
     header: {
@@ -77,7 +73,7 @@ const styles = StyleSheet.create({
     },
 
     iconLevelInfo: {
-        width: 70,
+        width: 90,
         height: 70,
         position: 'absolute',
         alignSelf: 'flex-start',

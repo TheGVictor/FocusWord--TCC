@@ -48,7 +48,6 @@ const styles = StyleSheet.create({
     },
 
     textLevel: {
-        fontFamily: 'Oleo Script',
         position: 'absolute',
         fontSize: 35,
     },
