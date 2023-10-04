@@ -34,7 +34,7 @@ export default function WordScreenFourteen() {
             </View>
 
             <View style={styles.caption}>
-                <Text style={styles.textCaption}>Dica</Text>
+                <Text style={styles.textCaption}>Dicaaaaa</Text>
             </View>
         </View>
     )
