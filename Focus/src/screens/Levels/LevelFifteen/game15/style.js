@@ -22,11 +22,13 @@ const styles = StyleSheet.create({
 
   grid: {
     flexDirection: 'column',
+    borderWidth: 0, 
+    borderColor: 'transparent'
   },
 
   row: {
     flexDirection: 'row',
-
+    
   },
   cell: {
     width: 30,
