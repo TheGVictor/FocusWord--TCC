@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
         width: '100%',
         height: '100%',
         backgroundColor: '#FFF',
-
+        position: 'absolute'
     },
 
     skyImage: {
@@ -44,15 +44,14 @@ const styles = StyleSheet.create({
     },
 
     levelBottom1: {
-        marginTop: 345,
-        marginLeft: 30,
-        
+        marginTop: '150%',
+        marginLeft: '20%',
+        position: 'absolute'
     },
 
     levelBottom2: {
-        marginTop: 290,
-        marginLeft: 2,
-        position: 'absolute'
+        marginTop: '10%',
+        marginLeft: '20%',
 
     },
 
