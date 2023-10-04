@@ -27,7 +27,6 @@ const styles = StyleSheet.create({
         fontSize: 30,
         textTransform: 'uppercase',
         color: '#FFF',
-        fontFamily: 'Calibri',
         letterSpacing: 2,
         fontWeight: 700,
         textShadowColor: '#000',

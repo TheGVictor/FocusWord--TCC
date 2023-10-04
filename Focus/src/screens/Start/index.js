@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, Image } from 'react-native';
+import { View, Image, Text } from 'react-native';
 import styles from './style';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 import { useNavigation } from '@react-navigation/native'
@@ -24,7 +24,7 @@ export default function StartScreen() {
       </View>
 
       <Image source={require('../../images/Tela_inicio/focusWord.png')} style={styles.focusImg} />
-      <TouchableOpacity style={styles.playButton} onPress={handlePlay}>Jogar</TouchableOpacity>
+      <TouchableOpacity style={styles.playButton} onPress={handlePlay}><Text>Jogar</Text></TouchableOpacity>
 
       <View style={styles.footer}>
         <Image source={require('../../images/Tela_inicio/rodapé.png')} style={styles.authImg} />

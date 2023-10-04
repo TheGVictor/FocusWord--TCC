@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Image, TouchableOpacity } from "react-native"
+import { View, Image, TouchableOpacity, Text} from "react-native"
 import styles from "./style";
 import { useNavigation } from "@react-navigation/native";
 
@@ -18,13 +18,13 @@ export default function PauseScreen() {
 
                 <View style={styles.buttonArea}>
                     <TouchableOpacity style={styles.backGame} onPress={() => navigation.goBack()}>
-                        Voltar ao jogo
+                        <Text>Voltar ao jogo</Text>
                     </TouchableOpacity>
                     <TouchableOpacity style={styles.exitGame} onPress={() => navigation.navigate("MainTab")}>
-                        Sair
+                        <Text>Sair</Text>
                     </TouchableOpacity>
                     <TouchableOpacity style={styles.login}>
-                        Login
+                        <Text>Login</Text>
                     </TouchableOpacity>
                 </View>
             </View>

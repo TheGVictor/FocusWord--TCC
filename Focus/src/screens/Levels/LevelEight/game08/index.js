@@ -1,4 +1,4 @@
-import { SafeAreaView, View, Image, Text, Alert } from "react-native";
+import { SafeAreaView, View, Image, Text } from "react-native";
 import styles from "./style";
 import { TouchableOpacity } from "react-native-gesture-handler";
 import { useNavigation } from "@react-navigation/native";

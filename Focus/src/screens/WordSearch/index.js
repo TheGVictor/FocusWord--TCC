@@ -10,14 +10,14 @@ export default function WordScreen() {
     const navigation = useNavigation()
     return (
         <View style={styles.container}>
-            <Image source={require('../../images/TelaDoCacaPalavras/bg/matbg.png')} style={styles.bg} />
+            <Image source={require('../../images/TelaDoCacaPalavras/bg/mathbg.png')} style={styles.bg} />
 
             <SafeAreaView style={styles.header}>
                 <View style={styles.headerContent}>
                     <Text style={styles.textHeader}>03 <br />Profissões</Text>
 
                     <View style={styles.textHeaderWords}>
-                        07/07
+                        <Text>07/07</Text>
                     </View>
                     <TouchableOpacity style={styles.buttonConfigIcon}
                         activeOpacity={0.5} onPress={() => navigation.navigate("Pause")}>
