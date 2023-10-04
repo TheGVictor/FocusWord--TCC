@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
     },
 
     maxImg: {
-        width: '70%',
+        width: '85%',
         height: '50%',
         alignSelf: "center",
         marginTop: 10
