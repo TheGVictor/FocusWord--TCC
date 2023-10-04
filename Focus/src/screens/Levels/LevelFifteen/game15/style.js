@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
 
   row: {
     flexDirection: 'row',
-
+    
   },
   cell: {
     width: 30,
