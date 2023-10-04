@@ -31,7 +31,6 @@ const styles = StyleSheet.create({
         textAlign: "center",
         fontSize: 30,
         textTransform: "capitalize",
-        fontFamily: 'Calibri',
         color: '#FFF',
         fontWeight: 'bold',
         letterSpacing: 2,

@@ -19,8 +19,8 @@ export default function MainTab() {
                 backgroundColor: '#015958'
             },
             tabBarLabelStyle: {
-                fontWeight: '700',
-                fontSize: '30',
+                fontWeight: 700,
+                fontSize: 30,
                 color: '#000'
             },
 

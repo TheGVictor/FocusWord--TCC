@@ -15,7 +15,7 @@ export default function App() {
 
     <NavigationContainer>
 
-      <WordSearchGame />
+      <MainStack/>
 
     </NavigationContainer>
 

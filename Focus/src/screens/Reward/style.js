@@ -56,14 +56,13 @@ const styles = StyleSheet.create({
         fontWeight: '800',
         letterSpacing: 1,
         marginTop: 20,
-        fontFamily: "Ultra', serif;",
         marginLeft: 80
     },
 
     // cada objeto individual
     reward: {
         backgroundColor: '#E39621',
-        width: 'fit-content',
+        width: '80%',
         alignItems: 'center',
         justifyContent: 'center',
         paddingTop: 10,
@@ -86,8 +85,8 @@ const styles = StyleSheet.create({
 
 
     rewardUnlocked: {
-        backgroundColor: '#',
-        width: 'fit-content',
+        // backgroundColor: '#FFF',
+        // width: 'fit-content',
         alignItems: 'center',
         justifyContent: 'center',
         paddingTop: 10,
@@ -123,7 +122,7 @@ const styles = StyleSheet.create({
 
     secondBackground: {
         backgroundColor: '#E39621',
-        width: 'fit-content',
+        // width: 'fit-content',
         padding: 13,
         borderRadius: 25,
         borderBottomColor: '#000',
