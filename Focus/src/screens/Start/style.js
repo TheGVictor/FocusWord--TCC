@@ -12,19 +12,19 @@ const styles = StyleSheet.create({
 
     focusImg: {
         height: '30%',
-        width: '60%',
+        width: '70%',
         marginTop: 30
     },
 
     playButton: {
         marginTop: 200,
         backgroundColor: '#015958',
-        width: 200,
-        height: 50,
+        width: 150,
+        height: 40,
         textAlign: 'center',
         justifyContent: 'center',
         borderRadius: 40,
-        fontSize: 30,
+        fontSize: 25,
         textTransform: 'uppercase',
         color: '#FFF',
         letterSpacing: 2,
@@ -42,16 +42,17 @@ const styles = StyleSheet.create({
     },
 
     authImg: {
-        minWidth: 200,
-        minHeight: 55
+        marginRight: 100,
+        width: 180,
+        height: 50
     },
 
 
     configImg: {
-        width: 40,
-        height: 40,
-        right: 20,
-        top: 20
+        width: 50,
+        height: 50,
+        marginTop: 40,
+        marginRight: 20
     },
 
     header: {

@@ -24,7 +24,7 @@ export default function StartScreen() {
       </View>
 
       <Image source={require('../../images/Tela_inicio/focusWord.png')} style={styles.focusImg} />
-      <TouchableOpacity style={styles.playButton} onPress={handlePlay}><Text>Jogar</Text></TouchableOpacity>
+      <TouchableOpacity  onPress={handlePlay}><Text style={styles.playButton}>Jogar</Text></TouchableOpacity>
 
       <View style={styles.footer}>
         <Image source={require('../../images/Tela_inicio/rodapé.png')} style={styles.authImg} />

@@ -55,7 +55,6 @@ export default () => (
         }}>
         <Stack.Screen name="Start" component={StartScreen} />
         <Stack.Screen name="MainTab" component={MainTab} />
-        <Stack.Screen name="Map" component={WordScreen} />
         <Stack.Screen name="Reward" component={RewardScreen} />
         <Stack.Screen name="Pause" component={PauseScreen} />
         <Stack.Screen name="LevelOne" component={LevelScreenOne} />
