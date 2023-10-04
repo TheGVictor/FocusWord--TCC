@@ -35,20 +35,18 @@ export default function LevelScreenEight() {
           <View style={styles.textAreaLevelInfo}>
             <Text style={styles.subtitleLevelInfo}>Números de 1 a 10</Text>
             <Text style={styles.obsLevelInfo}>Obs: são a base da matemática</Text>
-              <Text>Exemplo: Cinco</Text>
+
+            <View style={styles.rewardArea}>
+              <Text style={{ fontSize: 25, }}>Recompensa</Text>
+            </View>
+
+            <TouchableOpacity style={styles.btStart} onPress={() => navigation.navigate("GameEight")}>
+              <Text style={{ fontSize: 30 }}>Jogar!</Text>
+            </TouchableOpacity>
+
           </View>
         </View>
-
-        <View style={styles.rewardArea}>
-          <Text style={{ fontSize: 25, }}>Recompensa</Text>
         </View>
-
-        <TouchableOpacity style={styles.btStart} onPress={() => navigation.navigate("GameEight")}>
-          <Text style={{ fontSize: 30 }}>Jogar!</Text>
-        </TouchableOpacity>
-
-      </View>
-
-    </View>
-  );
+        </View>
+        );
 }

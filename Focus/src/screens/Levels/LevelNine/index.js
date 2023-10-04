@@ -37,14 +37,15 @@ export default function LevelScreenNine() {
             <Text style={styles.obsLevelInfo}>Obs: são a base da matemática</Text>  <Text>Exemplo: Cinco</Text>
           </View>
         </View>
-
         <View style={styles.rewardArea}>
           <Text style={{  fontSize: 25, }}>Recompensa</Text>
         </View>
 
         <TouchableOpacity style={styles.btStart} onPress={() => navigation.navigate("GameNine")}>
-          <Text style={{  fontSize: 30 }}>Jogar!</Text>
+          <Text style={{ fontSize: 30 }}>Jogar!</Text>
         </TouchableOpacity>
+
+      
 
       </View>
 

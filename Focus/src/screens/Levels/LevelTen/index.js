@@ -39,11 +39,11 @@ export default function LevelScreenTen() {
         </View>
 
         <View style={styles.rewardArea}>
-          <Text style={{ fontSize: 25, }}>Recompensa</Text>
+          <Text style={{  fontSize: 25, }}>Recompensa</Text>
         </View>
 
         <TouchableOpacity style={styles.btStart} onPress={() => navigation.navigate("GameTen")}>
-          <Text style={{  fontSize: 30 }}>Jogar!</Text>
+          <Text style={{ fontSize: 30 }}>Jogar!</Text>
         </TouchableOpacity>
 
       </View>
