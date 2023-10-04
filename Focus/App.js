@@ -5,9 +5,8 @@ import MapScreen from './src/screens/Map';
 import MainTab from './src/screens/stack/MainTab';
 import LevelScreen from './src/screens/Levels/LevelOne';
 import LoadingScreen from './src/screens/Loading';
-import WordScreen from './src/screens/WordSearch';
-import WordSearchGame from './src/screens/WordSearch/game';
 import LevelScreenOne from './src/screens/Levels/LevelOne';
+import WordScreenFifteen from './src/screens/Levels/LevelFifteen/game15';
 
 
 export default function App() {
@@ -15,7 +14,7 @@ export default function App() {
 
     <NavigationContainer>
 
-      <WordSearchGame />
+      <WordScreenFifteen />
 
     </NavigationContainer>
 
