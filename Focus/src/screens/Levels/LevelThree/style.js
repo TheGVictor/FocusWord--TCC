@@ -50,7 +50,6 @@ const styles = StyleSheet.create({
     },
 
     textLevel: {
-        fontFamily: 'Oleo Script',
         position: 'absolute',
         fontSize: 35,
     },
@@ -69,7 +68,6 @@ const styles = StyleSheet.create({
     },
 
     titleLevelInfo: {
-        fontFamily: 'Oleo Script',
         textTransform: 'uppercase',
         position: 'absolute',
         top: 15,
@@ -93,13 +91,11 @@ const styles = StyleSheet.create({
     },
 
     subtitleLevelInfo: {
-        fontFamily: 'Cherry Bomb One',
         fontSize: 20,
         marginBottom: 10
     },
 
     obsLevelInfo: {
-        fontFamily: 'Cherry Bomb One',
         color: '#777'
     },
 
