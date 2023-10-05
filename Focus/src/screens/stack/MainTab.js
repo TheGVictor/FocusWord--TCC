@@ -14,13 +14,14 @@ export default function MainTab() {
             tabBarStyle: {
                 borderTopLeftRadius: 20,
                 borderTopRightRadius: 20,
-                height: 60,
+                height: 55,
                 position: "absolute",
                 backgroundColor: '#015958'
             },
             tabBarLabelStyle: {
                 fontWeight: 700,
-                fontSize: 30,
+                fontSize: 20,
+                bottom: -3,
                 color: '#000'
             },
 

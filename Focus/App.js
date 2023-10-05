@@ -15,9 +15,7 @@ export default function App() {
 
     <NavigationContainer>
 
-
-      <MapScreen/>
-
+      <MainStack/>
 
     </NavigationContainer>
 
