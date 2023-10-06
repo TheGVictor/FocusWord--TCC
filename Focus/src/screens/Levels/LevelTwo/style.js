@@ -8,7 +8,8 @@ const styles = StyleSheet.create({
     },
 
     backgroundImage: {
-        flex: 1,
+        width: '100%',
+        height: '100%'
     },
 
     header: {
@@ -30,7 +31,7 @@ const styles = StyleSheet.create({
 
     levelContainer: {
         backgroundColor: '#DAC398',
-        width: '75%',
+        width: '90%',
         height: '50%',
         marginTop: 125,
         alignItems: 'center',
@@ -54,7 +55,7 @@ const styles = StyleSheet.create({
 
     levelInfo: {
         width: '85%',
-        height: '100%',
+        height: '90%',
         alignItems: 'center',
         top: 40,
         position: 'absolute'
@@ -62,11 +63,10 @@ const styles = StyleSheet.create({
 
     backgroundInfoImage: {
         width: '100%',
-        height: '35%'
+        height: '40%'
     },
 
     titleLevelInfo: {
-        fontFamily: 'Oleo Script',
         textTransform: 'uppercase',
         position: 'absolute',
         top: 15,
@@ -79,24 +79,22 @@ const styles = StyleSheet.create({
         position: 'absolute',
         alignSelf: 'flex-start',
         top: 60,
-        left: 10
+        left: 10,
     },
 
     textAreaLevelInfo: {
         alignSelf: 'flex-end',
-        right: 20,
+        right: 10,
         position: 'absolute',
         top: 60
     },
 
     subtitleLevelInfo: {
-        fontFamily: 'Cherry Bomb One',
         fontSize: 20,
         marginBottom: 10
     },
 
     obsLevelInfo: {
-        fontFamily: 'Cherry Bomb One',
         color: '#777'
     },
 
@@ -104,9 +102,10 @@ const styles = StyleSheet.create({
         position: 'absolute',
         backgroundColor: '#FFF',
         width: '85%',
-        textAlign: 'center',
+        alignItems: 'center',
         borderWidth: 1,
-        borderRadius: 15
+        borderRadius: 15,
+        top: 200,
     },
 
     btStart: {
@@ -115,7 +114,7 @@ const styles = StyleSheet.create({
         paddingVertical: 5,
         borderRadius: 30,
         backgroundColor: '#FF5E53',
-        marginTop: 250
+        marginTop: 320
     }
 
 })
