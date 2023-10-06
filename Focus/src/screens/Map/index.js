@@ -14,7 +14,7 @@ export default function MapScreen() {
     useEffect(() => {
         setTimeout(() => {
             setIsLoading(false)
-        }, 750)
+        }, 1200)
     }, [])
 
     return (
