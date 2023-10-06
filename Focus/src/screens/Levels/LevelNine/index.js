@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, View, Image, ActivityIndicator, Animated } from 'react-native';
+import { Text, View, Image, } from 'react-native';
 import styles from './style';
 import { TouchableHighlight, TouchableOpacity } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
@@ -34,7 +34,7 @@ export default function LevelScreenNine() {
           <Image style={styles.iconLevelInfo} source={require('../../../images/tela_mapa/iconTest.png')} />
           <View style={styles.textAreaLevelInfo}>
             <Text style={styles.subtitleLevelInfo}>Números de 1 a 10</Text>
-            <Text style={styles.obsLevelInfo}>Obs: são a base da matemática</Text>  <Text>Exemplo: Cinco</Text>
+            <Text style={styles.obsLevelInfo}>Obs: são a base da matemática</Text><Text>Exemplo: Cinco</Text>
           </View>
         </View>
         <View style={styles.rewardArea}>

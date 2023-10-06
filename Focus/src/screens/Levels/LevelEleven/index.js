@@ -34,7 +34,7 @@ export default function LevelScreenEleven() {
           <Image style={styles.iconLevelInfo} source={require('../../../images/tela_mapa/iconTest.png')} />
           <View style={styles.textAreaLevelInfo}>
             <Text style={styles.subtitleLevelInfo}>Números de 1 a 10</Text>
-            <Text style={styles.obsLevelInfo}>Obs: são a base da matemática</Text>  <Text>Exemplo: Cinco</Text>
+            <Text style={styles.obsLevelInfo}>Obs: são a base da matemática</Text><Text>Exemplo: Cinco</Text>
           </View>
         </View>
 

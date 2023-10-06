@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, View, Image, } from 'react-native';
+import { Text, View, Image} from 'react-native';
 import styles from './style';
 import { TouchableHighlight, TouchableOpacity } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
@@ -7,7 +7,6 @@ import { useNavigation } from '@react-navigation/native';
 export default function LevelScreenEight() {
 
   const navigation = useNavigation()
-
 
   return (
 
@@ -27,7 +26,6 @@ export default function LevelScreenEight() {
           </TouchableHighlight>
         </View>
 
-
         <View style={styles.levelInfo}>
           <Image style={styles.backgroundInfoImage} source={require('../../../images/tela_mapa/backgroundLevelInfo.png')} />
           <Text style={styles.titleLevelInfo}>Objetivo</Text>
@@ -35,18 +33,20 @@ export default function LevelScreenEight() {
           <View style={styles.textAreaLevelInfo}>
             <Text style={styles.subtitleLevelInfo}>Números de 1 a 10</Text>
             <Text style={styles.obsLevelInfo}>Obs: são a base da matemática</Text>
-
-            <View style={styles.rewardArea}>
-              <Text style={{ fontSize: 25, }}>Recompensa</Text>
-            </View>
-
-            <TouchableOpacity style={styles.btStart} onPress={() => navigation.navigate("GameEight")}>
-              <Text style={{ fontSize: 30 }}>Jogar!</Text>
-            </TouchableOpacity>
-
+            <Text style={styles.obsLevelInfo}>Exemplo: Cinco</Text>
           </View>
         </View>
+
+        <View style={styles.rewardArea}>
+          <Text style={{ fontSize: 25, }}>Recompensa</Text>
         </View>
-        </View>
-        );
+
+        <TouchableOpacity style={styles.btStart} onPress={() => navigation.navigate("GameEight")}>
+          <Text style={{  fontSize: 30 }}>Jogar!</Text>
+        </TouchableOpacity>
+
+      </View>
+
+    </View>
+  );
 }

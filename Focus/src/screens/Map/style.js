@@ -11,9 +11,9 @@ const styles = StyleSheet.create({
 
     skyImage: {
         position: 'absolute',
-        height: '45%',
+        height: '35%',
         width: '100%',
-        zIndex: 1
+        zIndex: 0
     },
 
     buttomArea: {

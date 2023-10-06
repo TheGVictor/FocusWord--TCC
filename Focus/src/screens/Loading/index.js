@@ -1,24 +1,49 @@
 import React from 'react';
-import { Text, View, Image } from 'react-native';
+import { View, Image, Animated, Easing, TouchableHighlight, Text } from 'react-native';
 import styles from './style';
 
 export default function LoadingScreen() {
+
+ let rotateValueHolder = new Animated.Value(0)
+
+ const startRotate = () => {
+  rotateValueHolder.setValue(0)
+  Animated.timing(rotateValueHolder, {
+    toValue: 1,
+    duration: 1500,
+    easing: Easing.linear,
+    useNativeDriver: false
+  }).start(() => startRotate())
+ }
+
+ const RotateData = rotateValueHolder.interpolate({
+    inputRange: [0, 1],
+    outputRange: ['0deg', '360deg']
+ })
+
   return (
     <View style={styles.container}>
 
       <Image
-        style={styles.logo}
-        source={require('../../images/Tela_carregamento/logoLoading.png')} />
+        style={styles.mainImage}
+        source={require('../../images/Tela_carregamento/mainImage.png')} />
 
-      <Image
-        style={styles.circle}
-        source={require('../../images/Tela_carregamento/circulos.png')} />
+
+{startRotate()}
+<Animated.Image
+        style={[
+          styles.circle, 
+          {transform: [{rotate: RotateData}]}
+      ]}
+        source={require('../../images/Tela_carregamento/circleLoading.png')} />
 
       <Image
         style={styles.logoAuth}
         source={require('../../images/Tela_carregamento/logoAuth.png')}
       />
-
+      
     </View>
+    
   );
+  
 }

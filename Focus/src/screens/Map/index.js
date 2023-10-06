@@ -1,16 +1,28 @@
-import React from 'react';
-import { View, Image, TouchableHighlight } from 'react-native';
-import { TouchableOpacity } from 'react-native-gesture-handler';
+import React, {useState, useEffect} from 'react';
+import { View, Image, TouchableHighlight } from 'react-native'
 import styles from './style';
 import { useNavigation } from '@react-navigation/native';
+import LoadingScreen from '../Loading';
+
 
 export default function MapScreen() {
 
     const navigation = useNavigation()
 
+    const[isLoading, setIsLoading] = useState(true)
+
+    useEffect(() => {
+        setTimeout(() => {
+            setIsLoading(false)
+        }, 750)
+    }, [])
 
     return (
+
+        <View style = {{flex: 1}}>
+        {isLoading ? (<LoadingScreen/>) : (
         <View style={styles.container}>
+
             <Image source={require('../../images/tela_mapa/bg.png')} style={styles.container} />
             <Image source = {require('../../images/tela_mapa/ceu.png')} style = {styles.skyImage}/>
 
@@ -96,6 +108,7 @@ export default function MapScreen() {
                 </TouchableHighlight>
                 </View>
             </View>
-        
+            )}
+            </View>
     );
 }
