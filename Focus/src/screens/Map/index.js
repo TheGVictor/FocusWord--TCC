@@ -9,18 +9,11 @@ export default function MapScreen() {
 
     const navigation = useNavigation()
 
-    const[isLoading, setIsLoading] = useState(true)
-
-    useEffect(() => {
-        setTimeout(() => {
-            setIsLoading(false)
-        }, 1200)
-    }, [])
 
     return (
 
         <View style = {{flex: 1}}>
-        {isLoading ? (<LoadingScreen/>) : (
+        
         <View style={styles.container}>
 
             <Image source={require('../../images/tela_mapa/bg.png')} style={styles.container} />
@@ -108,7 +101,6 @@ export default function MapScreen() {
                 </TouchableHighlight>
                 </View>
             </View>
-            )}
             </View>
     );
 }
