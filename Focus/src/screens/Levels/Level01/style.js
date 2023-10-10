@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
     },
 
     levelContainer: {
-        backgroundColor: '#DAC398',
+        backgroundColor: '#F9F7F7',
         width: '90%',
         height: '50%',
         marginTop: 125,
