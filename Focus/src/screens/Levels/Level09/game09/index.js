@@ -10,7 +10,7 @@ export default function WordScreenNine() {
 
     return (
         <View style={styles.container}>
-            <Image source={require('../../../../images/TelaDoCacaPalavras/bg/mathbg.png')} style={styles.bg} />
+            <Image source={require('../../../../images/gameScreen/bg/mathbg.png')} style={styles.bg} />
 
             <SafeAreaView style={styles.header}>
                 <View style={styles.headerContent}>
@@ -27,7 +27,7 @@ export default function WordScreenNine() {
                     >
                         <Image
                             style={styles.configIcon}
-                            source={require('../../../../images/TelaDoCacaPalavras/config.png')}
+                            source={require('../../../../images/gameScreen/config.png')}
                         />
                     </TouchableOpacity>
                 </View>

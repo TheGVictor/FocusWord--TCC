@@ -6,38 +6,38 @@ import MainTab from './MainTab';
 import PauseScreen from '../Pause';
 
 // importação dos níveis
-import LevelScreenOne from '../Levels/LevelOne';
-import LevelScreenTwo from '../Levels/LevelTwo';
-import LevelScreenThree from '../Levels/LevelThree';
-import LevelScreenFour from '../Levels/LevelFour';
-import LevelScreenFive from '../Levels/LevelFive';
-import LevelScreenSix from '../Levels/LevelSix';
-import LevelScreenSeven from '../Levels/LevelSeven';
-import LevelScreenEight from '../Levels/LevelEight';
-import LevelScreenNine from '../Levels/LevelNine';
-import LevelScreenTen from '../Levels/LevelTen';
-import LevelScreenEleven from '../Levels/LevelEleven';
-import LevelScreenTwelve from '../Levels/LevelTwelve';
-import LevelScreenThirteen from '../Levels/LevelThirteen';
-import LevelScreenFourteen from '../Levels/LevelFourteen';
-import LevelScreenFifteen from '../Levels/LevelFifteen';
+import LevelScreenOne from '../Levels/Level01';
+import LevelScreenTwo from '../Levels/Level02';
+import LevelScreenThree from '../Levels/Level03';
+import LevelScreenFour from '../Levels/Level04';
+import LevelScreenFive from '../Levels/Level05';
+import LevelScreenSix from '../Levels/Level06';
+import LevelScreenSeven from '../Levels/Level07';
+import LevelScreenEight from '../Levels/Level08';
+import LevelScreenNine from '../Levels/Level09';
+import LevelScreenTen from '../Levels/Level10';
+import LevelScreenEleven from '../Levels/Level11';
+import LevelScreenTwelve from '../Levels/Level12';
+import LevelScreenThirteen from '../Levels/Level13';
+import LevelScreenFourteen from '../Levels/Level14';
+import LevelScreenFifteen from '../Levels/Level15';
 
 // importação dos games de cada fase
-import WordScreenOne from '../Levels/LevelOne/game01';
-import WordScreenTwo from '../Levels/LevelTwo/game02';
-import WordScreenThree from '../Levels/LevelThree/game03';
-import WordScreenFour from '../Levels/LevelFour/game04';
-import WordScreenFive from '../Levels/LevelFive/game05';
-import WordScreenSix from '../Levels/LevelSix/game06';
-import WordScreenSeven from '../Levels/LevelSeven/game07';
-import WordScreenEight from '../Levels/LevelEight/game08';
-import WordScreenNine from '../Levels/LevelNine/game09';
-import WordScreenTen from '../Levels/LevelTen/game10';
-import WordScreenEleven from '../Levels/LevelEleven/game11';
-import WordScreenTwelve from '../Levels/LevelTwelve/game12';
-import WordScreenThirteen from '../Levels/LevelThirteen/game13';
-import WordScreenFourteen from '../Levels/LevelFourteen/game14';
-import WordScreenFifteen from '../Levels/LevelFifteen/game15';
+import WordScreenOne from '../Levels/Level01/game01';
+import WordScreenTwo from '../Levels/Level02/game02';
+import WordScreenThree from '../Levels/Level03/game03';
+import WordScreenFour from '../Levels/Level04/game04';
+import WordScreenFive from '../Levels/Level05/game05';
+import WordScreenSix from '../Levels/Level06/game06';
+import WordScreenSeven from '../Levels/Level07/game07';
+import WordScreenEight from '../Levels/Level08/game08';
+import WordScreenNine from '../Levels/Level09/game09';
+import WordScreenTen from '../Levels/Level10/game10';
+import WordScreenEleven from '../Levels/Level11/game11';
+import WordScreenTwelve from '../Levels/Level12/game12';
+import WordScreenThirteen from '../Levels/Level13/game13';
+import WordScreenFourteen from '../Levels/Level14/game14';
+import WordScreenFifteen from '../Levels/Level15/game15';
 
 
 

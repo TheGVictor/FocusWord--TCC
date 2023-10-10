@@ -12,7 +12,7 @@ export default function PauseScreen() {
 
             <View style={styles.borderArea}>
                 <Image
-                    source={require('../../images/Tela_saída/pauseImage.png')}
+                    source={require('../../images/exitScreen/pauseImage.png')}
                     style={styles.maxImg}
                 />
 

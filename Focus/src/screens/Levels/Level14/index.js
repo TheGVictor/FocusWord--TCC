@@ -15,23 +15,23 @@ export default function LevelScreenFourteen() {
 
       <Image
         style={styles.backgroundImage}
-        source={require('../../../images/TelaDoCacaPalavras/bg/cienbg.png')} />
+        source={require('../../../images/gameScreen/bg/cienbg.png')} />
 
       <View style={styles.levelContainer}>
         <View style={styles.header}>
           <Image style={styles.levelIndicator}
-            source={require('../../../images/tela_mapa/levelIndicator.png')} />
+            source={require('../../../images/mapScreen/levelIndicator.png')} />
           <Text style={styles.textLevel}>Nível 14</Text>
           <TouchableHighlight onPress={navigation.goBack}>
-            <Image style={styles.btExit} source={require('../../../images/tela_mapa/btExit.png')} />
+            <Image style={styles.btExit} source={require('../../../images/mapScreen/btExit.png')} />
           </TouchableHighlight>
         </View>
 
 
         <View style={styles.levelInfo}>
-          <Image style={styles.backgroundInfoImage} source={require('../../../images/tela_mapa/backgroundLevelInfo.png')} />
+          <Image style={styles.backgroundInfoImage} source={require('../../../images/mapScreen/backgroundLevelInfo.png')} />
           <Text style={styles.titleLevelInfo}>Objetivo</Text>
-          <Image style={styles.iconLevelInfo} source={require('../../../images/tela_mapa/iconTest.png')} />
+          <Image style={styles.iconLevelInfo} source={require('../../../images/mapScreen/iconTest.png')} />
           <View style={styles.textAreaLevelInfo}>
             <Text style={styles.subtitleLevelInfo}>Números de 1 a 10</Text>
             <Text style={styles.obsLevelInfo}>Obs: são a base da matemática</Text><Text>Exemplo: Cinco</Text>

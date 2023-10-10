@@ -15,19 +15,19 @@ export default function StartScreen() {
   return (
 
     <View style={styles.container}>
-      <Image source={require('../../images/Tela_inicio/bg.png')} style={styles.container} />
+      <Image source={require('../../images/startScreen/bg.png')} style={styles.container} />
 
       <View style={styles.header}>
         <TouchableOpacity onPress={() => navigation.navigate('Pause')}>
-          <Image source={require('../../images/Tela_inicio/config.png')} style={styles.configImg} />
+          <Image source={require('../../images/startScreen/config.png')} style={styles.configImg} />
         </TouchableOpacity>
       </View>
 
-      <Image source={require('../../images/Tela_inicio/focusWord.png')} style={styles.focusImg} />
+      <Image source={require('../../images/startScreen/focusWord.png')} style={styles.focusImg} />
       <TouchableOpacity  onPress={handlePlay}><Text style={styles.playButton}>Jogar</Text></TouchableOpacity>
 
       <View style={styles.footer}>
-        <Image source={require('../../images/Tela_inicio/rodapé.png')} style={styles.authImg} />
+        <Image source={require('../../images/startScreen/rodapé.png')} style={styles.authImg} />
       </View>
 
     </View>
