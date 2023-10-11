@@ -8,9 +8,6 @@ export default function StartScreen() {
 
   const navigation = useNavigation()
 
-  const handlePlay = () => {
-    navigation.navigate("MainTab")
-  }
 
   return (
 
@@ -24,7 +21,8 @@ export default function StartScreen() {
       </View>
 
       <Image source={require('../../images/startScreen/focusWord.png')} style={styles.focusImg} />
-      <TouchableOpacity  onPress={handlePlay}><Text style={styles.playButton}>Jogar</Text></TouchableOpacity>
+      <TouchableOpacity onPress = {() => navigation.navigate("MainTab")}><Text style={styles.playButton}>Jogar</Text></TouchableOpacity>
+      <TouchableOpacity onPress = {() => navigation.navigate("NameScreen")}><Text style = {styles.loginButton}>Realizar login</Text></TouchableOpacity>
 
       <View style={styles.footer}>
         <Image source={require('../../images/startScreen/rodapé.png')} style={styles.authImg} />

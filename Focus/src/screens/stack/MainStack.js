@@ -38,6 +38,9 @@ import WordScreenTwelve from '../Levels/Level12/game12';
 import WordScreenThirteen from '../Levels/Level13/game13';
 import WordScreenFourteen from '../Levels/Level14/game14';
 import WordScreenFifteen from '../Levels/Level15/game15';
+import loginEmailScreen from '../Login/email';
+import loginYearScreen from '../Login/ano';
+import loginNameScreen from '../Login/nome';
 
 
 
@@ -54,6 +57,9 @@ export default () => (
             cardStyleInterpolator: CardStyleInterpolators.forFadeFromBottomAndroid
         }}>
         <Stack.Screen name="Start" component={StartScreen} />
+        <Stack.Screen name="EmailScreen" component={loginEmailScreen} />
+        <Stack.Screen name="NameScreen" component={loginNameScreen} />
+        <Stack.Screen name="YearScreen" component={loginYearScreen} />
         <Stack.Screen name="MainTab" component={MainTab} />
         <Stack.Screen name="Reward" component={RewardScreen} />
         <Stack.Screen name="Pause" component={PauseScreen} />

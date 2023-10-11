@@ -13,18 +13,36 @@ const styles = StyleSheet.create({
     focusImg: {
         height: '30%',
         width: '70%',
-        marginTop: 30
+        marginTop: 80,
+        
     },
 
     playButton: {
-        marginTop: 200,
+        marginTop: 150,
         backgroundColor: '#015958',
         width: 150,
         height: 40,
         textAlign: 'center',
-        justifyContent: 'center',
+        alignContent: 'center',
         borderRadius: 40,
-        fontSize: 25,
+        fontSize: 15,
+        textTransform: 'uppercase',
+        color: '#FFF',
+        letterSpacing: 2,
+        fontWeight: 700,
+        textShadowColor: '#000',
+        textShadowRadius: 5,
+    },
+
+    loginButton: {
+        marginTop: 50,
+        backgroundColor: '#015958',
+        width: 150,
+        height: 40,
+        justifyContent: 'center',
+        alignItems: 'center',
+        borderRadius: 40,
+        fontSize: 15,
         textTransform: 'uppercase',
         color: '#FFF',
         letterSpacing: 2,
@@ -51,7 +69,7 @@ const styles = StyleSheet.create({
     configImg: {
         width: 50,
         height: 50,
-        marginTop: 40,
+        marginTop: 60,
         marginRight: 20
     },
 
