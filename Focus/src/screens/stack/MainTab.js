@@ -31,7 +31,7 @@ export default function MainTab() {
                 headerShown: false,
                 tabBarIcon: ({ focused }) => {
                     if (focused) {
-                        return <Image source={require('../../images/tabBarIcons/maxIcon.png')} style={{ width: 65, height: 65, marginBottom: 20 }} />
+                        return <Image source={require('../../images/tabBarIcons/maxIcon.png')} style={{ width: 55, height: 55, marginBottom: 20 }} />
                     }
                     return <Image source={require('../../images/tabBarIcons/maxIcon.png')} style={{ width: 50, height: 50 }} />
 
@@ -41,7 +41,7 @@ export default function MainTab() {
                 headerShown: false,
                 tabBarIcon: ({ focused }) => {
                     if (focused) {
-                        return <Image source={require('../../images/tabBarIcons/mapIcon.png')} style={{ width: 65, height: 65, marginBottom: 20 }} />
+                        return <Image source={require('../../images/tabBarIcons/mapIcon.png')} style={{ width: 55, height: 55, marginBottom: 20 }} />
                     }
                     return <Image source={require('../../images/tabBarIcons/mapIcon.png')} style={{ width: 50, height: 50 }} />
 
@@ -52,7 +52,7 @@ export default function MainTab() {
                 headerShown: false,
                 tabBarIcon: ({ focused }) => {
                     if (focused) {
-                        return <Image source={require('../../images/tabBarIcons/storeIcon.png')} style={{ width: 65, height: 65, marginBottom: 20 }} />
+                        return <Image source={require('../../images/tabBarIcons/storeIcon.png')} style={{ width: 55, height: 55, marginBottom: 20 }} />
                     }
                     return <Image source={require('../../images/tabBarIcons/storeIcon.png')} style={{ width: 50, height: 50 }} />
                 }

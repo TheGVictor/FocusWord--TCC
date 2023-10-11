@@ -4,6 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import MainStack from './src/screens/stack/MainStack';
 import MapScreen from './src/screens/Map';
 import MainTab from './src/screens/stack/MainTab';
+import Screenfifty from './src/screens/Levels/Level15/game15'
 
 import LoadingScreen from './src/screens/Loading';
 
@@ -25,7 +26,7 @@ export default function App() {
   return (
 
     <NavigationContainer>
-      {isLoading ? (<LoadingScreen/>) : (<MainStack/>)}
+      {isLoading ? (<LoadingScreen/>) : (<MainTab/>)}
     </NavigationContainer>
 
   )
