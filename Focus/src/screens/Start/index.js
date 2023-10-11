@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Image, Text } from 'react-native';
+import { View, Image, Text, SafeAreaView } from 'react-native';
 import styles from './style';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 import { useNavigation } from '@react-navigation/native'
@@ -11,7 +11,7 @@ export default function StartScreen() {
 
   return (
 
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <Image source={require('../../images/startScreen/bg.png')} style={styles.container} />
 
       <View style={styles.header}>
@@ -28,7 +28,7 @@ export default function StartScreen() {
         <Image source={require('../../images/startScreen/rodapé.png')} style={styles.authImg} />
       </View>
 
-    </View>
+    </SafeAreaView>
 
   )
 }
