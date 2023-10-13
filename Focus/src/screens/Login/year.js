@@ -6,21 +6,19 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useNavigation } from '@react-navigation/native';
 
 
-export default function LoginEmailScreen() {
+export default function LoginYearScreen() {
 
   const navigation = useNavigation()
-  const [email, setEmail] = useState('')
+  const [year, setYear] = useState('')
 
-  const handleSaveEmail = async () => {
-      if(email) {
+  const handleSaveYear = async () => {
+      if(year) {
         try{
-          await AsyncStorage.setItem('email', email)
+          await AsyncStorage.setItem('year', year)
         } catch(error) {
-          alert.error('Erro ao salvar o seu email! Código: '+error)
+          alert.error('Erro ao salvar o seu nome! Código: '+error)
         }
-
-        navigation.navigate('MainTab')
-
+        navigation.navigate('EmailScreen')
       }
   }
 
@@ -30,15 +28,15 @@ export default function LoginEmailScreen() {
       <Image source = {require('../../images/startScreen/focusWord.png')} style = {styles.focusImg}/>
 
       <View style = {styles.mainContent}>
-        <Text style = {styles.textInform}>Informe seu email</Text>
+        <Text style = {styles.textInform}>Informe seu ano de nascimento</Text>
         <TextInput
          style = {styles.inputText} 
-         placeholder='exemplo@email.com'
-         onChangeText={(text) => setEmail(text)}
-         value= {email}
+         placeholder='Digite seu nome'
+         onChangeText={setYear}
+         value= {year}
          ></TextInput>
 
-        <TouchableOpacity style = {styles.button} onPress={handleSaveEmail}>
+        <TouchableOpacity style = {styles.button} onPress={handleSaveYear}>
           <Text style = {styles.textButton}>Continuar</Text>
         </TouchableOpacity>
 
