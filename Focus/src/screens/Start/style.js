@@ -19,36 +19,42 @@ const styles = StyleSheet.create({
 
     playButton: {
         marginTop: 150,
-        backgroundColor: '#015958',
+        backgroundColor: '#DF5D01',
         width: 150,
         height: 40,
-        textAlign: 'center',
-        alignContent: 'center',
         borderRadius: 40,
-        fontSize: 15,
-        textTransform: 'uppercase',
-        color: '#FFF',
-        letterSpacing: 2,
+        alignItems: 'center',
+        justifyContent: 'center',
+        borderWidth: 1,
+        borderColor: '#FFF'
+    },
+
+    textPlayButton: {
         fontWeight: 700,
-        textShadowColor: '#000',
-        textShadowRadius: 5,
+        fontSize: 23,
+        textTransform: 'capitalize',
+        textAlign: 'center',
+        color: '#FFF'
     },
 
     loginButton: {
         marginTop: 50,
-        backgroundColor: '#015958',
+        backgroundColor: '#DF5D01',
         width: 150,
         height: 40,
-        justifyContent: 'center',
-        alignItems: 'center',
         borderRadius: 40,
-        fontSize: 15,
-        textTransform: 'uppercase',
-        color: '#FFF',
-        letterSpacing: 2,
+        alignItems: 'center',
+        justifyContent: 'center',
+        borderWidth: 1,
+        borderColor: '#FFF'
+    },
+
+    textLoginButton: {
         fontWeight: 700,
-        textShadowColor: '#000',
-        textShadowRadius: 5,
+        fontSize: 18,
+        textTransform: 'capitalize',
+        textAlign: 'center',
+        color: '#FFF'
     },
 
     footer: {
@@ -78,9 +84,6 @@ const styles = StyleSheet.create({
         alignItems: 'flex-end',
         position: 'absolute',
     }
-
-
-
 }
 )
 

@@ -21,8 +21,8 @@ export default function StartScreen() {
       </View>
 
       <Image source={require('../../images/startScreen/focusWord.png')} style={styles.focusImg} />
-      <TouchableOpacity onPress = {() => navigation.navigate("MainTab")}><Text style={styles.playButton}>Jogar</Text></TouchableOpacity>
-      <TouchableOpacity onPress = {() => navigation.navigate("NameScreen")}><Text style = {styles.loginButton}>Realizar login</Text></TouchableOpacity>
+      <TouchableOpacity onPress = {() => navigation.navigate("MainTab")}  style={styles.playButton}><Text style={styles.textPlayButton}>Jogar</Text></TouchableOpacity>
+      <TouchableOpacity onPress = {() => navigation.navigate("NameScreen")}  style={styles.loginButton}><Text style = {styles.textLoginButton}>Realizar login</Text></TouchableOpacity>
 
       <View style={styles.footer}>
         <Image source={require('../../images/startScreen/rodapé.png')} style={styles.authImg} />
