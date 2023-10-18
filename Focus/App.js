@@ -8,6 +8,7 @@ import Screenfifty from './src/screens/Levels/Level15/game15'
 import LoginEmailScreen from './src/screens/Login/year';
 import LoadingScreen from './src/screens/Loading';
 import StartScreen from './src/screens/Start';
+import MaxScreen from './src/screens/Max'
 
 export default function App() {
 
@@ -22,7 +23,7 @@ export default function App() {
   return (
 
     <NavigationContainer>
-      {isLoading ? (<LoadingScreen/>) : (<StartScreen/>)}
+      {isLoading ? (<LoadingScreen/>) : (<MaxScreen/>)}
     </NavigationContainer>
 
   )
