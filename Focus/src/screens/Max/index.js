@@ -33,6 +33,28 @@ export default function MaxScreen() {
                 </TouchableOpacity>
             </View>
 
+            <View style = {styles.maxArea}>
+
+                <View style = {styles.firstHalf}>
+                    <TouchableOpacity style = {styles.camisaBt}>
+                        <Image source = {require('../../images/maxScreen/camiseta.png')}  style = {styles.imageBt}/>
+                    </TouchableOpacity>
+                    <TouchableOpacity  style = {styles.shortBt}>
+                    <Image source = {require('../../images/maxScreen/short.png')} style = {styles.imageBt}/>
+                    </TouchableOpacity>
+                    </View>
+
+                    <View style ={styles.secondHalf}>
+                    <TouchableOpacity  style = {styles.especialBt}>
+                    <Image source = {require('../../images/maxScreen/interrogação.png')} style = {styles.imageBt}/>
+                    </TouchableOpacity>
+                    <TouchableOpacity  style = {styles.tenisBt}>
+                    <Image source = {require('../../images/maxScreen/tenis.png')} style = {styles.imageBt}/>
+                    </TouchableOpacity>
+                    </View>
+
+            </View>
+
         </View>
 
 
