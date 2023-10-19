@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
     },
 
     loginButton: {
-        marginTop: 50,
+        marginTop: 40,
         backgroundColor: '#DF5D01',
         width: 150,
         height: 40,
@@ -77,12 +77,6 @@ const styles = StyleSheet.create({
         height: 50,
         marginTop: 60,
         marginRight: 20
-    },
-
-    header: {
-        width: '100%',
-        alignItems: 'flex-end',
-        position: 'absolute',
     }
 }
 )

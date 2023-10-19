@@ -41,6 +41,7 @@ import WordScreenFifteen from '../Levels/Level15/game15';
 import LoginEmailScreen from '../Login/email';
 import LoginYearScreen from '../Login/year';
 import LoginNameScreen from '../Login/name';
+import MaxScreen from '../Max';
 
 
 
@@ -62,6 +63,7 @@ export default () => (
         <Stack.Screen name="YearScreen" component={LoginYearScreen} />
         <Stack.Screen name="MainTab" component={MainTab} />
         <Stack.Screen name="Reward" component={RewardScreen} />
+        <Stack.Screen name = "Max" component={MaxScreen}/>
         <Stack.Screen name="Pause" component={PauseScreen} />
         <Stack.Screen name="LevelOne" component={LevelScreenOne} />
         <Stack.Screen name="GameOne" component={WordScreenOne} />

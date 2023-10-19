@@ -14,12 +14,6 @@ export default function StartScreen() {
     <SafeAreaView style={styles.container}>
       <Image source={require('../../images/startScreen/bg.png')} style={styles.container} />
 
-      <View style={styles.header}>
-        <TouchableOpacity onPress={() => navigation.navigate('Pause')}>
-          <Image source={require('../../images/startScreen/config.png')} style={styles.configImg} />
-        </TouchableOpacity>
-      </View>
-
       <Image source={require('../../images/startScreen/focusWord.png')} style={styles.focusImg} />
       <TouchableOpacity onPress = {() => navigation.navigate("MainTab")}  style={styles.playButton}><Text style={styles.textPlayButton}>Jogar</Text></TouchableOpacity>
       <TouchableOpacity onPress = {() => navigation.navigate("NameScreen")}  style={styles.loginButton}><Text style = {styles.textLoginButton}>Realizar login</Text></TouchableOpacity>
