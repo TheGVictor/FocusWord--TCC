@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
     width: '100%',
     height: '100%',
     position: 'absolute',
-
+    alignItems: 'center',
   },
 
   barArea: {
@@ -44,10 +44,16 @@ const styles = StyleSheet.create({
   maxArea: {
     marginTop: '30%',
     height: '50%',
+    width: '100%',
     flexDirection: 'row',
     justifyContent: 'space-between',
     paddingVertical: 50,
     paddingHorizontal: 30
+  },
+
+  maxImg:{
+    marginTop: '80%',
+    position: 'absolute',
   },
 
   firstHalf: {
