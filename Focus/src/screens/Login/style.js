@@ -9,6 +9,11 @@ const styles = StyleSheet.create({
         marginLeft: '70%'
     },
 
+    focusImgTerms: {
+        width: '30%',
+        height: '30%',
+    },
+
     mainContent: {
         position: 'absolute',
        justifyContent: 'center',
@@ -43,10 +48,24 @@ const styles = StyleSheet.create({
         fontSize: 20
     },
 
-    button: {
-        backgroundColor: '#DF5D01',
-        padding: 15,
-        borderRadius: 20
+    aceppt: {
+        flexDirection: 'row',
+        borderWidth: 1,
+        borderColor: '#686868',
+        borderRadius: 15,
+        justifyContent: 'center',
+        alignItems: 'center',
+        padding: 10,
+        marginBottom: '40%'
+    },
+
+    textTerms: {
+        color: '#777',
+    },
+
+    terms: {    
+        fontWeight: 700,
+        color: '#FF8126'
     }
     
     }

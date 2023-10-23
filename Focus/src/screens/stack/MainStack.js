@@ -5,6 +5,13 @@ import RewardScreen from '../Reward';
 import MainTab from './MainTab';
 import PauseScreen from '../Pause';
 
+//Área de login
+import LoginEmailScreen from '../Login/email';
+import LoginYearScreen from '../Login/year';
+import LoginNameScreen from '../Login/name';
+import CheckTerms from '../Login/checkTerms';
+import Terms from '../Login/terms';
+
 // importação dos níveis
 import LevelScreenOne from '../Levels/Level01';
 import LevelScreenTwo from '../Levels/Level02';
@@ -38,9 +45,6 @@ import WordScreenTwelve from '../Levels/Level12/game12';
 import WordScreenThirteen from '../Levels/Level13/game13';
 import WordScreenFourteen from '../Levels/Level14/game14';
 import WordScreenFifteen from '../Levels/Level15/game15';
-import LoginEmailScreen from '../Login/email';
-import LoginYearScreen from '../Login/year';
-import LoginNameScreen from '../Login/name';
 import MaxScreen from '../Max';
 
 
@@ -61,6 +65,8 @@ export default () => (
         <Stack.Screen name="EmailScreen" component={LoginEmailScreen} />
         <Stack.Screen name="NameScreen" component={LoginNameScreen} />
         <Stack.Screen name="YearScreen" component={LoginYearScreen} />
+        <Stack.Screen name = "CheckTerms" component={CheckTerms}/>
+        <Stack.Screen name = "Terms" component={Terms}/>
         <Stack.Screen name="MainTab" component={MainTab} />
         <Stack.Screen name="Reward" component={RewardScreen} />
         <Stack.Screen name = "Max" component={MaxScreen}/>

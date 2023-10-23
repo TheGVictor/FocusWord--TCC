@@ -8,6 +8,8 @@ import LoginEmailScreen from './src/screens/Login/year';
 import LoadingScreen from './src/screens/Loading';
 import StartScreen from './src/screens/Start';
 import MaxScreen from './src/screens/Max';
+import CheckTerms from './src/screens/Login/checkTerms';
+import Terms from './src/screens/Login/terms';
 
 
 export default function App() {
@@ -23,7 +25,7 @@ export default function App() {
   return (
 
     <NavigationContainer>
-      {isLoading ? (<LoadingScreen/>) : (<MaxScreen/>)}
+      {isLoading ? (<LoadingScreen/>) : (<Terms/>)}
     </NavigationContainer>
 
   )
