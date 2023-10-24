@@ -25,7 +25,7 @@ export default function CheckTerms() {
         <Text style = {styles.textInform}>Termos de Uso</Text>
         
         <View style = {styles.aceppt}>
-        <BouncyCheckbox unfillColor='#FFF' fillColor='#00FF00' onPress={handleAcepptTerms} />
+        <BouncyCheckbox unfillColor='#FFF' fillColor='#2461AA' onPress={handleAcepptTerms} />
         <Text style = {styles.textTerms}>Eu li e aceito a </Text><TouchableOpacity onPress={navigation.navigate('Terms')}><Text style = {styles.terms}>Política de Privacidade</Text></TouchableOpacity>
         </View>
 

@@ -7,6 +7,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#2171D0',
         alignItems: 'center',
         justifyContent: 'center',
+
         width: '100%',
         height: '100%'
       },
@@ -17,7 +18,7 @@ const styles = StyleSheet.create({
       },
 
       circle: {
-        width: 300,
+        width: 310,
         height: 310,
         position: 'absolute',
       },

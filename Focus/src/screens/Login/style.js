@@ -22,6 +22,23 @@ const styles = StyleSheet.create({
        marginTop: '50%'
     },
 
+    termsContent:{
+        padding: 30
+    },
+
+    textTerms: {
+        color: '#686868',
+    },
+
+    titleTerms:{
+        textAlign: 'center',
+        color: '#515151',
+        fontSize: 22,
+        fontWeight: 700,
+        textTransform:'uppercase',
+        paddingBottom: 10
+    },
+
     textInform: {
         fontSize: 30,
         textTransform: 'uppercase',
@@ -59,14 +76,13 @@ const styles = StyleSheet.create({
         marginBottom: '40%'
     },
 
-    textTerms: {
-        color: '#777',
-    },
 
     terms: {    
         fontWeight: 700,
         color: '#FF8126'
-    }
+    },
+
+    
     
     }
 )

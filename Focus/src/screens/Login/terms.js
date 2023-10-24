@@ -15,11 +15,11 @@ export default function Terms() {
 
       <Image source = {require('../../images/startScreen/focusWord.png')} style = {styles.focusImgTerms}/>
 
-      <View style = {styles.mainContent}>
+      <View style = {styles.termsContent}>
         
         <Text style = {styles.titleTerms}>Política de Privacidade</Text>
 
-        <Text>bla bla bla</Text>
+        <Text style = {styles.textTerms}>bla bla bla</Text>
 
       </View>
       
