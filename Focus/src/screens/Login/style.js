@@ -10,8 +10,11 @@ const styles = StyleSheet.create({
     },
 
     focusImgTerms: {
-        width: '30%',
-        height: '30%',
+        width: '40%',
+        height: '20%',
+    
+        position: 'absolute',
+        
     },
 
     mainContent: {
@@ -19,11 +22,12 @@ const styles = StyleSheet.create({
        justifyContent: 'center',
        alignItems: 'center',
        width: '100%',
-       marginTop: '50%'
+       
     },
 
     termsContent:{
-        padding: 30
+        paddingHorizontal: 30,
+        paddingVertical: '30%'        
     },
 
     textTerms: {
