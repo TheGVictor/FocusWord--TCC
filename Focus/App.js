@@ -3,12 +3,15 @@ import { useState, useEffect } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import MapScreen from './src/screens/Map'
 import Screenfifty from './src/screens/Levels/Level15/game15'
-import LoginEmailScreen from './src/screens/Login/year';
+import LoginEmailScreen from './src/screens/Login/email';
 import LoadingScreen from './src/screens/Loading';
 import StartScreen from './src/screens/Start';
 import MaxScreen from './src/screens/Max';
 import CheckTerms from './src/screens/Login/checkTerms';
 import Terms from './src/screens/Login/terms';
+import LoginNameScreen from './src/screens/Login/name';
+import LoginYearScreen from './src/screens/Login/year';
+import MainStack from './src/screens/Stack/MainStack';
 
 
 export default function App() {
@@ -24,7 +27,7 @@ export default function App() {
   return (
 
     <NavigationContainer>
-      {isLoading ? (<LoadingScreen/>) : (<Terms/>)}
+      {isLoading ? (<LoadingScreen/>) : (<MainStack/>)}
     </NavigationContainer>
 
   )
