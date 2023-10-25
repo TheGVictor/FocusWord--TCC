@@ -18,10 +18,9 @@ export default function LoginEmailScreen() {
         } catch(error) {
           alert.error('Erro ao salvar o seu email! Código: '+error)
         }
-
-        navigation.navigate('CheckTerms')
-
+        navigation.navigate("CheckTerms")
       }
+      
   }
 
   return (

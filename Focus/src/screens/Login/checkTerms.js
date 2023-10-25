@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { View, Image, Text, TextInput, TouchableOpacity} from 'react-native';
 import styles from './style';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useNavigation } from '@react-navigation/native';
 import BouncyCheckbox from "react-native-bouncy-checkbox";
 
@@ -10,7 +9,7 @@ import BouncyCheckbox from "react-native-bouncy-checkbox";
 export default function CheckTerms() {
 
   const navigation = useNavigation()
- const [isChecked, setIsChecked] = useState(false)
+   const [isChecked, setIsChecked] = useState(false)
  
     const handleAcepptTerms = () => {
         setIsChecked(!isChecked)
@@ -26,7 +25,7 @@ export default function CheckTerms() {
         
         <View style = {styles.aceppt}>
         <BouncyCheckbox unfillColor='#FFF' fillColor='#2461AA' onPress={handleAcepptTerms} />
-        <Text style = {styles.textTerms}>Eu li e aceito a </Text><TouchableOpacity onPress={navigation.navigate('Terms')}><Text style = {styles.terms}>Política de Privacidade</Text></TouchableOpacity>
+        <Text style = {styles.textTerms}>Eu li e aceito a </Text><TouchableOpacity onPress={() => navigation.navigate("Terms")}><Text style = {styles.terms}>Política de Privacidade</Text></TouchableOpacity>
         </View>
 
         <TouchableOpacity  style = {{
@@ -34,7 +33,7 @@ export default function CheckTerms() {
             padding: 15,
             borderRadius: 20
             }}  disabled = {!isChecked}
-            onPress={navigation.navigate('MainTab')}
+            onPress={() => navigation.navigate('MainTab')}
             >
           <Text style = {styles.textButton}>Continuar</Text>
         </TouchableOpacity>

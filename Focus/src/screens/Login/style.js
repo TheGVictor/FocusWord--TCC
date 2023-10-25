@@ -4,20 +4,24 @@ import { StyleSheet } from "react-native"
 const styles = StyleSheet.create({
 
     focusImg: {
-        width: '30%',
-        height: '30%',
-        
+        width: 120,
+        height: 100,
+        top: 0,
+        left: 0,
+        position: 'absolute'
     },
 
     focusImgTerms: {
         width: 120,
         height: 100,
+        marginTop: 20,
         position: 'absolute',
         
     },
 
     container: {
-        marginTop: '5%',
+        flex: 1,
+        flexGrow: 1, 
     },
 
     mainContent: {

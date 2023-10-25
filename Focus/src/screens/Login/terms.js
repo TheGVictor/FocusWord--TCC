@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { View, Image, Text, TextInput, TouchableOpacity, ScrollView } from 'react-native';
 import styles from './style';
-import { SafeAreaView } from 'react-native-safe-area-context';
-import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useNavigation } from '@react-navigation/native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 
 export default function Terms() {
@@ -11,10 +10,13 @@ export default function Terms() {
   const navigation = useNavigation()
 
   return (
-    <ScrollView style={styles.container}>
+    <View style={styles.container}>
+    <ScrollView scrollEnabled = {true} nestedScrollEnabled={true}>
+      <SafeAreaView>
 
-      <Image source={require('../../images/startScreen/focusWord.png')} style={styles.focusImgTerms} />
+      <Image source={require('../../images/startScreen/focusWord.png')} style={styles.focusImgTerms}/>
 
+    
       <View style={styles.termsContent}>
 
         <Text style={styles.titleTerms}>Política de Privacidade</Text>
@@ -58,15 +60,16 @@ export default function Terms() {
         <Text style={styles.textTerms}>Para esclarecer quaisquer dúvidas sobre esta Política de Privacidade ou sobre os dados pessoais que tratamos entre em contato com nosso Encarregado de Proteção de Dados Pessoais, pelo canal mencionados abaixo.</Text>
         <Text style={styles.textTerms }>E-mail: empresaauth@gmail.com</Text>
 
-        <TouchableOpacity style = {styles.buttonTerms} onPress={navigation.goBack()}>
+        <TouchableOpacity style = {styles.buttonTerms} onPress={() => navigation.navigate("CheckTerms")}>
           <Text style = {styles.textButton}>Voltar</Text>
         </TouchableOpacity>
 
       </View>
 
       <Image source={require('../../images/loadingScreen/logoAuth.png')} style = {styles.logoAuth}/>
-
+      </SafeAreaView>
     </ScrollView>
+    </View>
 
   );
 
