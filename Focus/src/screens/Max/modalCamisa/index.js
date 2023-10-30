@@ -14,10 +14,18 @@ export default function ModalCamisa() {
   };
   const xpPercentage = (currentXP / maxXP) * 100;
 
-  const [isSelected, setIsSelected] = useState(false)
+  const [isSelected1, setIsSelected1] = useState(false)
+  const [isSelected2, setIsSelected2] = useState(false)
+  const [isSelected3, setIsSelected3] = useState(false)
 
   const handleSelectedItem = () => {
-    setIsSelected(!isSelected)
+    setIsSelected1(!isSelected1)
+}
+const handleSelectedItem2 = () => {
+  setIsSelected2(!isSelected2)
+}
+const handleSelectedItem3 = () => {
+  setIsSelected3(!isSelected3)
 }
 
   return (
@@ -42,16 +50,16 @@ export default function ModalCamisa() {
 
       <View style={styles.itemArea}>
 
-        <TouchableOpacity onPress={handleSelectedItem} style = {{borderWidth: isSelected ? 3 : 0, borderColor: isSelected ? '#DF5D01' : 'null', borderRadius: isSelected ? 20 : 0}}>
-          <Image source={require('../../../images/maxScreen/lockMax.png')} style={styles.itemLocked} />
+        <TouchableOpacity onPress={handleSelectedItem} style = {{}}>
+          <Image source={require('../../../images/maxScreen/lockMax.png')} style={!isSelected1 ? styles.itemLocked : styles.itemSelect} />
         </TouchableOpacity>
 
-        <TouchableOpacity onPress={handleSelectedItem} style = {{borderWidth: isSelected ? 3 : 0, borderColor: isSelected ? '#DF5D01' : 'null', borderRadius: isSelected ? 20 : 0}}>
-          <Image source={require('../../../images/maxScreen/lockMax.png')} style={styles.itemLocked} />
+        <TouchableOpacity onPress={handleSelectedItem2} style = {{}}>
+          <Image source={require('../../../images/maxScreen/lockMax.png')} style={!isSelected2 ? styles.itemLocked : styles.itemSelect} />
         </TouchableOpacity>
 
-        <TouchableOpacity onPress={handleSelectedItem} style = {{borderWidth: isSelected ? 3 : 0, borderColor: isSelected ? '#DF5D01' : 'null', borderRadius: isSelected ? 20 : 0}}>
-          <Image source={require('../../../images/maxScreen/lockMax.png')} style={styles.itemLocked} />
+        <TouchableOpacity onPress={handleSelectedItem3} style = {{}}>
+          <Image source={require('../../../images/maxScreen/lockMax.png')} style={!isSelected3 ? styles.itemLocked : styles.itemSelect} />
         </TouchableOpacity>
 
       </View>

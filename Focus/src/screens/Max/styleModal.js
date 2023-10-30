@@ -51,8 +51,16 @@ const styles = StyleSheet.create({
 
       itemLocked: {
         width: 100,
-        height: 100
-      }
+        height: 100,
+      },
+      
+      itemSelect: {
+      borderRadius: 20,
+      borderWidth: 3,
+      borderColor: '#DF5D01',
+      width: 100,
+      height: 100,
+    }
 })
 
 export default styles;
