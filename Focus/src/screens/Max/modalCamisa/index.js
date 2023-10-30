@@ -19,13 +19,22 @@ export default function ModalCamisa() {
   const [isSelected3, setIsSelected3] = useState(false)
 
   const handleSelectedItem = () => {
-    setIsSelected1(!isSelected1)
+    setIsSelected1(!isSelected1);
+    setIsSelected2(false); 
+    setIsSelected3(false); 
+  
 }
 const handleSelectedItem2 = () => {
-  setIsSelected2(!isSelected2)
+  setIsSelected2(!isSelected2);
+  setIsSelected1(false); 
+  setIsSelected3(false); 
+
 }
 const handleSelectedItem3 = () => {
-  setIsSelected3(!isSelected3)
+  setIsSelected3(!isSelected3);
+  setIsSelected1(false); 
+  setIsSelected2(false); 
+
 }
 
   return (
