@@ -43,9 +43,9 @@ export default function MaxScreen() {
                 </TouchableOpacity>
             </View>
 
-            <View style = {styles.maxImg}>
-                <Image source = {require('../../images/maxScreen/max.png')} style = {{height: 400, width: 200}}/>
-                </View>
+            <View style={styles.maxImg}>
+                <Image source={require('../../images/maxScreen/max.png')} style={{ height: 400, width: 200 }} />
+            </View>
 
             <View style={styles.maxArea}>
 
@@ -53,48 +53,48 @@ export default function MaxScreen() {
 
                     <Modal
                         visible={visibleModalCamisa}
-                        transparent = {true}
+                        transparent={true}
                         onRequestClose={() => setVisibleModalCamisa(false)}>
-                            <ModalCamisa/>
+                        <ModalCamisa />
                     </Modal>
 
-                    <TouchableOpacity style={styles.camisaBt} onPress={() => setVisibleModalCamisa(true) }>
+                    <TouchableOpacity style={styles.camisaBt} onPress={() => setVisibleModalCamisa(true)}>
                         <Image source={require('../../images/maxScreen/camiseta.png')} style={styles.imageBt} />
                     </TouchableOpacity>
 
                     <Modal
                         visible={visibleModalShort}
-                        transparent = {true}
+                        transparent={true}
                         onRequestClose={() => setVisibleModalShort(false)}>
-                            <ModalShort/>
+                        <ModalShort />
                     </Modal>
 
-                    <TouchableOpacity style={styles.shortBt}  onPress={() => setVisibleModalShort(true) }>
+                    <TouchableOpacity style={styles.shortBt} onPress={() => setVisibleModalShort(true)}>
                         <Image source={require('../../images/maxScreen/short.png')} style={styles.imageBt} />
                     </TouchableOpacity>
                 </View>
 
                 <View style={styles.secondHalf}>
 
-                <Modal
+                    <Modal
                         visible={visibleModalEspecial}
-                        transparent = {true}
+                        transparent={true}
                         onRequestClose={() => setVisibleModalEspecial(false)}>
-                            <ModalEspecial/>
+                        <ModalEspecial />
                     </Modal>
 
-                    <TouchableOpacity style={styles.especialBt}  onPress={() => setVisibleModalEspecial(true) }>
+                    <TouchableOpacity style={styles.especialBt} onPress={() => setVisibleModalEspecial(true)}>
                         <Image source={require('../../images/maxScreen/interrogação.png')} style={styles.imageBt} />
                     </TouchableOpacity>
 
                     <Modal
                         visible={visibleModalTenis}
-                        transparent = {true}
+                        transparent={true}
                         onRequestClose={() => setVisibleModalTenis(false)}>
-                            <ModalTenis/>
+                        <ModalTenis />
                     </Modal>
 
-                    <TouchableOpacity style={styles.tenisBt}  onPress={() => setVisibleModalTenis(true) }>
+                    <TouchableOpacity style={styles.tenisBt} onPress={() => setVisibleModalTenis(true)}>
                         <Image source={require('../../images/maxScreen/tenis.png')} style={styles.imageBt} />
                     </TouchableOpacity>
                 </View>

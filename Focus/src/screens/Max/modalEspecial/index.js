@@ -18,19 +18,24 @@ export default function ModalCamisa() {
   const [isSelected2, setIsSelected2] = useState(false)
   const [isSelected3, setIsSelected3] = useState(false)
 
+  const [itemName, setItemName] = useState('')
+
   const handleSelectedItem = () => {
+    setItemName('Item 1')
     setIsSelected1(!isSelected1);
     setIsSelected2(false); 
     setIsSelected3(false); 
   
 }
 const handleSelectedItem2 = () => {
+  setItemName('Item 2')
   setIsSelected2(!isSelected2);
   setIsSelected1(false); 
   setIsSelected3(false); 
 
 }
 const handleSelectedItem3 = () => {
+  setItemName('Item 3')
   setIsSelected3(!isSelected3);
   setIsSelected1(false); 
   setIsSelected2(false); 
@@ -71,6 +76,15 @@ const handleSelectedItem3 = () => {
           <Image source={require('../../../images/maxScreen/lockMax.png')} style={!isSelected3 ? styles.itemLocked : styles.itemSelect} />
         </TouchableOpacity>
 
+      </View>
+
+      <View style = {styles.confirmArea}>
+        <Text style = {styles.itemName}>
+          {itemName}
+        </Text>
+        <TouchableOpacity style = {styles.confirmButtonLock}>
+          <Image source = {require('../../../images/maxScreen/lockButton.png')} style = {{width: 30, height: 30,}}/>
+        </TouchableOpacity>
       </View>
     </View>
 

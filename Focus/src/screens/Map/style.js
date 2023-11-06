@@ -16,6 +16,14 @@ const styles = StyleSheet.create({
         zIndex: 0
     },
 
+    configImg: {
+        height: 40,
+        width: 40,
+        position: 'absolute',
+        right: 20,
+        top: 30
+    },
+
     buttomArea: {
         position: 'relative',
         width: '100%',

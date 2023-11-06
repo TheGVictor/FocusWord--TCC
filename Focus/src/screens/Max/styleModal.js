@@ -7,7 +7,6 @@ const styles = StyleSheet.create({
         width: '90%',
         alignSelf: 'center',
         marginTop: '5%',
-        height: '83%',
         borderRadius: 30
     }, 
       barArea: {
@@ -50,16 +49,42 @@ const styles = StyleSheet.create({
     },
 
       itemLocked: {
-        width: 100,
-        height: 100,
+        width: 80,
+        height: 80
       },
       
       itemSelect: {
       borderRadius: 20,
       borderWidth: 3,
-      borderColor: '#DF5D01',
-      width: 100,
-      height: 100,
+      borderColor: '#D9A600',
+      width: 85,
+      height: 85,
+    },
+
+    confirmArea: {
+      borderTopColor: '#D9A600',
+      borderTopWidth: 2,
+      width: '90%',
+      marginTop: 20,
+      marginBottom: 50,
+      alignSelf:'center',
+      alignItems: 'center',
+      paddingTop: 20
+    },
+
+    itemName: {
+      color: '#000',
+      fontSize: 30,
+      fontWeight: 900,
+      paddingBottom: 10
+    },
+
+    confirmButtonLock: {
+      backgroundColor: '#747474',
+      width: '50%',
+      borderRadius: 30,
+      paddingVertical: 8,
+      alignItems: 'center'
     }
 })
 

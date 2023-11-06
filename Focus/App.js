@@ -27,7 +27,7 @@ export default function App() {
   return (
 
     <NavigationContainer>
-      {isLoading ? (<LoadingScreen/>) : (<MaxScreen/>)}
+      {isLoading ? (<LoadingScreen/>) : (<MapScreen/>)}
     </NavigationContainer>
 
   )
