@@ -9,8 +9,12 @@ export default function ModalConfig() {
 
     <View style={styles.container}>
 
-        <Text>Configuração</Text>
-
+    <View style = {styles.header}>
+        <Text style = {styles.mainText}>Configuração</Text>
+        {/* <TouchableOpacity style = {{right: 0}}>
+        <Image source={require('../../images/mapScreen/exit.png')} style = {{height: 20, width: 20,}}/>
+        </TouchableOpacity> */}
+        </View>
     </View>
 
   )
