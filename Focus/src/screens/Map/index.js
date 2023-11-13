@@ -12,7 +12,7 @@ export default function MapScreen() {
 
     return (
 
-        <View style={{ flex: 1 }}>
+        <View style={{ flex: 1, opacity: showModal ? 0.3 : 1, backgroundColor: showModal ? '#000' : '#000'}}>
 
             <View style={styles.container}>
 
@@ -26,7 +26,7 @@ export default function MapScreen() {
                     <ModalConfig/>
                 </Modal>
 
-                <TouchableOpacity onPress={() => setShowModal(true)}>
+                <TouchableOpacity onPress = {() => setShowModal(true)}>
                     <Image source={require('../../images/startScreen/config.png')} style={styles.configImg} />
                 </TouchableOpacity>
 
