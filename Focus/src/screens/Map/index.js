@@ -5,6 +5,7 @@ import { useNavigation } from '@react-navigation/native';
 import ModalConfig from './ModalConfig';
 
 
+
 export default function MapScreen() {
 
     const navigation = useNavigation()
@@ -12,7 +13,7 @@ export default function MapScreen() {
 
     return (
 
-        <View style={{ flex: 1, opacity: showModal ? 0.3 : 1, backgroundColor: showModal ? '#000' : '#000'}}>
+        <View style={{ flex: 1, opacity: showModal ? 0.3 : 1, backgroundColor: showModal ? '#000' : '#000' }}>
 
             <View style={styles.container}>
 
@@ -23,10 +24,13 @@ export default function MapScreen() {
                     visible={showModal}
                     transparent={true}
                     onRequestClose={() => setShowModal(false)}>
-                    <ModalConfig/>
+                    <TouchableOpacity style={{ position: 'absolute', zIndex: 1, marginTop: '43%', right: 60 }} onPress = {() => setShowModal(false)}>
+                        <Image source={require('../../images/mapScreen/exit.png')} style={{ height: 20, width: 20, }} />
+                    </TouchableOpacity>
+                    <ModalConfig />
                 </Modal>
 
-                <TouchableOpacity onPress = {() => setShowModal(true)}>
+                <TouchableOpacity onPress={() => setShowModal(true)}>
                     <Image source={require('../../images/startScreen/config.png')} style={styles.configImg} />
                 </TouchableOpacity>
 

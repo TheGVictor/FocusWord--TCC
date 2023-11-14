@@ -1,9 +1,25 @@
-import React, { useState } from 'react';
-import { View, Image, Text, TouchableOpacity, Modal } from 'react-native'
-import { useNavigation } from '@react-navigation/native';
+import React, { useState, useEffect } from 'react';
+import { View, Image, Text, TouchableOpacity, Modal, TouchableHighlight } from 'react-native'
 import styles from './stylesModal'
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 export default function ModalConfig() {
+
+  const [userName, setUserName] = useState(null);
+
+  const gettingInfo = async () => {
+    try {
+      const requestName = await AsyncStorage.getItem('userName');
+      setUserName(requestName)
+    } catch (error) {
+      console.error('Erro ao recuperar o nome do usuário:', error);
+      return null;
+    }
+  };
+
+  useEffect(() => {
+    gettingInfo(); 
+  }, []);
 
   return (
 
@@ -11,10 +27,18 @@ export default function ModalConfig() {
 
       <View style={styles.header}>
         <Text style={styles.mainText}>Configuração</Text>
-         <TouchableOpacity style={{ position: 'absolute', right: 20 }}>
-          <Image source={require('../../images/mapScreen/exit.png')} style={{ height: 20, width: 20, }} />
-        </TouchableOpacity>
+        {userName && <Text style = {styles.userName}>{userName}</Text>}
       </View>
+
+      {/* <View style = {styles.modalContent}>
+        <TouchableHighlight></TouchableHighlight>
+
+        <TouchableHighlight></TouchableHighlight>
+
+        <TouchableHighlight></TouchableHighlight>
+
+        <TouchableHighlight></TouchableHighlight>
+      </View> */}
     </View>
 
   )

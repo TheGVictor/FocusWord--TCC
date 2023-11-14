@@ -16,7 +16,6 @@ const styles = StyleSheet.create({
 
     header: {
         width: '100%',
-        flexDirection: 'row',
         alignItems: "center",
         justifyContent: 'center',
         padding: 20,
@@ -33,6 +32,20 @@ const styles = StyleSheet.create({
         fontWeight: 800,
         fontSize: 25
     },
+
+    userName: {
+        fontSize: 25,
+        marginTop: 20,
+        color: '#FF8126',
+        fontWeight: 800,
+        textTransform: 'capitalize'
+    },
+
+    modalContent: {
+        backgroundColor: '#FF0',
+        marginTop: 20,
+        width: '100%'
+    }
 
 
 }

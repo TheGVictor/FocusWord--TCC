@@ -10,12 +10,12 @@ import { useNavigation } from '@react-navigation/native';
 export default function LoginNameScreen() {
 
   const navigation = useNavigation()
-  const [name, setName] = useState('')
+  const [userName, setName] = useState('')
 
   const handleSaveName = async () => {
-      if(name) {
+      if(userName) {
         try{
-          await AsyncStorage.setItem('userName', name)
+          await AsyncStorage.setItem('userName', userName)
         } catch(error) {
           alert.error('Erro ao salvar o seu nome! Código: '+error)
         }
@@ -35,7 +35,7 @@ export default function LoginNameScreen() {
          style = {styles.inputText} 
          placeholder='Digite seu nome'
          onChangeText={(text) => setName(text)}
-         value= {name}
+         value= {userName}
          ></TextInput>
 
         <TouchableOpacity style = {styles.button} onPress={handleSaveName} >
