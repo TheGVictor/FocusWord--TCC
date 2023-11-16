@@ -10,8 +10,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         backgroundColor: '#F9F7F7',
         marginTop: 150,
-        borderTopLeftRadius: 20,
-        borderTopRightRadius: 20
+        borderRadius: 20,
     },
 
     header: {
@@ -42,9 +41,69 @@ const styles = StyleSheet.create({
     },
 
     modalContent: {
-        backgroundColor: '#FF0',
-        marginTop: 20,
+        marginTop: 10,
         width: '100%'
+    },
+
+    iconModal: {
+        position:  'absolute',
+        left: 20,
+        width: 30,
+        height: 30
+    },
+
+    textModalContent: {
+        position: 'absolute',
+        left: 70,
+        textTransform: 'uppercase',
+        fontSize: 13,
+        fontWeight: 800,
+        color: '#454545'
+    },
+
+    stayConect:{
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: "center",
+        borderRadius: 20,
+        height: 60,
+        borderBottomWidth: 4,
+        borderBottomColor: '#8D8D8D',
+    },
+
+    support:{
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: "center",
+        borderRadius: 20,
+        height: 60,
+        borderBottomWidth: 4,
+        borderBottomColor: '#8D8D8D',
+    },
+
+    security:{
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: "center",
+        borderRadius: 20,
+        height: 60,
+        borderBottomWidth: 4,
+        borderBottomColor: '#8D8D8D',
+    },
+
+    closeApp:{
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: "center",
+        borderRadius: 20,
+        height: 60,
+        borderBottomWidth: 4,
+        borderBottomColor: '#8D8D8D',
+    },
+
+    footer: {
+        marginTop: 50,
+        marginBottom: 5
     }
 
 
