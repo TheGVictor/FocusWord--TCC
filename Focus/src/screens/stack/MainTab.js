@@ -5,6 +5,7 @@ import { CardStyleInterpolators } from '@react-navigation/stack'
 import RewardScreen from "../Reward"
 import PauseScreen from "../Pause"
 import MapScreen from "../Map"
+import MaxScreen from "../Max"
 
 const Tab = createBottomTabNavigator()
 
@@ -27,7 +28,7 @@ export default function MainTab() {
 
 
         }}>
-            <Tab.Screen name="Max" component={PauseScreen} options={{
+            <Tab.Screen name="Max" component={MaxScreen} options={{
                 headerShown: false,
                 tabBarIcon: ({ focused }) => {
                     if (focused) {
