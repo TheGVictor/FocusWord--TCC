@@ -12,8 +12,9 @@ const styles = StyleSheet.create({
 
     focusImg: {
         height: '30%',
-        width: '70%',
+        width: '100%',
         marginTop: 80,
+        alignSelf: 'center'
         
     },
 

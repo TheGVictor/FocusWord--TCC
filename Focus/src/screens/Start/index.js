@@ -12,7 +12,7 @@ export default function StartScreen() {
   return (
 
     <SafeAreaView style={styles.container}>
-      <Image source={require('../../images/startScreen/bg.png')} style={styles.container} />
+      <Image source={require('../../images/startScreen/bg.jpg')} style={styles.container} />
 
       <Image source={require('../../images/startScreen/focusWord.png')} style={styles.focusImg} />
       <TouchableOpacity onPress = {() => navigation.navigate("MainTab")}  style={styles.playButton}><Text style={styles.textPlayButton}>Jogar</Text></TouchableOpacity>

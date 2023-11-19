@@ -107,13 +107,13 @@ export default function MapScreen() {
                         <Image source={require('../../images/mapScreen/bottomIncomplete.png')} style={styles.levelBottom} />
                     </TouchableHighlight>
 
-                    <TouchableHighlight style={styles.levelBottom15} onPress={() => navigation.navigate("LevelFifteen")}>
+                    {/* {/* <TouchableHighlight style={styles.levelBottom15} onPress={() => navigation.navigate("LevelFifteen")}>
                         <Image source={require('../../images/mapScreen/bottomIncomplete.png')} style={styles.levelBottom} />
                     </TouchableHighlight>
 
                     <TouchableHighlight style={styles.specialBottom3} onPress={() => navigation.navigate("")}>
-                        <Image source={require('../../images/mapScreen/specialLevel.png')} style={styles.specialBottom} />
-                    </TouchableHighlight>
+                        <Image source={require('../../images/mapScreen/specialLevel.png')} style={styles.specialBottom} /> 
+                    </TouchableHighlight> */}
                 </View>
             </View>
         </View>

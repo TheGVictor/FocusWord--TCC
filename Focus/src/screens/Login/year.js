@@ -23,19 +23,19 @@ export default function LoginYearScreen() {
   }
 
   const formatInput = (date) => {
-    const numeric = date.replace(/\D/g, ' ')
+    const numericValue = date.replace(/\D/g, '');
 
-    if (numeric <= 2) {
-      setYear(numeric)
+    let formattedDate = '';
 
+    for (let i = 0; i < numericValue.length; i++) {
+      if (i === 2 || i === 4) {
+        formattedDate += '/';
+      }
+      formattedDate += numericValue[i];
     }
-    else if (numeric.length <= 4) {
-      setYear(`${numeric.slice(0, 2)}/${numeric.slice(2)}`);
-    }
-    else {
-      setYear(`${numeric.slice(0, 2)}/${numeric.slice(2, 4)}/${numeric.slice(4, 8)}`);
-    }
-  }
+
+    setYear(formattedDate.substr(0, 10));
+  };
 
   return (
     <SafeAreaView style={styles.container}>
@@ -45,7 +45,7 @@ export default function LoginYearScreen() {
       <View style={styles.mainContent}>
         <Text style={styles.textInform}>Informe seu ano de nascimento</Text>
         <TextInput
-        maxLength={10}
+          maxLength={10}
           style={styles.inputText}
           placeholder='Digite sua data de nascimento'
           onChangeText={(text) => formatInput(text)}

@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
     focusImg: {
         width: 120,
         height: 100,
-        top: 0,
+        top: 20,
         left: 0,
         position: 'absolute'
     },

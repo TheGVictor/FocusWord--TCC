@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
         width: 40,
         position: 'absolute',
         right: 20,
-        top: 30
+        top: 40
     },
 
     buttomArea: {
@@ -53,29 +53,29 @@ const styles = StyleSheet.create({
         width: 50,
         borderRadius: 30,
         top: '86%',
-        left: '56%',
+        left: '45%',
     },
 
     levelBottom2: {
         width: 50,
         borderRadius: 30,
         top: '74%',
-        left: '53%',
+        left: '40%',
     },
 
     levelBottom3: {
         width: 50,
         borderRadius: 30,
-        top: '63%',
-        left: '44%',
+        top: '62%',
+        left: '43%',
 
     },
 
     levelBottom4: {
         width: 50,
         borderRadius: 30,
-        top: '53%',
-        left: '32%',
+        top: '51%',
+        left: '51%',
 
 
     },
@@ -83,8 +83,8 @@ const styles = StyleSheet.create({
     levelBottom5: {
         width: 50,
         borderRadius: 30,
-        top: '41%',
-        left: '31%',
+        top: '40.5%',
+        left: '43%',
 
 
     },
@@ -93,7 +93,7 @@ const styles = StyleSheet.create({
         width: 50,
         borderRadius: 30,
         top: '29%',
-        left: '38%',
+        left: '32%',
 
 
     },
@@ -101,8 +101,8 @@ const styles = StyleSheet.create({
     levelBottom6: {
         width: 50,
         borderRadius: 30,
-        top: '19%',
-        left: '27%',
+        top: '17%',
+        left: '24%',
 
 
     },
@@ -110,8 +110,8 @@ const styles = StyleSheet.create({
     levelBottom7: {
         width: 50,
         borderRadius: 30,
-        top: '9%',
-        left: '18%',
+        top: '7.5%',
+        left: '35%',
 
 
     },
@@ -119,55 +119,55 @@ const styles = StyleSheet.create({
     levelBottom8: {
         width: 50,
         borderRadius: 30,
-        top: '-3%',
-        left: '16%',
+        top: '-2.5%',
+        left: '45%',
 
 
     },
     levelBottom9: {
         width: 50,
         borderRadius: 30,
-        top: '-14%',
-        left: '21%',
+        top: '-13.5%',
+        left: '52%',
 
     },
 
     levelBottom10: {
         width: 50,
         borderRadius: 30,
-        top: '-22.5%',
-        left: '32%',
+        top: '-24.5%',
+        left: '45%',
 
     },
 
     specialBottom2: {
         width: 50,
         borderRadius: 30,
-        top: '-31.5%',
-        left: '45%',
+        top: '-35%',
+        left: '33%',
 
     },
 
     levelBottom11: {
         width: 50,
         borderRadius: 30,
-        top: '-42.5%',
-        left: '57%',
+        top: '-48%',
+        left: '36%',
     },
 
     levelBottom12: {
         width: 50,
         borderRadius: 30,
-        top: '-53%',
-        left: '64%',
+        top: '-56.5%',
+        left: '47%',
 
     },
 
     levelBottom13: {
         width: 50,
         borderRadius: 30,
-        top: '-64.5%',
-        left: '60%',
+        top: '-67.5%',
+        left: '53%',
 
 
     },
@@ -175,26 +175,26 @@ const styles = StyleSheet.create({
     levelBottom14: {
         width: 50,
         borderRadius: 30,
-        top: '-71%',
-        left: '45%',
+        top: '-79%',
+        left: '52%',
 
     },
 
-    levelBottom15: {
-        width: 50,
-        borderRadius: 30,
-        top: '-75%',
-        left: '31%',
+    // levelBottom15: {
+    //     width: 50,
+    //     borderRadius: 30,
+    //     top: '-75%',
+    //     left: '31%',
 
-    },
+    // },
 
-    specialBottom3: {
-        width: 50,
-        borderRadius: 30,
-        top: '-87%',
-        left: '21%',
+    // specialBottom3: {
+    //     width: 50,
+    //     borderRadius: 30,
+    //     top: '-87%',
+    //     left: '21%',
 
-    },
+    // },
 
 }
 )
