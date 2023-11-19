@@ -60,7 +60,7 @@ export default function Terms() {
         <Text style={styles.textTerms}>Para esclarecer quaisquer dúvidas sobre esta Política de Privacidade ou sobre os dados pessoais que tratamos entre em contato com nosso Encarregado de Proteção de Dados Pessoais, pelo canal mencionados abaixo.</Text>
         <Text style={styles.textTerms }>E-mail: empresaauth@gmail.com</Text>
 
-        <TouchableOpacity style = {styles.buttonTerms} onPress={() => navigation.navigate("CheckTerms")}>
+        <TouchableOpacity style = {styles.buttonTerms} onPress={() => navigation.goBack()}>
           <Text style = {styles.textButton}>Voltar</Text>
         </TouchableOpacity>
 
