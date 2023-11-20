@@ -33,8 +33,9 @@ export default function LevelScreenTwelve() {
           <Text style={styles.titleLevelInfo}>Objetivo</Text>
           <Image style={styles.iconLevelInfo} source={require('../../../images/mapScreen/iconTest.png')} />
           <View style={styles.textAreaLevelInfo}>
-            <Text style={styles.subtitleLevelInfo}>Números de 1 a 10</Text>
-            <Text style={styles.obsLevelInfo}>Obs: são a base da matemática</Text><Text>Exemplo: Cinco</Text>
+            <Text style={styles.subtitleLevelInfo}>Partes do corpo</Text>
+            <Text style={styles.obsLevelInfo}>Obs: Neste desafio, vamos identificar diversas partes do nosso corpo</Text>
+            <Text style={styles.obsLevelInfo}>Exemplo: Nariz</Text>
           </View>
         </View>
 

@@ -33,8 +33,9 @@ export default function LevelScreenTen() {
           <Text style={styles.titleLevelInfo}>Objetivo</Text>
           <Image style={styles.iconLevelInfo} source={require('../../../images/mapScreen/iconTest.png')} />
           <View style={styles.textAreaLevelInfo}>
-            <Text style={styles.subtitleLevelInfo}>Números de 1 a 10</Text>
-            <Text style={styles.obsLevelInfo}>Obs: são a base da matemática</Text><Text>Exemplo: Cinco</Text>
+            <Text style={styles.subtitleLevelInfo}>Divisão</Text>
+            <Text style={styles.obsLevelInfo}>Obs: Neste jogo, estamos compartilhando igualmente</Text>
+            <Text style={styles.obsLevelInfo}>Exemplo: Doze ÷ Quatro = Três</Text>
           </View>
         </View>
 

@@ -33,8 +33,8 @@ export default function LevelScreenFive() {
           <Text style={styles.titleLevelInfo}>Objetivo</Text>
           <Image style={styles.iconLevelInfo} source={require('../../../images/mapScreen/iconTest.png')} />
           <View style={styles.textAreaLevelInfo}>
-            <Text style={styles.subtitleLevelInfo}>Números de 1 a 10</Text>
-            <Text style={styles.obsLevelInfo}>Obs: são a base da matemática</Text>
+            <Text style={styles.subtitleLevelInfo}>Cores</Text>
+            <Text style={styles.obsLevelInfo}>Obs: São diferentes tons que podem alegrar nosso dia</Text>
             <Text style={styles.obsLevelInfo}>Exemplo: Cinco</Text>
           </View>
         </View>

@@ -33,8 +33,9 @@ export default function LevelScreenThirteen() {
           <Text style={styles.titleLevelInfo}>Objetivo</Text>
           <Image style={styles.iconLevelInfo} source={require('../../../images/mapScreen/iconTest.png')} />
           <View style={styles.textAreaLevelInfo}>
-            <Text style={styles.subtitleLevelInfo}>Números de 1 a 10</Text>
-            <Text style={styles.obsLevelInfo}>Obs: são a base da matemática</Text><Text>Exemplo: Cinco</Text>
+            <Text style={styles.subtitleLevelInfo}>Alimentos</Text>
+            <Text style={styles.obsLevelInfo}>Obs: Neste desafio, vamos conhecer diversos alimentos deliciosos</Text>
+            <Text style={styles.obsLevelInfo}>Exemplo: Arroz</Text>
           </View>
         </View>
 

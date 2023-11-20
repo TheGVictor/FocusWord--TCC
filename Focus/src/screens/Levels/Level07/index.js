@@ -33,9 +33,9 @@ export default function LevelScreenSeven() {
           <Text style={styles.titleLevelInfo}>Objetivo</Text>
           <Image style={styles.iconLevelInfo} source={require('../../../images/mapScreen/iconTest.png')} />
           <View style={styles.textAreaLevelInfo}>
-            <Text style={styles.subtitleLevelInfo}>Números de 1 a 10</Text>
-            <Text style={styles.obsLevelInfo}>Obs: são a base da matemática</Text>
-            <Text style={styles.obsLevelInfo}>Exemplo: Cinco</Text>
+          <Text style={styles.subtitleLevelInfo}>Adição</Text>
+            <Text style={styles.obsLevelInfo}>Obs: Lembre-se de que estamos juntando quantidades</Text>
+            <Text style={styles.obsLevelInfo}>Exemplo: Dois + Três = Cinco</Text>
           </View>
         </View>
 
