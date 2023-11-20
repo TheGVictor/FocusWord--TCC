@@ -4,8 +4,9 @@ import { StyleSheet } from "react-native"
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#F7DFBC',
-        paddingTop: 20
+        backgroundColor: '#F9F7F7',
+        paddingTop: 20,
+        
     },
     mainContainer: {
         flexDirection: 'row'
@@ -19,35 +20,37 @@ const styles = StyleSheet.create({
         marginLeft: 50
     },
     header: {
-        width: '100%',
-        backgroundColor: '#0FC2C0',
+        width: '98%',
+        backgroundColor: '#2461AA',
         height: 60,
         flexDirection: 'row',
+        alignSelf: 'center',
         alignItems: 'center',
+        textAlign: 'center',
         justifyContent: 'center',
-        paddingTop: 20
+        marginTop: 30,
+        borderRadius: 15
     },
+
+
     headerText: {
         fontSize: 25,
         fontWeight: '800',
-        color: '#000',
-        position: 'absolute'
+        color: '#FFF'
     },
 
     buttonMenuIcon: {
-        marginLeft: 400
+        left: 40,
+        
     },
-    menuIcon: {
-        height: 40,
-        width: 40,
-    },
+
 
     // area total das recompensas
     rewardsArea: {
         height: 'auto',
-        width: '85%',
+        width: '100%',
         alignSelf: 'center',
-        paddingBottom: '20%',
+        marginBottom: 100
     },
 
     // area de cada recompensa por setor
@@ -63,8 +66,8 @@ const styles = StyleSheet.create({
 
     // cada objeto individual
     reward: {
-        backgroundColor: '#E39621',
-        width: '80%',
+        backgroundColor: '#FF8126',
+        width: '100%',
         alignItems: 'center',
         justifyContent: 'center',
         paddingTop: 10,
@@ -123,7 +126,7 @@ const styles = StyleSheet.create({
     },
 
     secondBackground: {
-        backgroundColor: '#E39621',
+        backgroundColor: '#FF8126',
         // width: 'fit-content',
         padding: 13,
         borderRadius: 25,

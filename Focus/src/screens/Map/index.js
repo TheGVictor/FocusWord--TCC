@@ -40,7 +40,7 @@ export default function MapScreen() {
                 <View style={styles.buttomArea}>
 
                     <TouchableHighlight style={styles.levelBottom1} onPress={() => navigation.navigate("LevelOne")}>
-                        <Image source={require('../../images/mapScreen/bottomIncomplete.png')} style={styles.levelBottom} />
+                        <Image source={require('../../images/mapScreen/bottomComplete.png')} style={styles.levelBottom} />
                     </TouchableHighlight>
 
                     <TouchableHighlight style={styles.levelBottom2} onPress={() => navigation.navigate("LevelTwo")}>

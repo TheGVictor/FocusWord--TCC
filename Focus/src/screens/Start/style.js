@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
 
     playButton: {
         marginTop: 150,
-        backgroundColor: '#DF5D01',
+        backgroundColor: '#2461AA',
         width: 150,
         height: 40,
         borderRadius: 40,
@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
 
     loginButton: {
         marginTop: 40,
-        backgroundColor: '#DF5D01',
+        backgroundColor: '#2461AA',
         width: 150,
         height: 40,
         borderRadius: 40,

@@ -13,13 +13,13 @@ export default function RewardScreen() {
 
 
             <SafeAreaView style={styles.header}>
-                <Text style={styles.headerText}>Recompensas</Text>
-                <TouchableOpacity style={styles.buttonMenuIcon}
-                    activeOpacity={0.5} onPress={() => navigation.navigate('Pause')}>
-                    <Image
-                        style={styles.menuIcon}
-                        source={require('../../images/rewardScreen/config.png')} />
-                </TouchableOpacity>
+                    <Text style={styles.headerText}>Recompensas</Text>
+                    <TouchableOpacity style={styles.buttonMenuIcon}
+                        activeOpacity={0.5} onPress={() => navigation.navigate('Pause')}>
+                        <Image
+                            style={{height: 40, width: 40}}
+                            source={require('../../images/rewardScreen/config.png')} />
+                    </TouchableOpacity>
             </SafeAreaView>
 
             <ScrollView style={styles.rewardsArea} showsVerticalScrollIndicator={false}>
@@ -48,7 +48,7 @@ export default function RewardScreen() {
                     <View style={styles.secondBackground}>
                         <TouchableOpacity style={styles.reward}>
                             <Image
-                                source={require('../../images/rewardScreen/clothes/nivel01.png')}
+                                source={require('../../images/rewardScreen/lock.png')}
                                 style={styles.clothLocked} />
                             <Text style={styles.rewardText}>Moletom</Text>
                         </TouchableOpacity>
@@ -75,7 +75,7 @@ export default function RewardScreen() {
                     <View style={styles.secondBackground}>
                         <TouchableOpacity style={styles.rewardUnlocked}>
                             <Image
-                                source={require('../../images/rewardScreen/clothes/esboço_calca.png')}
+                                source={require('../../images/rewardScreen/lock.png')}
                                 style={styles.clothUnlocked} />
                             <Text style={styles.rewardText}>Nível 02</Text>
                         </TouchableOpacity>
@@ -84,7 +84,7 @@ export default function RewardScreen() {
                     <View style={styles.secondBackground}>
                         <TouchableOpacity style={styles.rewardUnlocked}>
                             <Image
-                                source={require('../../images/rewardScreen/clothes/esboço_calca.png')}
+                                source={require('../../images/rewardScreen/lock.png')}
                                 style={styles.clothUnlocked} />
                             <Text style={styles.rewardText}>Nível 02</Text>
                         </TouchableOpacity>
@@ -110,7 +110,7 @@ export default function RewardScreen() {
                     <View style={styles.secondBackground}>
                         <TouchableOpacity style={styles.rewardUnlocked}>
                             <Image
-                                source={require('../../images/rewardScreen/clothes/esboço_tenis.png')}
+                                source={require('../../images/rewardScreen/lock.png')}
                                 style={styles.clothUnlocked} />
                             <Text style={styles.rewardText}>Nível 03</Text>
                         </TouchableOpacity>
@@ -120,7 +120,7 @@ export default function RewardScreen() {
                     <View style={styles.secondBackground}>
                         <TouchableOpacity style={styles.rewardUnlocked}>
                             <Image
-                                source={require('../../images/rewardScreen/clothes/esboço_tenis.png')}
+                                source={require('../../images/rewardScreen/lock.png')}
                                 style={styles.clothUnlocked} />
                             <Text style={styles.rewardText}>Nível 03</Text>
                         </TouchableOpacity>
@@ -146,7 +146,7 @@ export default function RewardScreen() {
                     <View style={styles.secondBackground}>
                         <TouchableOpacity style={styles.rewardUnlocked}>
                             <Image
-                                source={require('../../images/rewardScreen/clothes/nivel01.png')}
+                                source={require('../../images/rewardScreen/lock.png')}
                                 style={styles.clothUnlocked} />
                             <Text style={styles.rewardText}>Nível 06</Text>
                         </TouchableOpacity>
@@ -155,7 +155,7 @@ export default function RewardScreen() {
                     <View style={styles.secondBackground}>
                         <TouchableOpacity style={styles.rewardUnlocked}>
                             <Image
-                                source={require('../../images/rewardScreen/clothes/nivel01.png')}
+                                source={require('../../images/rewardScreen/lock.png')}
                                 style={styles.clothUnlocked} />
                             <Text style={styles.rewardText}>Nível 06</Text>
                         </TouchableOpacity>
