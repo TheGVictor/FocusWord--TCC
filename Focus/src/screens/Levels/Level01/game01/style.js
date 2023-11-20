@@ -38,6 +38,7 @@ const styles = StyleSheet.create({
   },
   foundCell: {
     backgroundColor: 'green',
+    
   },
 
   foundWord: {
@@ -54,7 +55,7 @@ const styles = StyleSheet.create({
 
   header: {
     width: '98%',
-    backgroundColor: '#E39621',
+    backgroundColor: '#2461AA',
     marginTop: 10,
     borderRadius: 15,
     justifyContent: 'space-around'

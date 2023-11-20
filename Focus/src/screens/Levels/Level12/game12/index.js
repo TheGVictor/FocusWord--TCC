@@ -13,7 +13,7 @@ export default function WordScreenTwelve() {
 
             <SafeAreaView style={styles.header}>
                 <View style={styles.headerContent}>
-                    <Text style={styles.textHeader}>12 Profissões</Text>
+                    <Text style={styles.textHeader}>12 Partes do corpo</Text>
 
                     <Text style={styles.textHeaderWords}>
                         07/07

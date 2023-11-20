@@ -13,7 +13,7 @@ export default function WordScreenEleven() {
 
             <SafeAreaView style={styles.header}>
                 <View style={styles.headerContent}>
-                    <Text style={styles.textHeader}>11 Profissões</Text>
+                    <Text style={styles.textHeader}>11 Animais</Text>
 
                     <Text style={styles.textHeaderWords}>
                         07/07

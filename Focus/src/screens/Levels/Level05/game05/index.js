@@ -13,7 +13,7 @@ export default function WordScreenFive() {
 
             <SafeAreaView style={styles.header}>
                 <View style={styles.headerContent}>
-                    <Text style={styles.textHeader}>05 Profissões</Text>
+                    <Text style={styles.textHeader}>05 Cores</Text>
 
                     <Text style={styles.textHeaderWords}>
                         07/07

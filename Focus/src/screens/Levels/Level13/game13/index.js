@@ -13,7 +13,7 @@ export default function WordScreenThirteen() {
             
             <SafeAreaView style={styles.header}>
                 <View style={styles.headerContent}>
-                    <Text style={styles.textHeader}>13 Profissões</Text>
+                    <Text style={styles.textHeader}>13 Alimentos</Text>
 
                     <Text style={styles.textHeaderWords}>
                         07/07

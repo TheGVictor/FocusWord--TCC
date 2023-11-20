@@ -2,7 +2,7 @@ import React from 'react'
 import { useState, useEffect } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import MapScreen from './src/screens/Map'
-import Screenfifty from './src/screens/Levels/Level15/game15'
+import Screenfifty from './src/screens/Levels/Level03/game03'
 import LoginEmailScreen from './src/screens/Login/email';
 import LoadingScreen from './src/screens/Loading';
 import StartScreen from './src/screens/Start';

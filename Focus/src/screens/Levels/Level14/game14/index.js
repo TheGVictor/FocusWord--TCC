@@ -13,7 +13,7 @@ export default function WordScreenFourteen() {
 
             <SafeAreaView style={styles.header}>
                 <View style={styles.headerContent}>
-                    <Text style={styles.textHeader}>14 Profissões</Text>
+                    <Text style={styles.textHeader}>14 Meio ambiente</Text>
 
                     <Text style={styles.textHeaderWords}>
                         07/07

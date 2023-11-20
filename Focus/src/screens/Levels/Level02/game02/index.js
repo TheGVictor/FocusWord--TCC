@@ -14,7 +14,7 @@ export default function WordScreenTwo() {
 
             <SafeAreaView style={styles.header}>
                 <View style={styles.headerContent}>
-                    <Text style={styles.textHeader}>02 Profissões</Text>
+                    <Text style={styles.textHeader}>02 Adjetivos</Text>
 
                     <Text style={styles.textHeaderWords}>
                         07/07

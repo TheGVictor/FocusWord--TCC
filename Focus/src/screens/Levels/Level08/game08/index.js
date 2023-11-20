@@ -13,7 +13,7 @@ export default function WordScreenEight() {
 
             <SafeAreaView style={styles.header}>
                 <View style={styles.headerContent}>
-                    <Text style={styles.textHeader}>08 Profissões</Text>
+                    <Text style={styles.textHeader}>08 Subtração</Text>
 
                     <Text style={styles.textHeaderWords}>
                         07/07
