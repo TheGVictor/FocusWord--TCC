@@ -83,8 +83,8 @@ const styles = StyleSheet.create({
     },
 
     textAreaLevelInfo: {
-        alignSelf: 'flex-end',
-        right: 10,
+        width: '70%',
+        left: 100,
         position: 'absolute',
         top: 60
     },
@@ -95,6 +95,7 @@ const styles = StyleSheet.create({
     },
 
     obsLevelInfo: {
+        flexWrap: 'wrap',
         color: '#777'
     },
 
