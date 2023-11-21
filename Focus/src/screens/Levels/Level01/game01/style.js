@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
     borderRadius: 20,
     marginTop: 50,
     shadowRadius: 7,
-
+    padding:5
   },
 
   grid: {
@@ -57,8 +57,9 @@ const styles = StyleSheet.create({
     width: '98%',
     backgroundColor: '#2461AA',
     marginTop: 10,
-    borderRadius: 15,
-    justifyContent: 'space-around'
+    borderRadius: 10,
+    justifyContent: 'space-around',
+    marginTop: 45
   },
 
   headerContent: {
@@ -95,7 +96,7 @@ const styles = StyleSheet.create({
     fontSize: 25,
     fontWeight: 900,
     fontFamily: 'sans-serif',
-    borderRadius: 13,
+    borderRadius: 0,
     color: '#FFF',
     borderWidth: 1,
     borderColor: '#FFF',

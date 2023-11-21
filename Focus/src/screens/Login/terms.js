@@ -66,7 +66,7 @@ export default function Terms() {
 
       </View>
 
-      <Image source={require('../../images/loadingScreen/logoAuth.png')} style = {styles.logoAuth}/>
+      <Image source={require('../../images/LoadingScreen/logoAuth.png')} style = {styles.logoAuth}/>
       </SafeAreaView>
     </ScrollView>
     </View>

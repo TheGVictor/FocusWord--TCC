@@ -17,7 +17,7 @@ export default function WordScreenOne() {
                     <Text style={styles.textHeader}>01 Verbos</Text>
 
                     <Text style={styles.textHeaderWords}>
-                        07/07
+                        00/07
                     </Text>
 
                     <TouchableOpacity style={styles.buttonConfigIcon}
