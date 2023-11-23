@@ -98,27 +98,22 @@ const styles = StyleSheet.create({
     fontFamily: 'sans-serif',
     borderRadius: 0,
     color: '#FFF',
+<<<<<<< HEAD
     borderWidth: 1,
     borderColor: '#FFF',
     marginLeft: -70,
     marginLeft: -10
 
+=======
+>>>>>>> a60756c08b7176201c851af7a36f4ecd67920806
   },
 
-  caption: {
-    marginTop: 50,
-    backgroundColor: '#F7DFBC',
-    padding: 5,
-    width: '50%',
-    borderRadius: 20,
+  viewbuttom:{
+  width: 40,
+  height: 45,
+  marginTop: 100,
+  marginRight: 350,
   },
-
-  textCaption: {
-    textAlign: 'center',
-    fontWeight: 'bold',
-
-  },
-
 
 });
 

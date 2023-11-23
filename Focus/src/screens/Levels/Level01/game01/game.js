@@ -197,8 +197,12 @@ class WordSearchGame extends Component {
     for (var cont = 0; cont < 10; cont++) {
       if (crip[cont] === string) {
         console.log("Acertou");
+<<<<<<< HEAD
         this.state.qtsAcertos +=1
         this.state.palavrasEncontradas.push
+=======
+        
+>>>>>>> a60756c08b7176201c851af7a36f4ecd67920806
 
         console.log(this.state.qtsAcertos)
         if(this.state.qtsAcertos == 5){

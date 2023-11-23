@@ -144,7 +144,7 @@ const styles = StyleSheet.create({
         width: 50,
         borderRadius: 30,
         top: '-35%',
-        left: '33%',
+        left: '34%',
 
     },
 
@@ -152,14 +152,14 @@ const styles = StyleSheet.create({
         width: 50,
         borderRadius: 30,
         top: '-48%',
-        left: '36%',
+        left: '30%',
     },
 
     levelBottom12: {
         width: 50,
         borderRadius: 30,
-        top: '-56.5%',
-        left: '47%',
+        top: '-58%',
+        left: '42%',
 
     },
 
@@ -175,7 +175,7 @@ const styles = StyleSheet.create({
     levelBottom14: {
         width: 50,
         borderRadius: 30,
-        top: '-79%',
+        top: '-80%',
         left: '52%',
 
     },
