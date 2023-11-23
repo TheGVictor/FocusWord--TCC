@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
 
   textHeaderWords: {
     justifyContent: 'center',
-    paddingHorizontal: 40,
+    paddingHorizontal: 45,
     paddingVertical: 10,
     textAlign: 'center',
     fontSize: 25,
@@ -98,9 +98,8 @@ const styles = StyleSheet.create({
     fontFamily: 'sans-serif',
     borderRadius: 0,
     color: '#FFF',
-    borderWidth: 1,
-    borderColor: '#FFF',
-    marginLeft: -70
+    marginLeft: -10
+
   },
 
   caption: {

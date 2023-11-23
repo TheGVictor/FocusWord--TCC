@@ -163,7 +163,7 @@ class WordSearchGame extends Component {
       !this.ehCelulaAdjacente(ultimaCoordenada[0], ultimaCoordenada[1], y, x)
     ) {
       return; // Não faça nada se a célula não for adjacente à última célula clicada
-    }
+    } 
 
     palavrasTentadas.push([y, x]);
 
@@ -184,6 +184,7 @@ class WordSearchGame extends Component {
     for (var cont = 0; cont < 10; cont++) {
       if (crip[cont] === string) {
         console.log("Acertou");
+        this.state.palavrasEncontradas.push
 
         // Limpar palavrasTentadas e string
         this.setState({ palavrasTentadas: [] });
@@ -223,7 +224,7 @@ class WordSearchGame extends Component {
                   style={[
                     styles.cell,
                     palavrasEncontradas.includes(cell) && styles.foundCell,
-                    {  borderWidth: 0, backgroundColor: itemColors[rowIndex][columnIndex], borderRadius: 20  },
+                    {  borderWidth: 0, backgroundColor: itemColors[rowIndex][columnIndex], borderRadius: 5  },
                   ]}
                   onPress={() => this.handleCellClick(rowIndex, columnIndex)}
                 >
