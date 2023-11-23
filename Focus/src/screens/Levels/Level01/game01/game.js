@@ -184,7 +184,7 @@ class WordSearchGame extends Component {
     for (var cont = 0; cont < 10; cont++) {
       if (crip[cont] === string) {
         console.log("Acertou");
-        this.state.palavrasEncontradas.push
+        
 
         // Limpar palavrasTentadas e string
         this.setState({ palavrasTentadas: [] });

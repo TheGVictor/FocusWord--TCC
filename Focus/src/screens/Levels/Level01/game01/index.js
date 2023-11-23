@@ -31,11 +31,10 @@ export default function WordScreenOne() {
             <View>
                 <WordSearchGame />
             </View>
-
-            {/* <View style={styles.caption}>
-                <Text style={styles.textCaption}></Text>
-            </View> */}
-            
+        
+            <View >
+                <Image source={require('../../../../images/gameScreen/DICAS.png')} style={styles.viewbuttom}></Image>
+            </View>
         </View>
     )
 }

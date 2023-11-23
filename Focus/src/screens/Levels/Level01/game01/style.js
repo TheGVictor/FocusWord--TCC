@@ -100,20 +100,12 @@ const styles = StyleSheet.create({
     color: '#FFF',
   },
 
-  caption: {
-    marginTop: 50,
-    backgroundColor: '#F7DFBC',
-    padding: 5,
-    width: '50%',
-    borderRadius: 20,
+  viewbuttom:{
+  width: 40,
+  height: 45,
+  marginTop: 100,
+  marginRight: 350,
   },
-
-  textCaption: {
-    textAlign: 'center',
-    fontWeight: 'bold',
-
-  },
-
 
 });
 
