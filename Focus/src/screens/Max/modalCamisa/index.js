@@ -51,10 +51,8 @@ const handleSelectedItem3 = () => {
           <View style={[styles.bar, { width: `${xpPercentage}%` }]} />
         </View>
         <TouchableOpacity onPress={handleGainXP}>
-          <Text style={styles.buttonText}>Ganhar XP</Text>
         </TouchableOpacity>
         <TouchableOpacity onPress={() => setCurrentXP(0)}>
-          <Text style={styles.buttonText}>Resetar XP</Text>
         </TouchableOpacity>
       </View>
 

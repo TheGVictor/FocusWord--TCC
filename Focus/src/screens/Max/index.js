@@ -34,12 +34,12 @@ export default function MaxScreen() {
                 <View style={styles.bgBar}>
                     <View style={[styles.bar, { width: `${xpPercentage}%` }]} />
                 </View>
-                <Text style={styles.xpText}>{`${currentXP} / ${maxXP} XP`}</Text>
+                <Text style={styles.xpText}>{}</Text>
                 <TouchableOpacity onPress={handleGainXP}>
-                    <Text style={styles.buttonText}>Ganhar XP</Text>
+                    <Text style={styles.buttonText}></Text>
                 </TouchableOpacity>
                 <TouchableOpacity onPress={() => setCurrentXP(0)}>
-                    <Text style={styles.buttonText}>Resetar XP</Text>
+                    <Text style={styles.buttonText}></Text>
                 </TouchableOpacity>
             </View>
 

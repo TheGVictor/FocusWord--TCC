@@ -98,14 +98,6 @@ const styles = StyleSheet.create({
     fontFamily: 'sans-serif',
     borderRadius: 0,
     color: '#FFF',
-<<<<<<< HEAD
-    borderWidth: 1,
-    borderColor: '#FFF',
-    marginLeft: -70,
-=======
-    marginLeft: -10
-
->>>>>>> ac2b6630ef8d428637fe23e3b18c323e5054572d
   },
 
   caption: {
