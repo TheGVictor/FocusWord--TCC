@@ -4,7 +4,7 @@ import { StyleSheet } from "react-native"
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: 'rgba(2, 2, 2, 0.9)'
+        backgroundColor: 'rgba(2, 2, 2, 0.9)',
     },
 
     backgroundImage: {
@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
 
     levelInfo: {
         width: '85%',
-        height: '90%',
+        height: '100%',
         alignItems: 'center',
         top: 40,
         position: 'absolute'

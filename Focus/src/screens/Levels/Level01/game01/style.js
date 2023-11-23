@@ -100,7 +100,7 @@ const styles = StyleSheet.create({
     color: '#FFF',
     borderWidth: 1,
     borderColor: '#FFF',
-    marginLeft: -70
+    marginLeft: -70,
   },
 
   caption: {

@@ -41,6 +41,7 @@ export default function LevelScreenOne() {
 
         <View style={styles.rewardArea}>
           <Text style={{ fontSize: 25, }}>Recompensa</Text>
+          <Image></Image>
         </View>
 
         <TouchableOpacity style={styles.btStart} onPress={() => navigation.navigate("GameOne")}>
