@@ -26,7 +26,7 @@ export default function LoadingScreen() {
 
       <Image
         style={styles.mainImage}
-        source={require('../../images/LoadingScreen/mainImage.png')} />
+        source={require('../../images/loadingScreen/mainImage.png')} />
 
 
 {startRotate()}
@@ -35,11 +35,11 @@ export default function LoadingScreen() {
           styles.circle, 
           {transform: [{rotate: RotateData}]}
       ]}
-        source={require('../../images/LoadingScreen/circleLoading.png')} />
+        source={require('../../images/loadingScreen/circleLoading.png')} />
 
       <Image
         style={styles.logoAuth}
-        source={require('../../images/LoadingScreen/logoAuth.png')}
+        source={require('../../images/loadingScreen/logoAuth.png')}
       />
       
     </View>

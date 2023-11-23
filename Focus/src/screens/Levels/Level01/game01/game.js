@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { View, Text, TouchableOpacity } from "react-native";
 import styles from "./style";
 import { useNavigation } from "@react-navigation/native";
-import CongratScreen from "../../../Congrats";
 import { Alert } from "react-native";
 
 
@@ -154,10 +153,6 @@ class WordSearchGame extends Component {
 
   handleCellClick = (y, x) => {
 
-    // const nav = () => {
-    //   navigation.navigate('Congrats')
-    // }
-
     const { palavrasTentadas, crip, itemColors } = this.state;
 
 
@@ -193,20 +188,17 @@ class WordSearchGame extends Component {
     this.setState({ itemColors: newColors });
 
     let palavraEncontrada = false;
+    const { navigation } = this.props;
 
     for (var cont = 0; cont < 10; cont++) {
       if (crip[cont] === string) {
         console.log("Acertou");
-<<<<<<< HEAD
+
         this.state.qtsAcertos +=1
         this.state.palavrasEncontradas.push
-=======
-        
->>>>>>> a60756c08b7176201c851af7a36f4ecd67920806
 
         console.log(this.state.qtsAcertos)
         if(this.state.qtsAcertos == 5){
-          
           navigation.navigate('Congrats')
       }
         // Limpar palavrasTentadas e string
