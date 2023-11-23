@@ -28,6 +28,7 @@ import LevelScreenTwelve from '../Levels/Level12';
 import LevelScreenThirteen from '../Levels/Level13';
 import LevelScreenFourteen from '../Levels/Level14';
 import LevelScreenFifteen from '../Levels/Level15';
+import CongratScreen from '../Congrats';
 
 // importação dos games de cada fase
 import WordScreenOne from '../Levels/Level01/game01';
@@ -71,6 +72,7 @@ export default () => (
         <Stack.Screen name="Reward" component={RewardScreen} />
         <Stack.Screen name = "Max" component={MaxScreen}/>
         <Stack.Screen name="Pause" component={PauseScreen} />
+        <Stack.Screen name = "Congrats" component={CongratScreen}/>
         <Stack.Screen name="LevelOne" component={LevelScreenOne} />
         <Stack.Screen name="GameOne" component={WordScreenOne} />
         <Stack.Screen name="LevelTwo" component={LevelScreenTwo} />

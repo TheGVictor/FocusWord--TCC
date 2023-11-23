@@ -12,6 +12,7 @@ import Terms from './src/screens/Login/terms';
 import LoginNameScreen from './src/screens/Login/name';
 import LoginYearScreen from './src/screens/Login/year';
 import MainStack from './src/screens/stack/MainStack';
+import CongratScreen from './src/screens/Congrats';
 
 
 export default function App() {

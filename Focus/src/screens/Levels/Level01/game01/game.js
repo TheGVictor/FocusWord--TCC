@@ -1,6 +1,10 @@
 import React, { Component } from "react";
-import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
+import { View, Text, TouchableOpacity } from "react-native";
 import styles from "./style";
+import { useNavigation } from "@react-navigation/native";
+import CongratScreen from "../../../Congrats";
+import { Alert } from "react-native";
+
 
 class WordSearchGame extends Component {
   constructor(props) {
@@ -13,6 +17,7 @@ class WordSearchGame extends Component {
       palavrasTentadas: [],
       c: "",
       crip: [],
+      qtsAcertos: 0,
       itemColors: Array.from({ length: 204 }, () => Array(204).fill("white")),
     };
   }
@@ -35,7 +40,7 @@ class WordSearchGame extends Component {
 
   preencherGridComLetrasAleatorias = () => {
     const { gridLetras } = this.state;
-    const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; // Letras possíveis
+    const alphabet = "."; // Letras possíveis
 
     for (let i = 0; i < gridLetras.length; i++) {
       for (let j = 0; j < gridLetras[i].length; j++) {
@@ -145,8 +150,16 @@ class WordSearchGame extends Component {
     this.preencherGridComLetrasAleatorias();
   }
 
+  
+
   handleCellClick = (y, x) => {
+
+    // const nav = () => {
+    //   navigation.navigate('Congrats')
+    // }
+
     const { palavrasTentadas, crip, itemColors } = this.state;
+
 
     // Verificar se a célula já foi clicada ou se a palavra já foi encontrada
     if (
@@ -184,8 +197,14 @@ class WordSearchGame extends Component {
     for (var cont = 0; cont < 10; cont++) {
       if (crip[cont] === string) {
         console.log("Acertou");
+        this.state.qtsAcertos +=1
         this.state.palavrasEncontradas.push
 
+        console.log(this.state.qtsAcertos)
+        if(this.state.qtsAcertos == 5){
+          
+          navigation.navigate('Congrats')
+      }
         // Limpar palavrasTentadas e string
         this.setState({ palavrasTentadas: [] });
         string = "";
@@ -199,8 +218,12 @@ class WordSearchGame extends Component {
 
         palavraEncontrada = true;
         break; // Saia do loop se a palavra for encontrada
+        }
+
       }
-    }
+      
+     
+
 
     // Limpar todas as cores se a palavra não for encontrada
     if (!palavraEncontrada && palavrasTentadas.length > 7) {
