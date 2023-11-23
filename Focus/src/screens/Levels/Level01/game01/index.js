@@ -14,10 +14,10 @@ export default function WordScreenOne() {
 
             <SafeAreaView style={styles.header}>
                 <View style={styles.headerContent}>
-                    <Text style={styles.textHeader}>01 Verbos</Text>
+                    <Text style={styles.textHeader}>01</Text>
 
                     <Text style={styles.textHeaderWords}>
-                        00/07
+                      Verbos
                     </Text>
 
                     <TouchableOpacity style={styles.buttonConfigIcon}
@@ -29,14 +29,13 @@ export default function WordScreenOne() {
                 </View>
             </SafeAreaView>
             <View>
-
                 <WordSearchGame />
-
             </View>
 
-            <View style={styles.caption}>
-                <Text style={styles.textCaption}>Dica</Text>
-            </View>
+            {/* <View style={styles.caption}>
+                <Text style={styles.textCaption}></Text>
+            </View> */}
+            
         </View>
     )
 }

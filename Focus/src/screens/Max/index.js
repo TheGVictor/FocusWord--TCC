@@ -28,7 +28,7 @@ export default function MaxScreen() {
     return (
 
         <View style={styles.container}>
-            <Image source={require('../../images/maxScreen/bg.jpg')} style={styles.container} />
+            <Image source={require('../../images/maxScreen/fundo.png')} style={styles.container} />
 
             <View style={styles.barArea}>
                 <View style={styles.bgBar}>
