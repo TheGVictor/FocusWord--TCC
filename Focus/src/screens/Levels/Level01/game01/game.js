@@ -39,7 +39,7 @@ class WordSearchGame extends Component {
 
   preencherGridComLetrasAleatorias = () => {
     const { gridLetras } = this.state;
-    const alphabet = "."; // Letras possíveis
+    const alphabet = "QWERTYUIOPASDFGHJKLZXCVBNM"; // Letras possíveis
 
     for (let i = 0; i < gridLetras.length; i++) {
       for (let j = 0; j < gridLetras[i].length; j++) {

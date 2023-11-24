@@ -33,7 +33,7 @@ export default function WordScreenOne() {
             </View>
         
             <View >
-                <Image source={require('../../../../images/gameScreen/dicas.png')} style={styles.viewbuttom}/>
+                <Image source={require('../../../../images/gameScreen/DICAS.png')} style={styles.viewbuttom}/>
             </View>
         </View>
     )

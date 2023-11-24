@@ -11,7 +11,7 @@ import CheckTerms from './src/screens/Login/checkTerms';
 import Terms from './src/screens/Login/terms';
 import LoginNameScreen from './src/screens/Login/name';
 import LoginYearScreen from './src/screens/Login/year';
-import MainStack from './src/screens/Stack/MainStack';
+import MainStack from './src/screens/stack/MainStack';
 
 
 
