@@ -21,8 +21,9 @@
     "@types/react-native": "^0.70.14",
     "expo": "~48.0.18",
     "expo-status-bar": "~1.4.4",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "firebase": "^10.6.0",
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0",
     "react-native": "0.71.14",
     "react-native-animatable": "^1.4.0",
     "react-native-bouncy-checkbox": "^3.0.7",
@@ -40,10 +41,8 @@
     "@babel/core": "^7.20.0"
   },
   "private": true,
-
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
- }
-
+  }
 }
